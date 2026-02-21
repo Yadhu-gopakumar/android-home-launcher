@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/yadhu/.gradle/daemon/8.9/com.minimy.minimy.app-merged_res-22:/drawable_dock_bg.xml.flat",
+        "source": "/home/yadhu/.gradle/daemon/8.9/com.minimy.minimy.app-main-24:/drawable/dock_bg.xml"
+    },
+    {
+        "merged": "/home/yadhu/.gradle/daemon/8.9/com.minimy.minimy.app-merged_res-22:/drawable_key_bg.xml.flat",
+        "source": "/home/yadhu/.gradle/daemon/8.9/com.minimy.minimy.app-main-24:/drawable/key_bg.xml"
+    },
+    {
+        "merged": "/home/yadhu/.gradle/daemon/8.9/com.minimy.minimy.app-merged_res-22:/drawable_icon_bg_white.xml.flat",
+        "source": "/home/yadhu/.gradle/daemon/8.9/com.minimy.minimy.app-main-24:/drawable/icon_bg_white.xml"
+    },
+    {
+        "merged": "/home/yadhu/.gradle/daemon/8.9/com.minimy.minimy.app-merged_res-22:/xml_ime_config.xml.flat",
+        "source": "/home/yadhu/.gradle/daemon/8.9/com.minimy.minimy.app-main-24:/xml/ime_config.xml"
+    },
+    {
+        "merged": "com.minimy.minimy.app-merged_res-22:/layout_activity_main.xml.flat",
+        "source": "com.minimy.minimy.app-main-24:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/yadhu/.gradle/daemon/8.9/com.minimy.minimy.app-merged_res-22:/drawable_search_bg.xml.flat",
+        "source": "/home/yadhu/.gradle/daemon/8.9/com.minimy.minimy.app-main-24:/drawable/search_bg.xml"
+    },
+    {
+        "merged": "/home/yadhu/.gradle/daemon/8.9/com.minimy.minimy.app-merged_res-22:/layout_activity_main.xml.flat",
+        "source": "/home/yadhu/.gradle/daemon/8.9/com.minimy.minimy.app-main-24:/layout/activity_main.xml"
+    }
+]

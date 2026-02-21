@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/media/yadhu/hdisk/android-projects/minimy/app"
+    name=":app"
+    type="APP"
+    maven="Minimy:app:"
+    agpVersion="8.2.1"
+    buildFolder="build"
+    bootClassPath="/home/yadhu/Android/platforms/android-33/android.jar:/home/yadhu/Android/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

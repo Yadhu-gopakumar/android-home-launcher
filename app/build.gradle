@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace "com.minimy.minimy"   // Match your folder structure
+    compileSdkVersion 33
+    
+    defaultConfig {
+        applicationId "com.minimy.minimy"
+        minSdkVersion 21 // Supports your Oreo (API 26) device
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true      // Highly recommended for < 1MB APK
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt')
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    // Keeping only the essentials for minimal RAM usage
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.recyclerview:recyclerview:1.3.0'
+}

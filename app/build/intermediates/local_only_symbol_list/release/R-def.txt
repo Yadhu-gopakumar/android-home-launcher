@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+drawable dock_bg
+drawable icon_bg_white
+drawable search_bg
+id appList
+id btn_all_apps
+id btn_camera
+id btn_contacts
+id btn_messages
+id btn_music
+id clock
+id dock
+id header_container
+id searchBar
+id tv_charging
+layout activity_main

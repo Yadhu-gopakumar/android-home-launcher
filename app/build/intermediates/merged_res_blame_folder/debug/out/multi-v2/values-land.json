@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.minimy.minimy.app-mergeDebugResources-20:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/yadhu/.gradle/caches/8.9/transforms/414f7c76f0f8c1febb3a2fe0097e0b6a/transformed/appcompat-1.6.1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}

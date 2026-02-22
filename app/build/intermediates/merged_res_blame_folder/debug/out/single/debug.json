@@ -4,14 +4,6 @@
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_youtube.png"
     },
     {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_youtube.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_youtube.xml"
-    },
-    {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_web.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_web.xml"
-    },
-    {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_clock.png.flat",
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_clock.png"
     },
@@ -26,10 +18,6 @@
     {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_whatsapp.png.flat",
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_whatsapp.png"
-    },
-    {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_phone.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_phone.xml"
     },
     {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_vlc.png.flat",
@@ -48,10 +36,6 @@
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_x.png"
     },
     {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_clock.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_clock.xml"
-    },
-    {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_calnder.png.flat",
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_calnder.png"
     },
@@ -60,8 +44,8 @@
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_spotify.png"
     },
     {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_paint.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_paint.xml"
+        "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_instagram.png.flat",
+        "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_instagram.png"
     },
     {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_playstore.png.flat",
@@ -84,14 +68,6 @@
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_googleapps.png"
     },
     {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_github.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_github.xml"
-    },
-    {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_camera.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_camera.xml"
-    },
-    {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_security.png.flat",
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_security.png"
     },
@@ -108,16 +84,12 @@
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_intertune.png"
     },
     {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_contacts.png.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_contacts.png"
-    },
-    {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable_search_bg.xml.flat",
         "source": "com.minimy.minimy.app-main-24:/drawable/search_bg.xml"
     },
     {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_ai.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_ai.xml"
+        "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_contacts.png.flat",
+        "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_contacts.png"
     },
     {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_weather.png.flat",
@@ -140,10 +112,6 @@
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_camera.png"
     },
     {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_files.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_files.xml"
-    },
-    {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_chatgpt.png.flat",
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_chatgpt.png"
     },
@@ -164,16 +132,8 @@
         "source": "com.minimy.minimy.app-main-24:/drawable/icon_bg_white.xml"
     },
     {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_default_bullet.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_default_bullet.xml"
-    },
-    {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_uber.png.flat",
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_uber.png"
-    },
-    {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_gallery.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_gallery.xml"
     },
     {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_telegram.png.flat",
@@ -186,14 +146,6 @@
     {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_cloude.png.flat",
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_cloude.png"
-    },
-    {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_settings.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_settings.xml"
-    },
-    {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_bus.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_bus.xml"
     },
     {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_video.png.flat",
@@ -212,10 +164,6 @@
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_photos.png"
     },
     {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_social.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_social.xml"
-    },
-    {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_flutter.png.flat",
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_flutter.png"
     },
@@ -232,14 +180,6 @@
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_upi.png"
     },
     {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_calc.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_calc.xml"
-    },
-    {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_mail.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_mail.xml"
-    },
-    {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_settings.png.flat",
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_settings.png"
     },
@@ -254,10 +194,6 @@
     {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_game.png.flat",
         "source": "com.minimy.minimy.app-main-24:/drawable-nodpi/ic_game.png"
-    },
-    {
-        "merged": "com.minimy.minimy.app-merged_res-22:/drawable_ic_games.xml.flat",
-        "source": "com.minimy.minimy.app-main-24:/drawable/ic_games.xml"
     },
     {
         "merged": "com.minimy.minimy.app-merged_res-22:/drawable-nodpi_ic_gallery.png.flat",

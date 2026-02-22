@@ -12,6 +12,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import android.app.ActivityOptions;
+import android.os.Bundle;
+import android.content.Intent;
+
 
 public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
 
@@ -69,14 +73,29 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         AppModel app = appList.get(position);
+    
+        // 1. Set text to lowercase for that minimalist look
         holder.tv.setText(app.label.toLowerCase());
+        
+        // 2. INCREASE FONT SIZE HERE
+        holder.tv.setTextSize(android.util.TypedValue.COMPLEX_UNIT_SP, 18); 
+        holder.tv.setTypeface(null, android.graphics.Typeface.BOLD); 
 
+        // 3. Instant-open click listener (Zero Animation)
+        holder.itemView.setOnClickListener(v -> {
+            Intent launchIntent = v.getContext().getPackageManager().getLaunchIntentForPackage(app.packageName);
+            if (launchIntent != null) {
+                launchIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                android.os.Bundle instantOpen = android.app.ActivityOptions.makeCustomAnimation(v.getContext(), 0, 0).toBundle();
+                v.getContext().startActivity(launchIntent, instantOpen);
+            }
+        });
+
+        // ICON SETUP
         int iconResId = getCategoryIcon(app);
         try {
-            Drawable icon = androidx.appcompat.content.res.AppCompatResources.getDrawable(holder.tv.getContext(), iconResId);
+            android.graphics.drawable.Drawable icon = androidx.appcompat.content.res.AppCompatResources.getDrawable(holder.tv.getContext(), iconResId);
             if (icon != null) {
-                // 3. SCALED ICON FOR SMALLER ROW
-                // 38dp keeps the icon prominent without touching the top/bottom edges of the 48dp row.
                 int iconSize = (int) (38 * holder.tv.getContext().getResources().getDisplayMetrics().density);
                 icon.setBounds(0, 0, iconSize, iconSize);
                 holder.tv.setCompoundDrawables(icon, null, null, null);
@@ -85,10 +104,9 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
             e.printStackTrace();
         }
 
-        // 4. TIGHTER HORIZONTAL GAP
         holder.tv.setCompoundDrawablePadding(20);
 
-        holder.tv.setOnClickListener(v -> actionListener.onLaunch(app));
+        // KEEP LONG-PRESS (For uninstalling/hiding apps)
         holder.tv.setOnLongClickListener(v -> {
             actionListener.onLongPress(app);
             return true;

@@ -30,6 +30,11 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
 import android.view.inputmethod.InputMethodManager;
+import android.app.WallpaperManager;
+import android.view.inputmethod.EditorInfo;
+import android.view.KeyEvent;
+import java.net.URLEncoder;
+import android.app.ActivityOptions;
 
 public class MainActivity extends Activity implements AppAdapter.OnAppActionListener {
 
@@ -39,8 +44,8 @@ public class MainActivity extends Activity implements AppAdapter.OnAppActionList
     private List<AppModel> homeApps = new ArrayList<>();
     private List<String> hiddenApps = new ArrayList<>();
     private TextView clockView;
-    private TextView batteryTextView; // ADD THIS LINE HERE
-    private TextView btnAllApps; // The new floating button
+    private TextView batteryTextView; 
+    private TextView btnAllApps; 
     private Handler handler = new Handler();
     private EditText searchBar;
     private View dockView;
@@ -51,9 +56,10 @@ public class MainActivity extends Activity implements AppAdapter.OnAppActionList
     private android.content.BroadcastReceiver packageReceiver;
     private TextView chargingView; // NEW
 
-    @Override
+ @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
         // 1. Kill the entrance animation immediately
         overridePendingTransition(0, 0);
 
@@ -64,24 +70,69 @@ public class MainActivity extends Activity implements AppAdapter.OnAppActionList
         
         // 3. Set Status Bar to TRANSPARENT so the wallpaper shows through
         getWindow().setStatusBarColor(android.graphics.Color.TRANSPARENT);
-        
-        // Navigation bar can stay black to blend with the phone's chin
         getWindow().setNavigationBarColor(android.graphics.Color.BLACK);
 
         setContentView(R.layout.activity_main);
 
+        // --- SILENT BACKGROUND WALLPAPER FIX ---
+        new Thread(() -> {
+            try {
+                WallpaperManager wallpaperManager = WallpaperManager.getInstance(getApplicationContext());
+                // Create a tiny blank image in RAM and fill it with pure black
+                android.graphics.Bitmap blackBitmap = android.graphics.Bitmap.createBitmap(100, 100, android.graphics.Bitmap.Config.ARGB_8888);
+                blackBitmap.eraseColor(android.graphics.Color.BLACK);
+                // Force Vivo to use this as the system wallpaper
+                wallpaperManager.setBitmap(blackBitmap);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }).start();
+        // ---------------------------------------
+        // --- 1. THE INSTANT WEB SEARCH ---
+        EditText webSearchBar = findViewById(R.id.et_web_search);
+        webSearchBar.setOnEditorActionListener((v, actionId, event) -> {
+            // If the user presses the "Search" / "Enter" button on their keyboard
+            if (actionId == EditorInfo.IME_ACTION_SEARCH || 
+               (event != null && event.getKeyCode() == KeyEvent.KEYCODE_ENTER)) {
+                
+                String query = webSearchBar.getText().toString().trim();
+                if (!query.isEmpty()) {
+                    try {
+                        // Encode the text so spaces don't break the URL
+                        String encodedQuery = URLEncoder.encode(query, "UTF-8");
+                        String searchUrl = "https://www.google.com/search?q=" + encodedQuery;
+                        
+                        // Fire it directly into Chrome's engine
+                        Intent searchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(searchUrl));
+                        searchIntent.setPackage("com.android.chrome");
+                        searchIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        startActivity(searchIntent);
+                        
+                        // Clear the text box for next time
+                        webSearchBar.setText("");
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+                return true; // We handled the event
+            }
+            return false;
+        });
+
+        // --- 2. THE INSTANT INCOGNITO BUTTON ---
+
         clockView = findViewById(R.id.clock);
-        batteryTextView = findViewById(R.id.tv_charging); // ADD THIS LINE HERE
+        batteryTextView = findViewById(R.id.tv_charging); 
         recyclerView = findViewById(R.id.appList);
         searchBar = findViewById(R.id.searchBar);
         dockView = findViewById(R.id.dock);
-        btnAllApps = findViewById(R.id.btn_all_apps); // Link the UI button
+        btnAllApps = findViewById(R.id.btn_all_apps); 
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setHasFixedSize(true); // Tells system: "Don't recalculate row heights"
-        recyclerView.setItemViewCacheSize(20); // Keep more items ready in RAM
-        recyclerView.setDrawingCacheEnabled(true); // Draw items to memory for faster scrolling
-        // Set click listener for floating All Apps button
+        recyclerView.setHasFixedSize(true); 
+        recyclerView.setItemViewCacheSize(20); 
+        recyclerView.setDrawingCacheEnabled(true); 
+        
         btnAllApps.setOnClickListener(v -> showAllApps());
 
         setupDock();
@@ -190,36 +241,52 @@ public class MainActivity extends Activity implements AppAdapter.OnAppActionList
     }
 
     private void setupDock() {
+        // Create the zero-animation bundle once for the whole dock
+        android.os.Bundle instantOpen = android.app.ActivityOptions.makeCustomAnimation(this, 0, 0).toBundle();
+
+        // --- CAMERA ---
         findViewById(R.id.btn_camera).setOnClickListener(v -> {
             try {
-                startActivity(new Intent(MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA));
+                Intent i = new Intent(MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA);
+                i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK); 
+                startActivity(i, instantOpen); // <-- BUNDLE ADDED HERE
             } catch (Exception e) {
-                startActivity(new Intent(MediaStore.ACTION_IMAGE_CAPTURE));
+                Intent fallback = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                fallback.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK); 
+                startActivity(fallback, instantOpen); // <-- BUNDLE ADDED HERE
             }
         });
 
+        // --- CONTACTS ---
         findViewById(R.id.btn_contacts).setOnClickListener(v -> {
-            startActivity(new Intent(Intent.ACTION_VIEW, ContactsContract.Contacts.CONTENT_URI));
+            Intent i = new Intent(Intent.ACTION_VIEW, ContactsContract.Contacts.CONTENT_URI);
+            i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK); 
+            startActivity(i, instantOpen); // <-- BUNDLE ADDED HERE
         });
 
+        // --- MUSIC ---
         findViewById(R.id.btn_music).setOnClickListener(v -> {
             Intent i = getPackageManager().getLaunchIntentForPackage("com.mta.intertune");
             if (i != null) {
-                startActivity(i);
+                i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK); 
+                startActivity(i, instantOpen); // <-- BUNDLE ADDED HERE
             } else {
                 Toast.makeText(this, "Intertune app not found", Toast.LENGTH_SHORT).show();
             }
         });
 
+        // --- MESSAGES ---
         findViewById(R.id.btn_messages).setOnClickListener(v -> {
             try {
                 Intent i = new Intent(Intent.ACTION_MAIN);
                 i.addCategory(Intent.CATEGORY_APP_MESSAGING);
-                startActivity(i);
+                i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK); 
+                startActivity(i, instantOpen); // <-- BUNDLE ADDED HERE
             } catch (Exception e) {
                 Intent fallback = new Intent(Intent.ACTION_VIEW);
-                fallback.setData(Uri.parse("sms:"));
-                startActivity(fallback);
+                fallback.setData(android.net.Uri.parse("sms:"));
+                fallback.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK); 
+                startActivity(fallback, instantOpen); // <-- BUNDLE ADDED HERE
             }
         });
     }
@@ -319,39 +386,51 @@ public class MainActivity extends Activity implements AppAdapter.OnAppActionList
         recyclerView.setAdapter(adapter);
     }
 
-    private void showHome() {
-        isHomeState = true;
-        clockView.setVisibility(View.VISIBLE);
-        dockView.setVisibility(View.VISIBLE);
-        searchBar.setVisibility(View.GONE);
-        findViewById(R.id.search_line).setVisibility(View.GONE); // Hide line
-        btnAllApps.setVisibility(View.VISIBLE);
-
-        RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) recyclerView.getLayoutParams();
-        params.removeRule(RelativeLayout.BELOW);
-        params.addRule(RelativeLayout.BELOW, R.id.header_container);
-        recyclerView.setLayoutParams(params);
-
-        updateAdapter(homeApps, true); // FIXED
-    }
-
+   
     private void showAllApps() {
         isHomeState = false;
-        clockView.setVisibility(View.GONE);
-        dockView.setVisibility(View.GONE);
-        btnAllApps.setVisibility(View.GONE);
-        chargingView.setVisibility(View.GONE);
+        
+        // 1. Hide the entire Home Screen group (Clock + Google Search)
+        findViewById(R.id.header_container).setVisibility(View.GONE);
+        if (dockView != null) dockView.setVisibility(View.GONE);
+        if (btnAllApps != null) btnAllApps.setVisibility(View.GONE);
+        
+        // 2. Show the Local App Search
+        if (searchBar != null) searchBar.setVisibility(View.VISIBLE);
 
-        searchBar.setVisibility(View.VISIBLE);
-        findViewById(R.id.search_line).setVisibility(View.VISIBLE); // Show line
-        searchBar.setText("");
+        // 3. Move the app list under the local search bar
+        try {
+            RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) recyclerView.getLayoutParams();
+            params.removeRule(RelativeLayout.BELOW);
+            params.addRule(RelativeLayout.BELOW, R.id.searchBar);
+            recyclerView.setLayoutParams(params);
+        } catch (Exception e) { e.printStackTrace(); }
 
-        RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) recyclerView.getLayoutParams();
-        params.removeRule(RelativeLayout.BELOW);
-        params.addRule(RelativeLayout.BELOW, R.id.search_line); // Sit below the line
-        recyclerView.setLayoutParams(params);
+        // 4. Trigger the list update
+        if (searchBar != null) searchBar.setText(""); 
+    }
 
-        updateAdapter(getVisibleApps(), false); // FIXED
+    private void showHome() {
+        isHomeState = true;
+        
+        // 1. Show the entire Home Screen group (Clock + Google Search)
+        findViewById(R.id.header_container).setVisibility(View.VISIBLE);
+        if (dockView != null) dockView.setVisibility(View.VISIBLE);
+        if (btnAllApps != null) btnAllApps.setVisibility(View.VISIBLE);
+        
+        // 2. Hide the Local App Search
+        if (searchBar != null) searchBar.setVisibility(View.GONE);
+        
+        // 3. Move the app list back under the header_container
+        try {
+            RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) recyclerView.getLayoutParams();
+            params.removeRule(RelativeLayout.BELOW);
+            params.addRule(RelativeLayout.BELOW, R.id.header_container);
+            recyclerView.setLayoutParams(params);
+        } catch (Exception e) { e.printStackTrace(); }
+
+        // 4. Show only the home apps
+        updateAdapter(homeApps, true);
     }
 
     private void startClock() {
@@ -462,22 +541,17 @@ public class MainActivity extends Activity implements AppAdapter.OnAppActionList
 
     @Override
     public void onBackPressed() {
-        if (!isHomeState) {
-            // Check if search bar has text or focus
+       if (!isHomeState) {
+            // If we are in the "All Apps" search, go back to our custom Home
             if (searchBar.getText().length() > 0) {
                 searchBar.setText("");
             } else {
-                // If already empty, just go home
                 InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
                 if (imm != null && searchBar.getWindowToken() != null) {
                     imm.hideSoftInputFromWindow(searchBar.getWindowToken(), 0);
                 }
                 showHome();
             }
-        } else {
-            // This is the "Magic" line for your 2GB RAM device
-            moveTaskToBack(true);
-            overridePendingTransition(0, 0);
         }
     }
 }

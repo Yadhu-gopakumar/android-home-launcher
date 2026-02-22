@@ -1,21 +1,21 @@
 Marking attr:alpha:2130903081 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:lStar:2130903201 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_tooltip:2131427355 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:message:2131230829 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:message:2131230831 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Animation_AppCompat_Tooltip:2131558404 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:tooltip_precise_anchor_threshold:2131099770 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:tooltip_precise_anchor_extra_offset:2131099769 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:tooltip_y_offset_touch:2131099773 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:tooltip_y_offset_non_touch:2131099772 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_window_insets_animation_callback:2131230889 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_on_apply_window_listener:2131230881 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_screen_reader_focusable:2131230884 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_accessibility_heading:2131230879 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_accessibility_pane_title:2131230880 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_state_description:2131230885 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_accessibility_clickable_spans:2131230878 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_window_insets_animation_callback:2131230890 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_on_apply_window_listener:2131230882 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_screen_reader_focusable:2131230885 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_accessibility_heading:2131230880 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_accessibility_pane_title:2131230881 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_state_description:2131230886 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_accessibility_clickable_spans:2131230879 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_action_clickable_span:2131230726 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_accessibility_actions:2131230877 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_accessibility_actions:2131230878 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_textfield_default_mtrl_alpha:2131165258 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_ab_share_pack_mtrl_alpha:2131165184 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_textfield_search_default_mtrl_alpha:2131165260 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -66,7 +66,7 @@ Marking drawable:abc_seekbar_thumb_material:2131165242 reachable: referenced fro
 Marking color:abc_tint_seek_thumb:2131034134 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking color:abc_tint_spinner:2131034135 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_cascading_menus_min_smallest_width:2131099670 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:pooling_container_listener_holder_tag:2131230841 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:pooling_container_listener_holder_tag:2131230843 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:autoCompleteTextViewStyle:2130903085 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:listMenuViewStyle:2130903212 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:dropDownListViewStyle:2130903160 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -80,16 +80,16 @@ Marking string:abc_menu_function_shortcut_label:2131492876 reachable: referenced
 Marking string:abc_menu_space_shortcut_label:2131492879 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_menu_enter_shortcut_label:2131492875 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_menu_delete_shortcut_label:2131492874 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:title:2131230895 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:shortcut:2131230864 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:submenuarrow:2131230874 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:group_divider:2131230813 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:content:2131230798 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:title:2131230896 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:shortcut:2131230865 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:submenuarrow:2131230875 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:group_divider:2131230815 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:content:2131230799 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_list_menu_item_radio:2131427345 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_list_menu_item_checkbox:2131427342 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_list_menu_item_icon:2131427343 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_unhandled_key_listeners:2131230888 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:split_action_bar:2131230870 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_unhandled_key_listeners:2131230889 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:split_action_bar:2131230871 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_bar:2131230759 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_context_bar:2131230767 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:androidx_startup:2131492891 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -102,8 +102,8 @@ Marking attr:recyclerViewStyle:2130903253 reachable: referenced from /media/yadh
 Marking dimen:fastscroll_default_thickness:2131099738 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:fastscroll_minimum_range:2131099740 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:fastscroll_margin:2131099739 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:is_pooling_container_tag:2131230822 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:spacer:2131230868 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:is_pooling_container_tag:2131230824 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:spacer:2131230869 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_cab_background_top_material:2131165200 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_ratingbar_material:2131165235 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_star_big:2131099707 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -115,19 +115,19 @@ Marking drawable:abc_vector_test:2131165262 reachable: referenced from /media/ya
 Marking drawable:abc_seekbar_track_material:2131165244 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_list_divider_mtrl_alpha:2131165221 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_dialog_material_background:2131165203 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_line:2131230858 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:header_container:2131230814 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:header_container:2131230816 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:searchBar:2131230853 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:activity_main:2131427356 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:clock:2131230796 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tv_charging:2131230900 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:et_web_search:2131230810 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:clock:2131230797 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tv_charging:2131230901 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:appList:2131230781 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:searchBar:2131230851 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:dock:2131230806 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:dock:2131230807 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:btn_all_apps:2131230786 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:btn_camera:2131230787 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:btn_contacts:2131230788 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:btn_music:2131230790 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:btn_messages:2131230789 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:btn_music:2131230791 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:btn_messages:2131230790 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:nestedScrollViewStyle:2130903230 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:ic_whatsapp:2131165329 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:ic_telegram:2131165322 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -177,23 +177,23 @@ Marking layout:abc_popup_menu_header_item_layout:2131427346 reachable: reference
 Marking attr:toolbarNavigationButtonStyle:2130903318 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:searchViewStyle:2130903257 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_search_view:2131427353 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_src_text:2131230861 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_edit_frame:2131230856 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_plate:2131230860 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:submit_area:2131230875 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_button:2131230854 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_go_btn:2131230857 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_close_btn:2131230855 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_voice_btn:2131230862 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_mag_icon:2131230859 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_src_text:2131230862 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_edit_frame:2131230858 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_plate:2131230861 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:submit_area:2131230876 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_button:2131230856 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_go_btn:2131230859 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_close_btn:2131230857 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_voice_btn:2131230863 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_mag_icon:2131230860 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_searchview_description_search:2131492885 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_search_dropdown_item_icons_2line:2131427352 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_search_view_preferred_height:2131099702 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_search_view_preferred_width:2131099703 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:topPanel:2131230899 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:buttonPanel:2131230791 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:contentPanel:2131230799 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:customPanel:2131230801 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:topPanel:2131230900 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:buttonPanel:2131230792 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:contentPanel:2131230800 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:customPanel:2131230802 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:actionModeStyle:2130903068 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:actionBarPopupTheme:2130903042 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_action_mode_close_item_material:2131427333 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -204,7 +204,7 @@ Marking attr:actionBarStyle:2130903045 reachable: referenced from /media/yadhu/h
 Marking dimen:abc_dropdownitem_icon_width:2131099689 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_dropdownitem_text_padding_left:2131099690 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:textColorSearchUrl:2130903296 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:edit_query:2131230807 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:edit_query:2131230808 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_popup_menu_item_layout:2131427347 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:toolbarStyle:2130903319 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_action_bar_up_description:2131492865 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -419,6 +419,7 @@ clock
 mStableInsets
 _cur
 mOverlapAnchor
+com.android.chrome
 font_italic
 _id
 objectAnimator
@@ -743,15 +744,15 @@ Marking attr:contentInsetLeft:2130903135 used because it matches string pool con
 Marking attr:contentInsetRight:2130903136 used because it matches string pool constant content
 Marking attr:contentInsetStart:2130903137 used because it matches string pool constant content
 Marking attr:contentInsetStartWithNavigation:2130903138 used because it matches string pool constant content
-Marking id:content:2131230798 used because it matches string pool constant content
-Marking id:contentPanel:2131230799 used because it matches string pool constant content
+Marking id:content:2131230799 used because it matches string pool constant content
+Marking id:contentPanel:2131230800 used because it matches string pool constant content
 Marking attr:alpha:2130903081 used because it matches string pool constant alpha
 Marking attr:alphabeticModifiers:2130903082 used because it matches string pool constant alpha
-Marking id:message:2131230829 used because it matches string pool constant message
+Marking id:message:2131230831 used because it matches string pool constant message
 Marking id:blocking:2131230784 used because it matches string pool constant block
 Marking attr:menu:2130903225 used because it matches string pool constant menu
 Marking attr:tintMode:2130903307 used because it matches string pool constant tintMode
-Marking id:clock:2131230796 used because it matches string pool constant clock
+Marking id:clock:2131230797 used because it matches string pool constant clock
 Marking id:accessibility_action_clickable_span:2131230726 used because it matches string pool constant accessibility
 Marking id:accessibility_custom_action_0:2131230727 used because it matches string pool constant accessibility
 Marking id:accessibility_custom_action_1:2131230728 used because it matches string pool constant accessibility
@@ -795,7 +796,7 @@ Marking attr:drawableStartCompat:2130903155 used because it matches string pool 
 Marking attr:drawableTint:2130903156 used because it matches string pool constant drawable
 Marking attr:drawableTintMode:2130903157 used because it matches string pool constant drawable
 Marking attr:drawableTopCompat:2130903158 used because it matches string pool constant drawable
-Marking id:up:2131230903 used because it matches string pool constant up
+Marking id:up:2131230904 used because it matches string pool constant up
 Marking attr:queryBackground:2130903246 used because it matches string pool constant query
 Marking attr:queryHint:2130903247 used because it matches string pool constant query
 Marking attr:queryPatterns:2130903248 used because it matches string pool constant query
@@ -818,8 +819,8 @@ Marking attr:itemPadding:2130903200 used because it matches string pool constant
 Marking dimen:item_touch_helper_max_drag_scroll_per_frame:2131099748 used because it matches string pool constant item
 Marking dimen:item_touch_helper_swipe_escape_max_velocity:2131099749 used because it matches string pool constant item
 Marking dimen:item_touch_helper_swipe_escape_velocity:2131099750 used because it matches string pool constant item
-Marking id:item_touch_helper_previous_elevation:2131230824 used because it matches string pool constant item
-Marking id:group_divider:2131230813 used because it matches string pool constant group
+Marking id:item_touch_helper_previous_elevation:2131230826 used because it matches string pool constant item
+Marking id:group_divider:2131230815 used because it matches string pool constant group
 @anim/abc_fade_in : reachable=false
 @anim/abc_fade_out : reachable=false
 @anim/abc_grow_fade_in_from_bottom : reachable=false
@@ -1466,14 +1467,14 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @dimen/abc_button_inset_horizontal_material
     @dimen/abc_button_inset_vertical_material
     @dimen/abc_control_corner_material
-    @dimen/abc_button_padding_vertical_material
     @dimen/abc_button_padding_horizontal_material
+    @dimen/abc_button_padding_vertical_material
 @drawable/abc_btn_default_mtrl_shape : reachable=true
     @dimen/abc_button_inset_horizontal_material
     @dimen/abc_button_inset_vertical_material
     @dimen/abc_control_corner_material
-    @dimen/abc_button_padding_vertical_material
     @dimen/abc_button_padding_horizontal_material
+    @dimen/abc_button_padding_vertical_material
 @drawable/abc_btn_radio_material : reachable=true
     @drawable/abc_btn_radio_to_on_mtrl_015
     @drawable/abc_btn_radio_to_on_mtrl_000
@@ -1688,8 +1689,8 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @dimen/compat_button_inset_horizontal_material
     @dimen/compat_button_inset_vertical_material
     @dimen/compat_control_corner_material
-    @dimen/compat_button_padding_vertical_material
     @dimen/compat_button_padding_horizontal_material
+    @dimen/compat_button_padding_vertical_material
 @drawable/notification_bg : reachable=false
     @drawable/notification_bg_normal_pressed
     @drawable/notification_bg_normal
@@ -1785,6 +1786,7 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
 @id/btn_all_apps : reachable=true
 @id/btn_camera : reachable=true
 @id/btn_contacts : reachable=true
+@id/btn_incognito : reachable=false
 @id/btn_messages : reachable=true
 @id/btn_music : reachable=true
 @id/buttonPanel : reachable=true
@@ -1805,6 +1807,7 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
 @id/dock : reachable=true
 @id/edit_query : reachable=true
 @id/end : reachable=false
+@id/et_web_search : reachable=true
 @id/expand_activities_button : reachable=false
 @id/expanded_menu : reachable=false
 @id/forever : reachable=false
@@ -1854,7 +1857,6 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
 @id/search_close_btn : reachable=true
 @id/search_edit_frame : reachable=true
 @id/search_go_btn : reachable=true
-@id/search_line : reachable=true
 @id/search_mag_icon : reachable=true
 @id/search_plate : reachable=true
 @id/search_src_text : reachable=true
@@ -1932,12 +1934,12 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
 @layout/abc_action_menu_layout : reachable=false
     @attr/actionBarDivider
 @layout/abc_action_mode_bar : reachable=false
-    @attr/actionModeStyle
     @attr/actionModeTheme
+    @attr/actionModeStyle
 @layout/abc_action_mode_close_item_material : reachable=true
     @attr/actionModeCloseContentDescription
-    @attr/actionModeCloseButtonStyle
     @attr/actionModeCloseDrawable
+    @attr/actionModeCloseButtonStyle
 @layout/abc_activity_chooser_view : reachable=false
     @attr/activityChooserViewStyle
     @attr/actionBarItemBackground
@@ -2005,10 +2007,10 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
 @layout/abc_screen_toolbar : reachable=false
     @layout/abc_screen_content_include
     @attr/actionBarStyle
-    @attr/toolbarStyle
     @string/abc_action_bar_up_description
-    @attr/actionModeStyle
+    @attr/toolbarStyle
     @attr/actionModeTheme
+    @attr/actionModeStyle
 @layout/abc_search_dropdown_item_icons_2line : reachable=true
     @style/RtlOverlay_Widget_AppCompat_Search_DropDown
     @dimen/abc_dropdownitem_icon_width
@@ -2023,26 +2025,27 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @attr/actionButtonStyle
     @dimen/abc_dropdownitem_icon_width
     @style/RtlOverlay_Widget_AppCompat_SearchView_MagIcon
-    @dimen/abc_dropdownitem_text_padding_right
     @dimen/abc_dropdownitem_text_padding_left
-    @string/abc_searchview_description_clear
+    @dimen/abc_dropdownitem_text_padding_right
     @attr/selectableItemBackgroundBorderless
+    @string/abc_searchview_description_clear
     @string/abc_searchview_description_submit
     @string/abc_searchview_description_voice
 @layout/abc_select_dialog_material : reachable=false
+    @attr/listDividerAlertDialog
     @dimen/abc_dialog_list_padding_bottom_no_buttons
     @dimen/abc_dialog_list_padding_top_no_title
-    @attr/listDividerAlertDialog
     @style/Widget_AppCompat_ListView
 @layout/abc_tooltip : reachable=true
-    @dimen/tooltip_horizontal_padding
+    @style/TextAppearance_AppCompat_Tooltip
     @attr/tooltipForegroundColor
     @attr/tooltipFrameBackground
-    @style/TextAppearance_AppCompat_Tooltip
-    @dimen/tooltip_margin
+    @dimen/tooltip_horizontal_padding
     @dimen/tooltip_vertical_padding
+    @dimen/tooltip_margin
 @layout/activity_main : reachable=true
     @drawable/icon_bg_white
+    @drawable/ic_chrome
     @drawable/dock_bg
 @layout/custom_dialog : reachable=false
 @layout/notification_action : reachable=false
@@ -2054,9 +2057,9 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @dimen/notification_action_icon_size
     @style/Widget_Compat_NotificationActionText
 @layout/notification_template_custom_big : reachable=false
-    @layout/notification_template_icon_group
     @dimen/notification_large_icon_width
     @dimen/notification_large_icon_height
+    @layout/notification_template_icon_group
     @dimen/notification_right_side_padding_top
     @layout/notification_template_part_time
     @layout/notification_template_part_chronometer
@@ -2071,20 +2074,20 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
 @layout/notification_template_part_time : reachable=false
     @style/TextAppearance_Compat_Notification_Time
 @layout/select_dialog_item_material : reachable=false
-    @attr/listPreferredItemPaddingRight
-    @attr/listPreferredItemHeightSmall
     @attr/textAppearanceListItemSmall
     @attr/textColorAlertDialogListItem
     @attr/listPreferredItemPaddingLeft
+    @attr/listPreferredItemPaddingRight
+    @attr/listPreferredItemHeightSmall
 @layout/select_dialog_multichoice_material : reachable=false
-    @attr/dialogPreferredPadding
     @attr/textColorAlertDialogListItem
     @dimen/abc_select_dialog_padding_start_material
+    @attr/dialogPreferredPadding
     @attr/listPreferredItemHeightSmall
 @layout/select_dialog_singlechoice_material : reachable=false
-    @attr/dialogPreferredPadding
     @attr/textColorAlertDialogListItem
     @dimen/abc_select_dialog_padding_start_material
+    @attr/dialogPreferredPadding
     @attr/listPreferredItemHeightSmall
 @layout/support_simple_spinner_dropdown_item : reachable=false
     @attr/dropdownListPreferredItemHeight
@@ -2132,16 +2135,16 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
 @style/AppTheme : reachable=true
 @style/Base_AlertDialog_AppCompat : reachable=false
     @layout/abc_alert_dialog_material
-    @layout/abc_select_dialog_material
-    @attr/listLayout
+    @dimen/abc_alert_dialog_button_dimen
+    @attr/buttonIconDimen
     @layout/select_dialog_item_material
     @attr/listItemLayout
+    @layout/abc_select_dialog_material
+    @attr/listLayout
     @layout/select_dialog_multichoice_material
     @attr/multiChoiceItemLayout
     @layout/select_dialog_singlechoice_material
     @attr/singleChoiceItemLayout
-    @dimen/abc_alert_dialog_button_dimen
-    @attr/buttonIconDimen
 @style/Base_AlertDialog_AppCompat_Light : reachable=false
     @style/Base_AlertDialog_AppCompat
 @style/Base_Animation_AppCompat_Dialog : reachable=false
@@ -2229,28 +2232,28 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @attr/searchViewStyle
 @style/Base_ThemeOverlay_AppCompat_Dark : reachable=false
     @style/Platform_ThemeOverlay_AppCompat_Dark
-    @color/background_material_dark
     @color/foreground_material_dark
-    @color/foreground_material_light
-    @color/background_floating_material_dark
-    @attr/colorBackgroundFloating
+    @color/background_material_dark
     @color/abc_primary_text_material_dark
-    @color/abc_primary_text_material_light
     @color/abc_primary_text_disable_only_material_dark
     @color/abc_secondary_text_material_dark
+    @color/abc_primary_text_material_light
     @color/abc_secondary_text_material_light
-    @color/abc_hint_foreground_material_dark
     @color/abc_hint_foreground_material_light
     @color/highlighted_text_material_dark
-    @attr/colorControlNormal
-    @color/ripple_material_dark
-    @attr/colorControlHighlight
+    @color/abc_hint_foreground_material_dark
+    @color/foreground_material_light
+    @color/abc_background_cache_hint_selector_material_dark
+    @color/background_floating_material_dark
+    @attr/colorBackgroundFloating
     @color/button_material_dark
     @attr/colorButtonNormal
+    @color/ripple_material_dark
+    @attr/colorControlHighlight
+    @attr/colorControlNormal
     @color/switch_thumb_material_dark
     @attr/colorSwitchThumbNormal
     @attr/isLightTheme
-    @color/abc_background_cache_hint_selector_material_dark
 @style/Base_ThemeOverlay_AppCompat_Dark_ActionBar : reachable=false
     @style/Base_ThemeOverlay_AppCompat_Dark
     @attr/colorControlNormal
@@ -2264,29 +2267,29 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @dimen/abc_dialog_min_width_minor
 @style/Base_ThemeOverlay_AppCompat_Light : reachable=false
     @style/Platform_ThemeOverlay_AppCompat_Light
-    @color/background_material_light
     @color/foreground_material_light
-    @color/foreground_material_dark
-    @color/background_floating_material_light
-    @attr/colorBackgroundFloating
+    @color/background_material_light
     @color/abc_primary_text_material_light
-    @color/abc_primary_text_material_dark
-    @color/abc_secondary_text_material_light
-    @color/abc_secondary_text_material_dark
     @color/abc_primary_text_disable_only_material_light
-    @color/abc_hint_foreground_material_light
+    @color/abc_secondary_text_material_light
+    @color/abc_primary_text_material_dark
+    @color/abc_secondary_text_material_dark
     @color/abc_hint_foreground_material_dark
     @color/highlighted_text_material_light
-    @attr/colorControlNormal
-    @color/ripple_material_light
-    @attr/colorControlHighlight
+    @color/abc_hint_foreground_material_light
+    @color/foreground_material_dark
+    @color/abc_primary_text_disable_only_material_dark
+    @color/abc_background_cache_hint_selector_material_light
+    @color/background_floating_material_light
+    @attr/colorBackgroundFloating
     @color/button_material_light
     @attr/colorButtonNormal
+    @color/ripple_material_light
+    @attr/colorControlHighlight
+    @attr/colorControlNormal
     @color/switch_thumb_material_light
     @attr/colorSwitchThumbNormal
     @attr/isLightTheme
-    @color/abc_primary_text_disable_only_material_dark
-    @color/abc_background_cache_hint_selector_material_light
 @style/Base_Theme_AppCompat : reachable=false
     @style/Base_V21_Theme_AppCompat
     @style/Base_V22_Theme_AppCompat
@@ -2307,14 +2310,14 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @dimen/abc_dialog_min_width_minor
 @style/Base_Theme_AppCompat_Dialog_FixedSize : reachable=false
     @style/Base_Theme_AppCompat_Dialog
-    @dimen/abc_dialog_fixed_width_major
-    @attr/windowFixedWidthMajor
-    @dimen/abc_dialog_fixed_width_minor
-    @attr/windowFixedWidthMinor
     @dimen/abc_dialog_fixed_height_major
     @attr/windowFixedHeightMajor
     @dimen/abc_dialog_fixed_height_minor
     @attr/windowFixedHeightMinor
+    @dimen/abc_dialog_fixed_width_major
+    @attr/windowFixedWidthMajor
+    @dimen/abc_dialog_fixed_width_minor
+    @attr/windowFixedWidthMinor
 @style/Base_Theme_AppCompat_Dialog_MinWidth : reachable=false
     @style/Base_Theme_AppCompat_Dialog
     @dimen/abc_dialog_min_width_major
@@ -2329,16 +2332,16 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @style/Base_Theme_AppCompat_Light
     @style/ThemeOverlay_AppCompat_Light
     @attr/actionBarPopupTheme
-    @attr/actionBarWidgetTheme
     @style/ThemeOverlay_AppCompat_Dark_ActionBar
     @attr/actionBarTheme
+    @attr/actionBarWidgetTheme
     @attr/actionModeTheme
-    @drawable/abc_list_selector_holo_dark
-    @attr/listChoiceBackgroundIndicator
-    @color/primary_dark_material_dark
-    @attr/colorPrimaryDark
     @color/primary_material_dark
     @attr/colorPrimary
+    @color/primary_dark_material_dark
+    @attr/colorPrimaryDark
+    @drawable/abc_list_selector_holo_dark
+    @attr/listChoiceBackgroundIndicator
 @style/Base_Theme_AppCompat_Light_Dialog : reachable=false
     @style/Base_V21_Theme_AppCompat_Light_Dialog
 @style/Base_Theme_AppCompat_Light_DialogWhenLarge : reachable=false
@@ -2350,14 +2353,14 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @dimen/abc_dialog_min_width_minor
 @style/Base_Theme_AppCompat_Light_Dialog_FixedSize : reachable=false
     @style/Base_Theme_AppCompat_Light_Dialog
-    @dimen/abc_dialog_fixed_width_major
-    @attr/windowFixedWidthMajor
-    @dimen/abc_dialog_fixed_width_minor
-    @attr/windowFixedWidthMinor
     @dimen/abc_dialog_fixed_height_major
     @attr/windowFixedHeightMajor
     @dimen/abc_dialog_fixed_height_minor
     @attr/windowFixedHeightMinor
+    @dimen/abc_dialog_fixed_width_major
+    @attr/windowFixedWidthMajor
+    @dimen/abc_dialog_fixed_width_minor
+    @attr/windowFixedWidthMinor
 @style/Base_Theme_AppCompat_Light_Dialog_MinWidth : reachable=false
     @style/Base_Theme_AppCompat_Light_Dialog
     @dimen/abc_dialog_min_width_major
@@ -2367,79 +2370,79 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @dimen/abc_floating_window_z
 @style/Base_V21_Theme_AppCompat : reachable=false
     @style/Base_V7_Theme_AppCompat
-    @attr/actionBarSize
+    @attr/colorControlNormal
+    @attr/colorControlActivated
+    @attr/colorButtonNormal
+    @attr/colorControlHighlight
+    @attr/colorPrimary
+    @attr/colorPrimaryDark
+    @attr/colorAccent
     @attr/actionBarDivider
     @drawable/abc_action_bar_item_background_material
     @attr/actionBarItemBackground
+    @attr/actionBarSize
     @attr/actionButtonStyle
     @attr/actionModeBackground
     @attr/actionModeCloseDrawable
-    @attr/homeAsUpIndicator
-    @attr/listPreferredItemHeightSmall
-    @attr/textAppearanceLargePopupMenu
-    @attr/textAppearanceSmallPopupMenu
-    @attr/selectableItemBackground
-    @attr/selectableItemBackgroundBorderless
     @attr/borderlessButtonStyle
+    @attr/buttonStyle
+    @attr/buttonStyleSmall
+    @attr/checkboxStyle
+    @attr/checkedTextViewStyle
     @attr/dividerHorizontal
     @attr/dividerVertical
     @drawable/abc_edit_text_material
     @attr/editTextBackground
     @attr/editTextColor
+    @attr/homeAsUpIndicator
     @attr/listChoiceBackgroundIndicator
-    @attr/buttonStyle
-    @attr/buttonStyleSmall
-    @attr/checkboxStyle
-    @attr/checkedTextViewStyle
+    @attr/listPreferredItemHeightSmall
     @attr/radioButtonStyle
     @attr/ratingBarStyle
+    @attr/selectableItemBackground
+    @attr/selectableItemBackgroundBorderless
     @attr/spinnerStyle
-    @attr/colorPrimary
-    @attr/colorPrimaryDark
-    @attr/colorAccent
-    @attr/colorControlNormal
-    @attr/colorControlActivated
-    @attr/colorControlHighlight
-    @attr/colorButtonNormal
+    @attr/textAppearanceLargePopupMenu
+    @attr/textAppearanceSmallPopupMenu
 @style/Base_V21_Theme_AppCompat_Dialog : reachable=false
     @style/Base_V7_Theme_AppCompat_Dialog
     @dimen/abc_floating_window_z
 @style/Base_V21_Theme_AppCompat_Light : reachable=false
     @style/Base_V7_Theme_AppCompat_Light
-    @attr/actionBarSize
+    @attr/colorControlNormal
+    @attr/colorControlActivated
+    @attr/colorButtonNormal
+    @attr/colorControlHighlight
+    @attr/colorPrimary
+    @attr/colorPrimaryDark
+    @attr/colorAccent
     @attr/actionBarDivider
     @drawable/abc_action_bar_item_background_material
     @attr/actionBarItemBackground
+    @attr/actionBarSize
     @attr/actionButtonStyle
     @attr/actionModeBackground
     @attr/actionModeCloseDrawable
-    @attr/homeAsUpIndicator
-    @attr/listPreferredItemHeightSmall
-    @attr/textAppearanceLargePopupMenu
-    @attr/textAppearanceSmallPopupMenu
-    @attr/selectableItemBackground
-    @attr/selectableItemBackgroundBorderless
     @attr/borderlessButtonStyle
+    @attr/buttonStyle
+    @attr/buttonStyleSmall
+    @attr/checkboxStyle
+    @attr/checkedTextViewStyle
     @attr/dividerHorizontal
     @attr/dividerVertical
     @drawable/abc_edit_text_material
     @attr/editTextBackground
     @attr/editTextColor
+    @attr/homeAsUpIndicator
     @attr/listChoiceBackgroundIndicator
-    @attr/buttonStyle
-    @attr/buttonStyleSmall
-    @attr/checkboxStyle
-    @attr/checkedTextViewStyle
+    @attr/listPreferredItemHeightSmall
     @attr/radioButtonStyle
     @attr/ratingBarStyle
+    @attr/selectableItemBackground
+    @attr/selectableItemBackgroundBorderless
     @attr/spinnerStyle
-    @attr/colorPrimary
-    @attr/colorPrimaryDark
-    @attr/colorAccent
-    @attr/colorControlNormal
-    @attr/colorControlActivated
-    @attr/colorControlHighlight
-    @attr/colorButtonNormal
+    @attr/textAppearanceLargePopupMenu
+    @attr/textAppearanceSmallPopupMenu
 @style/Base_V21_Theme_AppCompat_Light_Dialog : reachable=false
     @style/Base_V7_Theme_AppCompat_Light_Dialog
     @dimen/abc_floating_window_z
@@ -2453,24 +2456,24 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @attr/editTextBackground
 @style/Base_V23_Theme_AppCompat : reachable=false
     @style/Base_V22_Theme_AppCompat
-    @attr/ratingBarStyleIndicator
-    @attr/ratingBarStyleSmall
     @attr/actionBarItemBackground
-    @attr/actionMenuTextColor
     @attr/actionMenuTextAppearance
+    @attr/actionMenuTextColor
     @attr/actionOverflowButtonStyle
     @drawable/abc_control_background_material
     @attr/controlBackground
+    @attr/ratingBarStyleIndicator
+    @attr/ratingBarStyleSmall
 @style/Base_V23_Theme_AppCompat_Light : reachable=false
     @style/Base_V22_Theme_AppCompat_Light
-    @attr/ratingBarStyleIndicator
-    @attr/ratingBarStyleSmall
     @attr/actionBarItemBackground
-    @attr/actionMenuTextColor
     @attr/actionMenuTextAppearance
+    @attr/actionMenuTextColor
     @attr/actionOverflowButtonStyle
     @drawable/abc_control_background_material
     @attr/controlBackground
+    @attr/ratingBarStyleIndicator
+    @attr/ratingBarStyleSmall
 @style/Base_V26_Theme_AppCompat : reachable=false
     @style/Base_V23_Theme_AppCompat
     @attr/colorError
@@ -2488,519 +2491,519 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
 @style/Base_V7_ThemeOverlay_AppCompat_Dialog : reachable=false
     @style/Base_ThemeOverlay_AppCompat
     @attr/colorBackgroundFloating
+    @drawable/abc_dialog_material_background
     @style/RtlOverlay_DialogWindowTitle_AppCompat
     @style/Base_DialogWindowTitleBackground_AppCompat
-    @drawable/abc_dialog_material_background
     @style/Animation_AppCompat_Dialog
-    @attr/windowActionBar
-    @attr/windowActionModeOverlay
+    @style/Widget_AppCompat_Button_Borderless
+    @style/Widget_AppCompat_ButtonBar_AlertDialog
     @attr/listPreferredItemPaddingLeft
     @attr/listPreferredItemPaddingRight
-    @attr/windowFixedWidthMajor
-    @attr/windowFixedWidthMinor
+    @attr/windowActionBar
+    @attr/windowActionModeOverlay
     @attr/windowFixedHeightMajor
     @attr/windowFixedHeightMinor
-    @style/Widget_AppCompat_ButtonBar_AlertDialog
-    @style/Widget_AppCompat_Button_Borderless
+    @attr/windowFixedWidthMajor
+    @attr/windowFixedWidthMinor
 @style/Base_V7_Theme_AppCompat : reachable=false
     @style/Platform_AppCompat
-    @attr/windowNoTitle
-    @attr/windowActionBar
-    @attr/windowActionBarOverlay
-    @attr/windowActionModeOverlay
-    @attr/actionBarPopupTheme
-    @color/background_floating_material_dark
-    @attr/colorBackgroundFloating
-    @attr/isLightTheme
-    @drawable/abc_item_background_holo_dark
-    @attr/selectableItemBackground
-    @attr/selectableItemBackgroundBorderless
-    @style/Widget_AppCompat_Button_Borderless
-    @attr/borderlessButtonStyle
-    @drawable/abc_ic_ab_back_material
-    @attr/homeAsUpIndicator
-    @drawable/abc_list_divider_mtrl_alpha
+    @style/Widget_AppCompat_ListView_DropDown
+    @style/Widget_AppCompat_TextView
+    @style/Widget_AppCompat_DropDownItem_Spinner
+    @style/Widget_AppCompat_TextView_SpinnerItem
+    @style/TextAppearance_AppCompat_Widget_Button
     @attr/dividerVertical
-    @attr/dividerHorizontal
-    @style/Widget_AppCompat_ActionBar_TabView
-    @attr/actionBarTabStyle
+    @attr/actionBarDivider
+    @attr/selectableItemBackgroundBorderless
+    @attr/actionBarItemBackground
+    @attr/actionBarPopupTheme
+    @dimen/abc_action_bar_default_height_material
+    @attr/actionBarSize
+    @attr/actionBarStyle
+    @attr/actionBarSplitStyle
+    @style/Widget_AppCompat_ActionBar_Solid
     @style/Widget_AppCompat_ActionBar_TabBar
     @attr/actionBarTabBarStyle
+    @style/Widget_AppCompat_ActionBar_TabView
+    @attr/actionBarTabStyle
     @style/Widget_AppCompat_ActionBar_TabText
     @attr/actionBarTabTextStyle
+    @style/ThemeOverlay_AppCompat_ActionBar
+    @attr/actionBarTheme
+    @attr/actionBarWidgetTheme
     @style/Widget_AppCompat_ActionButton
     @attr/actionButtonStyle
+    @style/Widget_AppCompat_Spinner_DropDown_ActionBar
+    @attr/actionDropDownStyle
+    @style/TextAppearance_AppCompat_Widget_ActionBar_Menu
+    @attr/actionMenuTextAppearance
+    @attr/actionMenuTextColor
+    @drawable/abc_cab_background_top_material
+    @attr/actionModeBackground
+    @style/Widget_AppCompat_ActionButton_CloseMode
+    @attr/actionModeCloseButtonStyle
+    @string/abc_action_mode_done
+    @attr/actionModeCloseContentDescription
+    @drawable/abc_ic_ab_back_material
+    @attr/actionModeCloseDrawable
+    @drawable/abc_ic_menu_copy_mtrl_am_alpha
+    @attr/actionModeCopyDrawable
+    @drawable/abc_ic_menu_cut_mtrl_alpha
+    @attr/actionModeCutDrawable
+    @drawable/abc_ic_menu_paste_mtrl_am_alpha
+    @attr/actionModePasteDrawable
+    @drawable/abc_ic_menu_selectall_mtrl_alpha
+    @attr/actionModeSelectAllDrawable
+    @drawable/abc_ic_menu_share_mtrl_alpha
+    @attr/actionModeShareDrawable
+    @attr/colorPrimaryDark
+    @attr/actionModeSplitBackground
+    @style/Widget_AppCompat_ActionMode
+    @attr/actionModeStyle
+    @attr/actionModeTheme
     @style/Widget_AppCompat_ActionButton_Overflow
     @attr/actionOverflowButtonStyle
     @style/Widget_AppCompat_PopupMenu_Overflow
     @attr/actionOverflowMenuStyle
-    @style/Widget_AppCompat_ActionBar_Solid
-    @attr/actionBarStyle
-    @attr/actionBarSplitStyle
-    @attr/actionBarWidgetTheme
-    @style/ThemeOverlay_AppCompat_ActionBar
-    @attr/actionBarTheme
-    @dimen/abc_action_bar_default_height_material
-    @attr/actionBarSize
-    @attr/actionBarDivider
-    @attr/actionBarItemBackground
-    @style/TextAppearance_AppCompat_Widget_ActionBar_Menu
-    @attr/actionMenuTextAppearance
-    @attr/actionMenuTextColor
-    @style/Widget_AppCompat_Spinner_DropDown_ActionBar
-    @attr/actionDropDownStyle
-    @attr/actionModeTheme
-    @style/Widget_AppCompat_ActionMode
-    @attr/actionModeStyle
-    @drawable/abc_cab_background_top_material
-    @attr/actionModeBackground
-    @attr/colorPrimaryDark
-    @attr/actionModeSplitBackground
-    @string/abc_action_mode_done
-    @attr/actionModeCloseContentDescription
-    @attr/actionModeCloseDrawable
-    @style/Widget_AppCompat_ActionButton_CloseMode
-    @attr/actionModeCloseButtonStyle
-    @drawable/abc_ic_menu_cut_mtrl_alpha
-    @attr/actionModeCutDrawable
-    @drawable/abc_ic_menu_copy_mtrl_am_alpha
-    @attr/actionModeCopyDrawable
-    @drawable/abc_ic_menu_paste_mtrl_am_alpha
-    @attr/actionModePasteDrawable
-    @drawable/abc_ic_menu_selectall_mtrl_alpha
-    @attr/actionModeSelectAllDrawable
-    @drawable/abc_ic_menu_share_mtrl_alpha
-    @attr/actionModeShareDrawable
-    @dimen/abc_panel_menu_list_width
-    @attr/panelMenuListWidth
-    @style/Theme_AppCompat_CompactMenu
-    @attr/panelMenuListTheme
-    @drawable/abc_menu_hardkey_panel_mtrl_mult
-    @attr/panelBackground
-    @drawable/abc_list_selector_holo_dark
-    @attr/listChoiceBackgroundIndicator
-    @style/TextAppearance_AppCompat_Subhead
-    @attr/textAppearanceListItem
-    @attr/textAppearanceListItemSmall
-    @style/TextAppearance_AppCompat_Body1
-    @attr/textAppearanceListItemSecondary
-    @dimen/abc_list_item_height_material
-    @attr/listPreferredItemHeight
-    @dimen/abc_list_item_height_small_material
-    @attr/listPreferredItemHeightSmall
-    @dimen/abc_list_item_height_large_material
-    @attr/listPreferredItemHeightLarge
-    @dimen/abc_list_item_padding_horizontal_material
-    @attr/listPreferredItemPaddingLeft
-    @attr/listPreferredItemPaddingRight
-    @attr/listPreferredItemPaddingStart
-    @attr/listPreferredItemPaddingEnd
-    @style/Widget_AppCompat_Spinner
-    @attr/spinnerStyle
-    @style/Widget_AppCompat_TextView_SpinnerItem
-    @style/Widget_AppCompat_ListView_DropDown
-    @style/Widget_AppCompat_DropDownItem_Spinner
-    @attr/spinnerDropDownItemStyle
-    @attr/dropdownListPreferredItemHeight
-    @style/Widget_AppCompat_PopupMenu
-    @attr/popupMenuStyle
-    @style/TextAppearance_AppCompat_Widget_PopupMenu_Large
-    @attr/textAppearanceLargePopupMenu
-    @style/TextAppearance_AppCompat_Widget_PopupMenu_Small
-    @attr/textAppearanceSmallPopupMenu
-    @style/TextAppearance_AppCompat_Widget_PopupMenu_Header
-    @attr/textAppearancePopupMenuHeader
-    @style/Widget_AppCompat_ListPopupWindow
-    @attr/listPopupWindowStyle
-    @attr/dropDownListViewStyle
-    @style/Widget_AppCompat_ListMenuView
-    @attr/listMenuViewStyle
-    @style/Widget_AppCompat_SearchView
-    @attr/searchViewStyle
-    @color/abc_search_url_text
-    @attr/textColorSearchUrl
-    @style/TextAppearance_AppCompat_SearchResult_Title
-    @attr/textAppearanceSearchResultTitle
-    @style/TextAppearance_AppCompat_SearchResult_Subtitle
-    @attr/textAppearanceSearchResultSubtitle
     @style/Widget_AppCompat_ActivityChooserView
     @attr/activityChooserViewStyle
-    @style/Widget_AppCompat_Toolbar
-    @attr/toolbarStyle
-    @style/Widget_AppCompat_Toolbar_Button_Navigation
-    @attr/toolbarNavigationButtonStyle
-    @style/Widget_AppCompat_EditText
-    @attr/editTextStyle
-    @drawable/abc_edit_text_material
-    @attr/editTextBackground
-    @attr/editTextColor
+    @attr/alertDialogCenterButtons
+    @style/AlertDialog_AppCompat
+    @attr/alertDialogStyle
+    @style/ThemeOverlay_AppCompat_Dialog_Alert
+    @attr/alertDialogTheme
     @style/Widget_AppCompat_AutoCompleteTextView
     @attr/autoCompleteTextViewStyle
-    @style/Widget_AppCompat_TextView
-    @color/primary_dark_material_dark
-    @color/primary_material_dark
-    @attr/colorPrimary
+    @style/Widget_AppCompat_Button_Borderless
+    @attr/borderlessButtonStyle
+    @style/Widget_AppCompat_Button_ButtonBar_AlertDialog
+    @attr/buttonBarButtonStyle
+    @attr/buttonBarNegativeButtonStyle
+    @attr/buttonBarNeutralButtonStyle
+    @attr/buttonBarPositiveButtonStyle
+    @style/Widget_AppCompat_ButtonBar
+    @attr/buttonBarStyle
+    @style/Widget_AppCompat_Button
+    @attr/buttonStyle
+    @style/Widget_AppCompat_Button_Small
+    @attr/buttonStyleSmall
+    @style/Widget_AppCompat_CompoundButton_CheckBox
+    @attr/checkboxStyle
+    @attr/checkedTextViewStyle
     @color/accent_material_dark
     @attr/colorAccent
-    @attr/colorControlNormal
+    @color/background_floating_material_dark
+    @attr/colorBackgroundFloating
+    @color/button_material_dark
+    @attr/colorButtonNormal
     @attr/colorControlActivated
     @color/ripple_material_dark
     @attr/colorControlHighlight
-    @color/button_material_dark
-    @attr/colorButtonNormal
+    @attr/colorControlNormal
+    @color/error_color_material_dark
+    @attr/colorError
+    @color/primary_material_dark
+    @attr/colorPrimary
+    @color/primary_dark_material_dark
     @color/switch_thumb_material_dark
     @attr/colorSwitchThumbNormal
     @attr/controlBackground
+    @dimen/abc_dialog_corner_radius_material
+    @attr/dialogCornerRadius
+    @dimen/abc_dialog_padding_material
+    @attr/dialogPreferredPadding
+    @style/ThemeOverlay_AppCompat_Dialog
+    @attr/dialogTheme
+    @drawable/abc_list_divider_mtrl_alpha
+    @attr/dividerHorizontal
     @style/Widget_AppCompat_DrawerArrowToggle
     @attr/drawerArrowStyle
-    @attr/checkedTextViewStyle
-    @style/Widget_AppCompat_CompoundButton_CheckBox
-    @attr/checkboxStyle
+    @attr/dropDownListViewStyle
+    @attr/listPreferredItemHeightSmall
+    @attr/dropdownListPreferredItemHeight
+    @drawable/abc_edit_text_material
+    @attr/editTextBackground
+    @attr/editTextColor
+    @style/Widget_AppCompat_EditText
+    @attr/editTextStyle
+    @attr/homeAsUpIndicator
+    @style/Widget_AppCompat_ImageButton
+    @attr/imageButtonStyle
+    @attr/isLightTheme
+    @drawable/abc_list_selector_holo_dark
+    @attr/listChoiceBackgroundIndicator
+    @attr/listDividerAlertDialog
+    @style/Widget_AppCompat_ListMenuView
+    @attr/listMenuViewStyle
+    @style/Widget_AppCompat_ListPopupWindow
+    @attr/listPopupWindowStyle
+    @dimen/abc_list_item_height_material
+    @attr/listPreferredItemHeight
+    @dimen/abc_list_item_height_large_material
+    @attr/listPreferredItemHeightLarge
+    @dimen/abc_list_item_height_small_material
+    @dimen/abc_list_item_padding_horizontal_material
+    @attr/listPreferredItemPaddingEnd
+    @attr/listPreferredItemPaddingLeft
+    @attr/listPreferredItemPaddingRight
+    @attr/listPreferredItemPaddingStart
+    @drawable/abc_menu_hardkey_panel_mtrl_mult
+    @attr/panelBackground
+    @style/Theme_AppCompat_CompactMenu
+    @attr/panelMenuListTheme
+    @dimen/abc_panel_menu_list_width
+    @attr/panelMenuListWidth
+    @style/Widget_AppCompat_PopupMenu
+    @attr/popupMenuStyle
     @style/Widget_AppCompat_CompoundButton_RadioButton
     @attr/radioButtonStyle
-    @style/Widget_AppCompat_CompoundButton_Switch
-    @attr/switchStyle
     @style/Widget_AppCompat_RatingBar
     @attr/ratingBarStyle
     @style/Widget_AppCompat_RatingBar_Indicator
     @attr/ratingBarStyleIndicator
     @style/Widget_AppCompat_RatingBar_Small
     @attr/ratingBarStyleSmall
+    @style/Widget_AppCompat_SearchView
+    @attr/searchViewStyle
     @style/Widget_AppCompat_SeekBar
     @attr/seekBarStyle
-    @style/Widget_AppCompat_Button
-    @attr/buttonStyle
-    @style/Widget_AppCompat_Button_Small
-    @attr/buttonStyleSmall
-    @style/TextAppearance_AppCompat_Widget_Button
-    @style/Widget_AppCompat_ImageButton
-    @attr/imageButtonStyle
-    @style/Widget_AppCompat_ButtonBar
-    @attr/buttonBarStyle
-    @style/Widget_AppCompat_Button_ButtonBar_AlertDialog
-    @attr/buttonBarButtonStyle
-    @attr/buttonBarPositiveButtonStyle
-    @attr/buttonBarNegativeButtonStyle
-    @attr/buttonBarNeutralButtonStyle
-    @style/ThemeOverlay_AppCompat_Dialog
-    @attr/dialogTheme
-    @dimen/abc_dialog_padding_material
-    @attr/dialogPreferredPadding
-    @dimen/abc_dialog_corner_radius_material
-    @attr/dialogCornerRadius
-    @style/ThemeOverlay_AppCompat_Dialog_Alert
-    @attr/alertDialogTheme
-    @style/AlertDialog_AppCompat
-    @attr/alertDialogStyle
-    @attr/alertDialogCenterButtons
+    @drawable/abc_item_background_holo_dark
+    @attr/selectableItemBackground
+    @attr/spinnerDropDownItemStyle
+    @style/Widget_AppCompat_Spinner
+    @attr/spinnerStyle
+    @style/Widget_AppCompat_CompoundButton_Switch
+    @attr/switchStyle
+    @style/TextAppearance_AppCompat_Widget_PopupMenu_Large
+    @attr/textAppearanceLargePopupMenu
+    @style/TextAppearance_AppCompat_Subhead
+    @attr/textAppearanceListItem
+    @style/TextAppearance_AppCompat_Body1
+    @attr/textAppearanceListItemSecondary
+    @attr/textAppearanceListItemSmall
+    @style/TextAppearance_AppCompat_Widget_PopupMenu_Header
+    @attr/textAppearancePopupMenuHeader
+    @style/TextAppearance_AppCompat_SearchResult_Subtitle
+    @attr/textAppearanceSearchResultSubtitle
+    @style/TextAppearance_AppCompat_SearchResult_Title
+    @attr/textAppearanceSearchResultTitle
+    @style/TextAppearance_AppCompat_Widget_PopupMenu_Small
+    @attr/textAppearanceSmallPopupMenu
     @color/abc_primary_text_material_dark
     @attr/textColorAlertDialogListItem
-    @attr/listDividerAlertDialog
-    @attr/windowFixedWidthMajor
-    @attr/windowFixedWidthMinor
-    @attr/windowFixedHeightMajor
-    @attr/windowFixedHeightMinor
-    @drawable/tooltip_frame_light
-    @attr/tooltipFrameBackground
+    @color/abc_search_url_text
+    @attr/textColorSearchUrl
+    @style/Widget_AppCompat_Toolbar_Button_Navigation
+    @attr/toolbarNavigationButtonStyle
+    @style/Widget_AppCompat_Toolbar
+    @attr/toolbarStyle
     @color/foreground_material_light
     @attr/tooltipForegroundColor
-    @color/error_color_material_dark
-    @attr/colorError
-@style/Base_V7_Theme_AppCompat_Dialog : reachable=false
-    @style/Base_Theme_AppCompat
-    @attr/colorBackgroundFloating
-    @style/RtlOverlay_DialogWindowTitle_AppCompat
-    @style/Base_DialogWindowTitleBackground_AppCompat
-    @drawable/abc_dialog_material_background
-    @style/Animation_AppCompat_Dialog
-    @attr/windowActionBar
-    @attr/windowActionModeOverlay
-    @attr/listPreferredItemPaddingLeft
-    @attr/listPreferredItemPaddingRight
-    @style/Widget_AppCompat_ButtonBar_AlertDialog
-    @style/Widget_AppCompat_Button_Borderless
-@style/Base_V7_Theme_AppCompat_Light : reachable=false
-    @style/Platform_AppCompat_Light
-    @attr/windowNoTitle
+    @drawable/tooltip_frame_light
+    @attr/tooltipFrameBackground
     @attr/windowActionBar
     @attr/windowActionBarOverlay
     @attr/windowActionModeOverlay
-    @attr/actionBarPopupTheme
-    @color/background_floating_material_light
+    @attr/windowFixedHeightMajor
+    @attr/windowFixedHeightMinor
+    @attr/windowFixedWidthMajor
+    @attr/windowFixedWidthMinor
+    @attr/windowNoTitle
+@style/Base_V7_Theme_AppCompat_Dialog : reachable=false
+    @style/Base_Theme_AppCompat
     @attr/colorBackgroundFloating
-    @attr/isLightTheme
-    @drawable/abc_item_background_holo_light
-    @attr/selectableItemBackground
-    @attr/selectableItemBackgroundBorderless
+    @drawable/abc_dialog_material_background
+    @style/RtlOverlay_DialogWindowTitle_AppCompat
+    @style/Base_DialogWindowTitleBackground_AppCompat
+    @style/Animation_AppCompat_Dialog
     @style/Widget_AppCompat_Button_Borderless
-    @attr/borderlessButtonStyle
-    @drawable/abc_ic_ab_back_material
-    @attr/homeAsUpIndicator
-    @drawable/abc_list_divider_mtrl_alpha
+    @style/Widget_AppCompat_ButtonBar_AlertDialog
+    @attr/listPreferredItemPaddingLeft
+    @attr/listPreferredItemPaddingRight
+    @attr/windowActionBar
+    @attr/windowActionModeOverlay
+@style/Base_V7_Theme_AppCompat_Light : reachable=false
+    @style/Platform_AppCompat_Light
+    @style/Widget_AppCompat_ListView_DropDown
+    @style/Widget_AppCompat_TextView
+    @style/Widget_AppCompat_DropDownItem_Spinner
+    @style/Widget_AppCompat_TextView_SpinnerItem
+    @style/TextAppearance_AppCompat_Widget_Button
     @attr/dividerVertical
-    @attr/dividerHorizontal
-    @style/Widget_AppCompat_Light_ActionBar_TabView
-    @attr/actionBarTabStyle
+    @attr/actionBarDivider
+    @attr/selectableItemBackgroundBorderless
+    @attr/actionBarItemBackground
+    @attr/actionBarPopupTheme
+    @dimen/abc_action_bar_default_height_material
+    @attr/actionBarSize
+    @attr/actionBarStyle
+    @attr/actionBarSplitStyle
+    @style/Widget_AppCompat_Light_ActionBar_Solid
     @style/Widget_AppCompat_Light_ActionBar_TabBar
     @attr/actionBarTabBarStyle
+    @style/Widget_AppCompat_Light_ActionBar_TabView
+    @attr/actionBarTabStyle
     @style/Widget_AppCompat_Light_ActionBar_TabText
     @attr/actionBarTabTextStyle
+    @style/ThemeOverlay_AppCompat_ActionBar
+    @attr/actionBarTheme
+    @attr/actionBarWidgetTheme
     @style/Widget_AppCompat_Light_ActionButton
     @attr/actionButtonStyle
+    @style/Widget_AppCompat_Light_Spinner_DropDown_ActionBar
+    @attr/actionDropDownStyle
+    @style/TextAppearance_AppCompat_Widget_ActionBar_Menu
+    @attr/actionMenuTextAppearance
+    @attr/actionMenuTextColor
+    @drawable/abc_cab_background_top_material
+    @attr/actionModeBackground
+    @style/Widget_AppCompat_ActionButton_CloseMode
+    @attr/actionModeCloseButtonStyle
+    @string/abc_action_mode_done
+    @attr/actionModeCloseContentDescription
+    @drawable/abc_ic_ab_back_material
+    @attr/actionModeCloseDrawable
+    @drawable/abc_ic_menu_copy_mtrl_am_alpha
+    @attr/actionModeCopyDrawable
+    @drawable/abc_ic_menu_cut_mtrl_alpha
+    @attr/actionModeCutDrawable
+    @drawable/abc_ic_menu_paste_mtrl_am_alpha
+    @attr/actionModePasteDrawable
+    @drawable/abc_ic_menu_selectall_mtrl_alpha
+    @attr/actionModeSelectAllDrawable
+    @drawable/abc_ic_menu_share_mtrl_alpha
+    @attr/actionModeShareDrawable
+    @attr/colorPrimaryDark
+    @attr/actionModeSplitBackground
+    @style/Widget_AppCompat_ActionMode
+    @attr/actionModeStyle
+    @attr/actionModeTheme
     @style/Widget_AppCompat_Light_ActionButton_Overflow
     @attr/actionOverflowButtonStyle
     @style/Widget_AppCompat_Light_PopupMenu_Overflow
     @attr/actionOverflowMenuStyle
-    @style/Widget_AppCompat_Light_ActionBar_Solid
-    @attr/actionBarStyle
-    @attr/actionBarSplitStyle
-    @attr/actionBarWidgetTheme
-    @style/ThemeOverlay_AppCompat_ActionBar
-    @attr/actionBarTheme
-    @dimen/abc_action_bar_default_height_material
-    @attr/actionBarSize
-    @attr/actionBarDivider
-    @attr/actionBarItemBackground
-    @style/TextAppearance_AppCompat_Widget_ActionBar_Menu
-    @attr/actionMenuTextAppearance
-    @attr/actionMenuTextColor
-    @attr/actionModeTheme
-    @style/Widget_AppCompat_ActionMode
-    @attr/actionModeStyle
-    @drawable/abc_cab_background_top_material
-    @attr/actionModeBackground
-    @attr/colorPrimaryDark
-    @attr/actionModeSplitBackground
-    @string/abc_action_mode_done
-    @attr/actionModeCloseContentDescription
-    @attr/actionModeCloseDrawable
-    @style/Widget_AppCompat_ActionButton_CloseMode
-    @attr/actionModeCloseButtonStyle
-    @drawable/abc_ic_menu_cut_mtrl_alpha
-    @attr/actionModeCutDrawable
-    @drawable/abc_ic_menu_copy_mtrl_am_alpha
-    @attr/actionModeCopyDrawable
-    @drawable/abc_ic_menu_paste_mtrl_am_alpha
-    @attr/actionModePasteDrawable
-    @drawable/abc_ic_menu_selectall_mtrl_alpha
-    @attr/actionModeSelectAllDrawable
-    @drawable/abc_ic_menu_share_mtrl_alpha
-    @attr/actionModeShareDrawable
-    @style/Widget_AppCompat_Light_Spinner_DropDown_ActionBar
-    @attr/actionDropDownStyle
-    @dimen/abc_panel_menu_list_width
-    @attr/panelMenuListWidth
-    @style/Theme_AppCompat_CompactMenu
-    @attr/panelMenuListTheme
-    @drawable/abc_menu_hardkey_panel_mtrl_mult
-    @attr/panelBackground
-    @drawable/abc_list_selector_holo_light
-    @attr/listChoiceBackgroundIndicator
-    @style/TextAppearance_AppCompat_Subhead
-    @attr/textAppearanceListItem
-    @attr/textAppearanceListItemSmall
-    @style/TextAppearance_AppCompat_Body1
-    @attr/textAppearanceListItemSecondary
-    @dimen/abc_list_item_height_material
-    @attr/listPreferredItemHeight
-    @dimen/abc_list_item_height_small_material
-    @attr/listPreferredItemHeightSmall
-    @dimen/abc_list_item_height_large_material
-    @attr/listPreferredItemHeightLarge
-    @dimen/abc_list_item_padding_horizontal_material
-    @attr/listPreferredItemPaddingLeft
-    @attr/listPreferredItemPaddingRight
-    @attr/listPreferredItemPaddingStart
-    @attr/listPreferredItemPaddingEnd
-    @style/Widget_AppCompat_Spinner
-    @attr/spinnerStyle
-    @style/Widget_AppCompat_TextView_SpinnerItem
-    @style/Widget_AppCompat_ListView_DropDown
-    @style/Widget_AppCompat_DropDownItem_Spinner
-    @attr/spinnerDropDownItemStyle
-    @attr/dropdownListPreferredItemHeight
-    @style/Widget_AppCompat_Light_PopupMenu
-    @attr/popupMenuStyle
-    @style/TextAppearance_AppCompat_Light_Widget_PopupMenu_Large
-    @attr/textAppearanceLargePopupMenu
-    @style/TextAppearance_AppCompat_Light_Widget_PopupMenu_Small
-    @attr/textAppearanceSmallPopupMenu
-    @style/TextAppearance_AppCompat_Widget_PopupMenu_Header
-    @attr/textAppearancePopupMenuHeader
-    @style/Widget_AppCompat_ListPopupWindow
-    @attr/listPopupWindowStyle
-    @attr/dropDownListViewStyle
-    @style/Widget_AppCompat_ListMenuView
-    @attr/listMenuViewStyle
-    @style/Widget_AppCompat_Light_SearchView
-    @attr/searchViewStyle
-    @color/abc_search_url_text
-    @attr/textColorSearchUrl
-    @style/TextAppearance_AppCompat_SearchResult_Title
-    @attr/textAppearanceSearchResultTitle
-    @style/TextAppearance_AppCompat_SearchResult_Subtitle
-    @attr/textAppearanceSearchResultSubtitle
     @style/Widget_AppCompat_ActivityChooserView
     @attr/activityChooserViewStyle
-    @style/Widget_AppCompat_Toolbar
-    @attr/toolbarStyle
-    @style/Widget_AppCompat_Toolbar_Button_Navigation
-    @attr/toolbarNavigationButtonStyle
-    @style/Widget_AppCompat_EditText
-    @attr/editTextStyle
-    @drawable/abc_edit_text_material
-    @attr/editTextBackground
-    @attr/editTextColor
+    @attr/alertDialogCenterButtons
+    @style/AlertDialog_AppCompat_Light
+    @attr/alertDialogStyle
+    @style/ThemeOverlay_AppCompat_Dialog_Alert
+    @attr/alertDialogTheme
     @style/Widget_AppCompat_AutoCompleteTextView
     @attr/autoCompleteTextViewStyle
-    @style/Widget_AppCompat_TextView
-    @color/primary_dark_material_light
-    @color/primary_material_light
-    @attr/colorPrimary
+    @style/Widget_AppCompat_Button_Borderless
+    @attr/borderlessButtonStyle
+    @style/Widget_AppCompat_Button_ButtonBar_AlertDialog
+    @attr/buttonBarButtonStyle
+    @attr/buttonBarNegativeButtonStyle
+    @attr/buttonBarNeutralButtonStyle
+    @attr/buttonBarPositiveButtonStyle
+    @style/Widget_AppCompat_ButtonBar
+    @attr/buttonBarStyle
+    @style/Widget_AppCompat_Button
+    @attr/buttonStyle
+    @style/Widget_AppCompat_Button_Small
+    @attr/buttonStyleSmall
+    @style/Widget_AppCompat_CompoundButton_CheckBox
+    @attr/checkboxStyle
     @color/accent_material_light
     @attr/colorAccent
-    @attr/colorControlNormal
+    @color/background_floating_material_light
+    @attr/colorBackgroundFloating
+    @color/button_material_light
+    @attr/colorButtonNormal
     @attr/colorControlActivated
     @color/ripple_material_light
     @attr/colorControlHighlight
-    @color/button_material_light
-    @attr/colorButtonNormal
+    @attr/colorControlNormal
+    @color/error_color_material_light
+    @attr/colorError
+    @color/primary_material_light
+    @attr/colorPrimary
+    @color/primary_dark_material_light
     @color/switch_thumb_material_light
     @attr/colorSwitchThumbNormal
     @attr/controlBackground
+    @dimen/abc_dialog_corner_radius_material
+    @attr/dialogCornerRadius
+    @dimen/abc_dialog_padding_material
+    @attr/dialogPreferredPadding
+    @style/ThemeOverlay_AppCompat_Dialog
+    @attr/dialogTheme
+    @drawable/abc_list_divider_mtrl_alpha
+    @attr/dividerHorizontal
     @style/Widget_AppCompat_DrawerArrowToggle
     @attr/drawerArrowStyle
-    @style/Widget_AppCompat_CompoundButton_CheckBox
-    @attr/checkboxStyle
+    @attr/dropDownListViewStyle
+    @attr/listPreferredItemHeightSmall
+    @attr/dropdownListPreferredItemHeight
+    @drawable/abc_edit_text_material
+    @attr/editTextBackground
+    @attr/editTextColor
+    @style/Widget_AppCompat_EditText
+    @attr/editTextStyle
+    @attr/homeAsUpIndicator
+    @style/Widget_AppCompat_ImageButton
+    @attr/imageButtonStyle
+    @attr/isLightTheme
+    @drawable/abc_list_selector_holo_light
+    @attr/listChoiceBackgroundIndicator
+    @attr/listDividerAlertDialog
+    @style/Widget_AppCompat_ListMenuView
+    @attr/listMenuViewStyle
+    @style/Widget_AppCompat_ListPopupWindow
+    @attr/listPopupWindowStyle
+    @dimen/abc_list_item_height_material
+    @attr/listPreferredItemHeight
+    @dimen/abc_list_item_height_large_material
+    @attr/listPreferredItemHeightLarge
+    @dimen/abc_list_item_height_small_material
+    @dimen/abc_list_item_padding_horizontal_material
+    @attr/listPreferredItemPaddingEnd
+    @attr/listPreferredItemPaddingLeft
+    @attr/listPreferredItemPaddingRight
+    @attr/listPreferredItemPaddingStart
+    @drawable/abc_menu_hardkey_panel_mtrl_mult
+    @attr/panelBackground
+    @style/Theme_AppCompat_CompactMenu
+    @attr/panelMenuListTheme
+    @dimen/abc_panel_menu_list_width
+    @attr/panelMenuListWidth
+    @style/Widget_AppCompat_Light_PopupMenu
+    @attr/popupMenuStyle
     @style/Widget_AppCompat_CompoundButton_RadioButton
     @attr/radioButtonStyle
-    @style/Widget_AppCompat_CompoundButton_Switch
-    @attr/switchStyle
     @style/Widget_AppCompat_RatingBar
     @attr/ratingBarStyle
     @style/Widget_AppCompat_RatingBar_Indicator
     @attr/ratingBarStyleIndicator
     @style/Widget_AppCompat_RatingBar_Small
     @attr/ratingBarStyleSmall
+    @style/Widget_AppCompat_Light_SearchView
+    @attr/searchViewStyle
     @style/Widget_AppCompat_SeekBar
     @attr/seekBarStyle
-    @style/Widget_AppCompat_Button
-    @attr/buttonStyle
-    @style/Widget_AppCompat_Button_Small
-    @attr/buttonStyleSmall
-    @style/TextAppearance_AppCompat_Widget_Button
-    @style/Widget_AppCompat_ImageButton
-    @attr/imageButtonStyle
-    @style/Widget_AppCompat_ButtonBar
-    @attr/buttonBarStyle
-    @style/Widget_AppCompat_Button_ButtonBar_AlertDialog
-    @attr/buttonBarButtonStyle
-    @attr/buttonBarPositiveButtonStyle
-    @attr/buttonBarNegativeButtonStyle
-    @attr/buttonBarNeutralButtonStyle
-    @style/ThemeOverlay_AppCompat_Dialog
-    @attr/dialogTheme
-    @dimen/abc_dialog_padding_material
-    @attr/dialogPreferredPadding
-    @dimen/abc_dialog_corner_radius_material
-    @attr/dialogCornerRadius
-    @style/ThemeOverlay_AppCompat_Dialog_Alert
-    @attr/alertDialogTheme
-    @style/AlertDialog_AppCompat_Light
-    @attr/alertDialogStyle
-    @attr/alertDialogCenterButtons
+    @drawable/abc_item_background_holo_light
+    @attr/selectableItemBackground
+    @attr/spinnerDropDownItemStyle
+    @style/Widget_AppCompat_Spinner
+    @attr/spinnerStyle
+    @style/Widget_AppCompat_CompoundButton_Switch
+    @attr/switchStyle
+    @style/TextAppearance_AppCompat_Light_Widget_PopupMenu_Large
+    @attr/textAppearanceLargePopupMenu
+    @style/TextAppearance_AppCompat_Subhead
+    @attr/textAppearanceListItem
+    @style/TextAppearance_AppCompat_Body1
+    @attr/textAppearanceListItemSecondary
+    @attr/textAppearanceListItemSmall
+    @style/TextAppearance_AppCompat_Widget_PopupMenu_Header
+    @attr/textAppearancePopupMenuHeader
+    @style/TextAppearance_AppCompat_SearchResult_Subtitle
+    @attr/textAppearanceSearchResultSubtitle
+    @style/TextAppearance_AppCompat_SearchResult_Title
+    @attr/textAppearanceSearchResultTitle
+    @style/TextAppearance_AppCompat_Light_Widget_PopupMenu_Small
+    @attr/textAppearanceSmallPopupMenu
     @color/abc_primary_text_material_light
     @attr/textColorAlertDialogListItem
-    @attr/listDividerAlertDialog
-    @attr/windowFixedWidthMajor
-    @attr/windowFixedWidthMinor
-    @attr/windowFixedHeightMajor
-    @attr/windowFixedHeightMinor
-    @drawable/tooltip_frame_dark
-    @attr/tooltipFrameBackground
+    @color/abc_search_url_text
+    @attr/textColorSearchUrl
+    @style/Widget_AppCompat_Toolbar_Button_Navigation
+    @attr/toolbarNavigationButtonStyle
+    @style/Widget_AppCompat_Toolbar
+    @attr/toolbarStyle
     @color/foreground_material_dark
     @attr/tooltipForegroundColor
-    @color/error_color_material_light
-    @attr/colorError
+    @drawable/tooltip_frame_dark
+    @attr/tooltipFrameBackground
+    @attr/windowActionBar
+    @attr/windowActionBarOverlay
+    @attr/windowActionModeOverlay
+    @attr/windowFixedHeightMajor
+    @attr/windowFixedHeightMinor
+    @attr/windowFixedWidthMajor
+    @attr/windowFixedWidthMinor
+    @attr/windowNoTitle
 @style/Base_V7_Theme_AppCompat_Light_Dialog : reachable=false
     @style/Base_Theme_AppCompat_Light
     @attr/colorBackgroundFloating
+    @drawable/abc_dialog_material_background
     @style/RtlOverlay_DialogWindowTitle_AppCompat
     @style/Base_DialogWindowTitleBackground_AppCompat
-    @drawable/abc_dialog_material_background
     @style/Animation_AppCompat_Dialog
-    @attr/windowActionBar
-    @attr/windowActionModeOverlay
+    @style/Widget_AppCompat_Button_Borderless
+    @style/Widget_AppCompat_ButtonBar_AlertDialog
     @attr/listPreferredItemPaddingLeft
     @attr/listPreferredItemPaddingRight
-    @style/Widget_AppCompat_ButtonBar_AlertDialog
-    @style/Widget_AppCompat_Button_Borderless
+    @attr/windowActionBar
+    @attr/windowActionModeOverlay
 @style/Base_V7_Widget_AppCompat_AutoCompleteTextView : reachable=false
+    @attr/editTextColor
+    @attr/editTextBackground
     @attr/listChoiceBackgroundIndicator
     @drawable/abc_popup_background_mtrl_mult
-    @attr/editTextBackground
-    @attr/editTextColor
     @drawable/abc_text_cursor_material
 @style/Base_V7_Widget_AppCompat_EditText : reachable=false
-    @attr/editTextBackground
     @attr/editTextColor
+    @attr/editTextBackground
     @drawable/abc_text_cursor_material
 @style/Base_V7_Widget_AppCompat_Toolbar : reachable=false
-    @style/TextAppearance_Widget_AppCompat_Toolbar_Title
-    @attr/titleTextAppearance
-    @style/TextAppearance_Widget_AppCompat_Toolbar_Subtitle
-    @attr/subtitleTextAppearance
+    @dimen/abc_action_bar_default_padding_start_material
+    @dimen/abc_action_bar_default_padding_end_material
     @attr/actionBarSize
-    @attr/titleMargin
-    @dimen/abc_action_bar_default_height_material
-    @attr/maxButtonHeight
     @attr/buttonGravity
-    @attr/homeAsUpIndicator
-    @attr/collapseIcon
     @string/abc_toolbar_collapse_description
     @attr/collapseContentDescription
+    @attr/homeAsUpIndicator
+    @attr/collapseIcon
     @attr/contentInsetStart
     @dimen/abc_action_bar_content_inset_with_nav
     @attr/contentInsetStartWithNavigation
-    @dimen/abc_action_bar_default_padding_start_material
-    @dimen/abc_action_bar_default_padding_end_material
+    @dimen/abc_action_bar_default_height_material
+    @attr/maxButtonHeight
+    @style/TextAppearance_Widget_AppCompat_Toolbar_Subtitle
+    @attr/subtitleTextAppearance
+    @attr/titleMargin
+    @style/TextAppearance_Widget_AppCompat_Toolbar_Title
+    @attr/titleTextAppearance
 @style/Base_Widget_AppCompat_ActionBar : reachable=false
-    @attr/displayOptions
-    @attr/dividerVertical
-    @attr/divider
-    @attr/actionBarSize
-    @attr/height
-    @style/TextAppearance_AppCompat_Widget_ActionBar_Title
-    @attr/titleTextStyle
-    @style/TextAppearance_AppCompat_Widget_ActionBar_Subtitle
-    @attr/subtitleTextStyle
-    @attr/background
-    @attr/backgroundStacked
-    @attr/backgroundSplit
     @style/Widget_AppCompat_ActionButton
     @attr/actionButtonStyle
     @style/Widget_AppCompat_ActionButton_Overflow
     @attr/actionOverflowButtonStyle
+    @attr/background
+    @attr/backgroundSplit
+    @attr/backgroundStacked
     @dimen/abc_action_bar_content_inset_material
+    @attr/contentInsetEnd
     @attr/contentInsetStart
     @dimen/abc_action_bar_content_inset_with_nav
     @attr/contentInsetStartWithNavigation
-    @attr/contentInsetEnd
+    @attr/displayOptions
+    @attr/dividerVertical
+    @attr/divider
     @dimen/abc_action_bar_elevation_material
     @attr/elevation
+    @attr/actionBarSize
+    @attr/height
     @attr/actionBarPopupTheme
     @attr/popupTheme
+    @style/TextAppearance_AppCompat_Widget_ActionBar_Subtitle
+    @attr/subtitleTextStyle
+    @style/TextAppearance_AppCompat_Widget_ActionBar_Title
+    @attr/titleTextStyle
 @style/Base_Widget_AppCompat_ActionBar_Solid : reachable=false
     @style/Base_Widget_AppCompat_ActionBar
     @attr/colorPrimary
     @attr/background
-    @attr/backgroundStacked
     @attr/backgroundSplit
+    @attr/backgroundStacked
 @style/Base_Widget_AppCompat_ActionBar_TabBar : reachable=false
     @attr/actionBarDivider
     @attr/divider
-    @attr/showDividers
     @attr/dividerPadding
+    @attr/showDividers
 @style/Base_Widget_AppCompat_ActionBar_TabText : reachable=false
 @style/Base_Widget_AppCompat_ActionBar_TabView : reachable=false
 @style/Base_Widget_AppCompat_ActionButton : reachable=false
@@ -3009,33 +3012,33 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @drawable/abc_ic_menu_overflow_material
     @attr/srcCompat
 @style/Base_Widget_AppCompat_ActionMode : reachable=false
+    @dimen/abc_action_bar_default_padding_start_material
+    @dimen/abc_action_bar_default_padding_end_material
+    @attr/actionBarSize
     @attr/actionModeBackground
     @attr/background
     @attr/actionModeSplitBackground
     @attr/backgroundSplit
-    @attr/actionBarSize
-    @attr/height
-    @style/TextAppearance_AppCompat_Widget_ActionMode_Title
-    @attr/titleTextStyle
-    @style/TextAppearance_AppCompat_Widget_ActionMode_Subtitle
-    @attr/subtitleTextStyle
+    @attr/buttonGravity
     @layout/abc_action_mode_close_item_material
     @attr/closeItemLayout
-    @attr/titleMargin
-    @dimen/abc_action_bar_default_height_material
-    @attr/maxButtonHeight
-    @attr/buttonGravity
     @attr/contentInsetStart
     @dimen/abc_action_bar_content_inset_with_nav
     @attr/contentInsetStartWithNavigation
-    @dimen/abc_action_bar_default_padding_start_material
-    @dimen/abc_action_bar_default_padding_end_material
+    @attr/height
+    @dimen/abc_action_bar_default_height_material
+    @attr/maxButtonHeight
+    @style/TextAppearance_AppCompat_Widget_ActionMode_Subtitle
+    @attr/subtitleTextStyle
+    @attr/titleMargin
+    @style/TextAppearance_AppCompat_Widget_ActionMode_Title
+    @attr/titleTextStyle
 @style/Base_Widget_AppCompat_ActivityChooserView : reachable=false
     @drawable/abc_ab_share_pack_mtrl_alpha
     @attr/dividerVertical
     @attr/divider
-    @attr/showDividers
     @attr/dividerPadding
+    @attr/showDividers
 @style/Base_Widget_AppCompat_AutoCompleteTextView : reachable=false
     @attr/editTextBackground
 @style/Base_Widget_AppCompat_Button : reachable=false
@@ -3050,34 +3053,34 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @dimen/abc_alert_dialog_button_bar_height
 @style/Base_Widget_AppCompat_Button_Colored : reachable=false
     @style/Base_Widget_AppCompat_Button
-    @drawable/abc_btn_colored_material
     @style/TextAppearance_AppCompat_Widget_Button_Colored
+    @drawable/abc_btn_colored_material
 @style/Base_Widget_AppCompat_Button_Small : reachable=false
 @style/Base_Widget_AppCompat_CompoundButton_CheckBox : reachable=false
 @style/Base_Widget_AppCompat_CompoundButton_RadioButton : reachable=false
 @style/Base_Widget_AppCompat_CompoundButton_Switch : reachable=false
-    @drawable/abc_switch_track_mtrl_alpha
-    @attr/track
-    @drawable/abc_switch_thumb_material
-    @style/TextAppearance_AppCompat_Widget_Switch
-    @attr/switchTextAppearance
     @attr/controlBackground
+    @string/abc_capital_on
+    @string/abc_capital_off
+    @drawable/abc_switch_thumb_material
     @attr/showText
     @dimen/abc_switch_padding
     @attr/switchPadding
-    @string/abc_capital_on
-    @string/abc_capital_off
+    @style/TextAppearance_AppCompat_Widget_Switch
+    @attr/switchTextAppearance
+    @drawable/abc_switch_track_mtrl_alpha
+    @attr/track
 @style/Base_Widget_AppCompat_DrawerArrowToggle : reachable=false
     @style/Base_Widget_AppCompat_DrawerArrowToggle_Common
     @attr/barLength
-    @attr/gapBetweenBars
     @attr/drawableSize
+    @attr/gapBetweenBars
 @style/Base_Widget_AppCompat_DrawerArrowToggle_Common : reachable=false
+    @attr/arrowHeadLength
+    @attr/arrowShaftLength
     @attr/color
     @attr/spinBars
     @attr/thickness
-    @attr/arrowShaftLength
-    @attr/arrowHeadLength
 @style/Base_Widget_AppCompat_DropDownItem_Spinner : reachable=false
 @style/Base_Widget_AppCompat_EditText : reachable=false
     @attr/editTextBackground
@@ -3092,8 +3095,8 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @style/Base_Widget_AppCompat_Light_ActionBar
     @attr/colorPrimary
     @attr/background
-    @attr/backgroundStacked
     @attr/backgroundSplit
+    @attr/backgroundStacked
 @style/Base_Widget_AppCompat_Light_ActionBar_TabBar : reachable=false
     @style/Base_Widget_AppCompat_ActionBar_TabBar
 @style/Base_Widget_AppCompat_Light_ActionBar_TabText : reachable=false
@@ -3122,31 +3125,31 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
 @style/Base_Widget_AppCompat_RatingBar_Small : reachable=false
     @drawable/abc_ratingbar_small_material
 @style/Base_Widget_AppCompat_SearchView : reachable=false
+    @drawable/abc_ic_clear_material
+    @attr/closeIcon
+    @drawable/abc_ic_commit_search_api_mtrl_alpha
+    @attr/commitIcon
+    @drawable/abc_ic_go_search_api_material
+    @attr/goIcon
     @layout/abc_search_view
     @attr/layout
     @drawable/abc_textfield_search_material
     @attr/queryBackground
-    @attr/submitBackground
-    @drawable/abc_ic_clear_material
-    @attr/closeIcon
     @drawable/abc_ic_search_api_material
-    @attr/searchIcon
     @attr/searchHintIcon
-    @drawable/abc_ic_go_search_api_material
-    @attr/goIcon
-    @drawable/abc_ic_voice_search_api_material
-    @attr/voiceIcon
-    @drawable/abc_ic_commit_search_api_mtrl_alpha
-    @attr/commitIcon
+    @attr/searchIcon
+    @attr/submitBackground
     @layout/abc_search_dropdown_item_icons_2line
     @attr/suggestionRowLayout
+    @drawable/abc_ic_voice_search_api_material
+    @attr/voiceIcon
 @style/Base_Widget_AppCompat_SearchView_ActionBar : reachable=false
     @style/Base_Widget_AppCompat_SearchView
-    @attr/queryBackground
-    @attr/submitBackground
-    @attr/searchHintIcon
     @string/abc_search_hint
     @attr/defaultQueryHint
+    @attr/queryBackground
+    @attr/searchHintIcon
+    @attr/submitBackground
 @style/Base_Widget_AppCompat_SeekBar : reachable=false
 @style/Base_Widget_AppCompat_SeekBar_Discrete : reachable=false
     @style/Base_Widget_AppCompat_SeekBar
@@ -3169,25 +3172,25 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
     @style/Platform_V21_AppCompat_Light
     @style/Platform_V25_AppCompat_Light
 @style/Platform_ThemeOverlay_AppCompat : reachable=false
+    @attr/colorControlNormal
+    @attr/colorControlActivated
+    @attr/colorButtonNormal
+    @attr/colorControlHighlight
     @attr/colorPrimary
     @attr/colorPrimaryDark
     @attr/colorAccent
-    @attr/colorControlNormal
-    @attr/colorControlActivated
-    @attr/colorControlHighlight
-    @attr/colorButtonNormal
 @style/Platform_ThemeOverlay_AppCompat_Dark : reachable=false
     @style/Platform_ThemeOverlay_AppCompat
 @style/Platform_ThemeOverlay_AppCompat_Light : reachable=false
     @style/Platform_ThemeOverlay_AppCompat
 @style/Platform_V21_AppCompat : reachable=false
-    @color/abc_hint_foreground_material_dark
     @color/abc_hint_foreground_material_light
+    @color/abc_hint_foreground_material_dark
     @attr/buttonBarStyle
     @attr/buttonBarButtonStyle
 @style/Platform_V21_AppCompat_Light : reachable=false
-    @color/abc_hint_foreground_material_light
     @color/abc_hint_foreground_material_dark
+    @color/abc_hint_foreground_material_light
     @attr/buttonBarStyle
     @attr/buttonBarButtonStyle
 @style/Platform_V25_AppCompat : reachable=false
@@ -3552,8 +3555,8 @@ Marking id:group_divider:2131230813 used because it matches string pool constant
 @style/Widget_Compat_NotificationActionContainer : reachable=false
     @drawable/notification_action_background
 @style/Widget_Compat_NotificationActionText : reachable=false
-    @color/androidx_core_secondary_text_default_material_light
     @dimen/notification_action_text_size
+    @color/androidx_core_secondary_text_default_material_light
 
 The root reachable resources are:
  attr:actionBarPopupTheme:2130903042
@@ -3786,49 +3789,49 @@ The root reachable resources are:
  id:btn_all_apps:2131230786
  id:btn_camera:2131230787
  id:btn_contacts:2131230788
- id:btn_messages:2131230789
- id:btn_music:2131230790
- id:buttonPanel:2131230791
- id:clock:2131230796
- id:content:2131230798
- id:contentPanel:2131230799
- id:customPanel:2131230801
- id:dock:2131230806
- id:edit_query:2131230807
- id:group_divider:2131230813
- id:header_container:2131230814
- id:is_pooling_container_tag:2131230822
- id:item_touch_helper_previous_elevation:2131230824
- id:message:2131230829
- id:pooling_container_listener_holder_tag:2131230841
- id:searchBar:2131230851
- id:search_button:2131230854
- id:search_close_btn:2131230855
- id:search_edit_frame:2131230856
- id:search_go_btn:2131230857
- id:search_line:2131230858
- id:search_mag_icon:2131230859
- id:search_plate:2131230860
- id:search_src_text:2131230861
- id:search_voice_btn:2131230862
- id:shortcut:2131230864
- id:spacer:2131230868
- id:split_action_bar:2131230870
- id:submenuarrow:2131230874
- id:submit_area:2131230875
- id:tag_accessibility_actions:2131230877
- id:tag_accessibility_clickable_spans:2131230878
- id:tag_accessibility_heading:2131230879
- id:tag_accessibility_pane_title:2131230880
- id:tag_on_apply_window_listener:2131230881
- id:tag_screen_reader_focusable:2131230884
- id:tag_state_description:2131230885
- id:tag_unhandled_key_listeners:2131230888
- id:tag_window_insets_animation_callback:2131230889
- id:title:2131230895
- id:topPanel:2131230899
- id:tv_charging:2131230900
- id:up:2131230903
+ id:btn_messages:2131230790
+ id:btn_music:2131230791
+ id:buttonPanel:2131230792
+ id:clock:2131230797
+ id:content:2131230799
+ id:contentPanel:2131230800
+ id:customPanel:2131230802
+ id:dock:2131230807
+ id:edit_query:2131230808
+ id:et_web_search:2131230810
+ id:group_divider:2131230815
+ id:header_container:2131230816
+ id:is_pooling_container_tag:2131230824
+ id:item_touch_helper_previous_elevation:2131230826
+ id:message:2131230831
+ id:pooling_container_listener_holder_tag:2131230843
+ id:searchBar:2131230853
+ id:search_button:2131230856
+ id:search_close_btn:2131230857
+ id:search_edit_frame:2131230858
+ id:search_go_btn:2131230859
+ id:search_mag_icon:2131230860
+ id:search_plate:2131230861
+ id:search_src_text:2131230862
+ id:search_voice_btn:2131230863
+ id:shortcut:2131230865
+ id:spacer:2131230869
+ id:split_action_bar:2131230871
+ id:submenuarrow:2131230875
+ id:submit_area:2131230876
+ id:tag_accessibility_actions:2131230878
+ id:tag_accessibility_clickable_spans:2131230879
+ id:tag_accessibility_heading:2131230880
+ id:tag_accessibility_pane_title:2131230881
+ id:tag_on_apply_window_listener:2131230882
+ id:tag_screen_reader_focusable:2131230885
+ id:tag_state_description:2131230886
+ id:tag_unhandled_key_listeners:2131230889
+ id:tag_window_insets_animation_callback:2131230890
+ id:title:2131230896
+ id:topPanel:2131230900
+ id:tv_charging:2131230901
+ id:up:2131230904
  layout:abc_action_bar_title_item:2131427328
  layout:abc_action_menu_item_layout:2131427330
  layout:abc_action_mode_close_item_material:2131427333
@@ -4123,86 +4126,87 @@ Unused resources are:
  id:async:2131230782
  id:beginning:2131230783
  id:bottom:2131230785
- id:center_vertical:2131230792
- id:checkbox:2131230793
- id:checked:2131230794
- id:chronometer:2131230795
- id:collapseActionView:2131230797
- id:custom:2131230800
- id:decor_content_parent:2131230802
- id:default_activity_button:2131230803
- id:dialog_button:2131230804
- id:disableHome:2131230805
- id:end:2131230808
- id:expand_activities_button:2131230809
- id:expanded_menu:2131230810
- id:forever:2131230811
- id:fragment_container_view_tag:2131230812
- id:home:2131230815
- id:homeAsUp:2131230816
- id:icon:2131230817
- id:icon_group:2131230818
- id:ifRoom:2131230819
- id:image:2131230820
- id:info:2131230821
- id:italic:2131230823
- id:line1:2131230825
- id:line3:2131230826
- id:listMode:2131230827
- id:list_item:2131230828
- id:middle:2131230830
- id:multiply:2131230831
- id:never:2131230832
- id:none:2131230833
- id:normal:2131230834
- id:notification_background:2131230835
- id:notification_main_column:2131230836
- id:notification_main_column_container:2131230837
- id:off:2131230838
- id:on:2131230839
- id:parentPanel:2131230840
- id:progress_circular:2131230842
- id:progress_horizontal:2131230843
- id:radio:2131230844
- id:right_icon:2131230845
- id:right_side:2131230846
- id:screen:2131230847
- id:scrollIndicatorDown:2131230848
- id:scrollIndicatorUp:2131230849
- id:scrollView:2131230850
- id:search_badge:2131230852
- id:search_bar:2131230853
- id:select_dialog_listview:2131230863
- id:showCustom:2131230865
- id:showHome:2131230866
- id:showTitle:2131230867
- id:special_effects_controller_view_tag:2131230869
- id:src_atop:2131230871
- id:src_in:2131230872
- id:src_over:2131230873
- id:tabMode:2131230876
- id:tag_on_receive_content_listener:2131230882
- id:tag_on_receive_content_mime_types:2131230883
- id:tag_transition_group:2131230886
- id:tag_unhandled_key_event_manager:2131230887
- id:text:2131230890
- id:text2:2131230891
- id:textSpacerNoButtons:2131230892
- id:textSpacerNoTitle:2131230893
- id:time:2131230894
- id:titleDividerNoCustom:2131230896
- id:title_template:2131230897
- id:top:2131230898
- id:unchecked:2131230901
- id:uniform:2131230902
- id:useLogo:2131230904
- id:view_tree_lifecycle_owner:2131230905
- id:view_tree_on_back_pressed_dispatcher_owner:2131230906
- id:view_tree_saved_state_registry_owner:2131230907
- id:view_tree_view_model_store_owner:2131230908
- id:visible_removing_fragment_view_tag:2131230909
- id:withText:2131230910
- id:wrap_content:2131230911
+ id:btn_incognito:2131230789
+ id:center_vertical:2131230793
+ id:checkbox:2131230794
+ id:checked:2131230795
+ id:chronometer:2131230796
+ id:collapseActionView:2131230798
+ id:custom:2131230801
+ id:decor_content_parent:2131230803
+ id:default_activity_button:2131230804
+ id:dialog_button:2131230805
+ id:disableHome:2131230806
+ id:end:2131230809
+ id:expand_activities_button:2131230811
+ id:expanded_menu:2131230812
+ id:forever:2131230813
+ id:fragment_container_view_tag:2131230814
+ id:home:2131230817
+ id:homeAsUp:2131230818
+ id:icon:2131230819
+ id:icon_group:2131230820
+ id:ifRoom:2131230821
+ id:image:2131230822
+ id:info:2131230823
+ id:italic:2131230825
+ id:line1:2131230827
+ id:line3:2131230828
+ id:listMode:2131230829
+ id:list_item:2131230830
+ id:middle:2131230832
+ id:multiply:2131230833
+ id:never:2131230834
+ id:none:2131230835
+ id:normal:2131230836
+ id:notification_background:2131230837
+ id:notification_main_column:2131230838
+ id:notification_main_column_container:2131230839
+ id:off:2131230840
+ id:on:2131230841
+ id:parentPanel:2131230842
+ id:progress_circular:2131230844
+ id:progress_horizontal:2131230845
+ id:radio:2131230846
+ id:right_icon:2131230847
+ id:right_side:2131230848
+ id:screen:2131230849
+ id:scrollIndicatorDown:2131230850
+ id:scrollIndicatorUp:2131230851
+ id:scrollView:2131230852
+ id:search_badge:2131230854
+ id:search_bar:2131230855
+ id:select_dialog_listview:2131230864
+ id:showCustom:2131230866
+ id:showHome:2131230867
+ id:showTitle:2131230868
+ id:special_effects_controller_view_tag:2131230870
+ id:src_atop:2131230872
+ id:src_in:2131230873
+ id:src_over:2131230874
+ id:tabMode:2131230877
+ id:tag_on_receive_content_listener:2131230883
+ id:tag_on_receive_content_mime_types:2131230884
+ id:tag_transition_group:2131230887
+ id:tag_unhandled_key_event_manager:2131230888
+ id:text:2131230891
+ id:text2:2131230892
+ id:textSpacerNoButtons:2131230893
+ id:textSpacerNoTitle:2131230894
+ id:time:2131230895
+ id:titleDividerNoCustom:2131230897
+ id:title_template:2131230898
+ id:top:2131230899
+ id:unchecked:2131230902
+ id:uniform:2131230903
+ id:useLogo:2131230905
+ id:view_tree_lifecycle_owner:2131230906
+ id:view_tree_on_back_pressed_dispatcher_owner:2131230907
+ id:view_tree_saved_state_registry_owner:2131230908
+ id:view_tree_view_model_store_owner:2131230909
+ id:visible_removing_fragment_view_tag:2131230910
+ id:withText:2131230911
+ id:wrap_content:2131230912
  integer:abc_config_activityDefaultDur:2131296256
  integer:abc_config_activityShortDur:2131296257
  integer:cancel_button_image_alpha:2131296258
@@ -4581,152 +4585,152 @@ Unused resources are:
  style:Widget_AppCompat_Toolbar_Button_Navigation:2131558748
  style:Widget_Compat_NotificationActionContainer:2131558749
  style:Widget_Compat_NotificationActionText:2131558750
-Skipped unused resource res/anim/abc_fade_in.xml: 549 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/anim/abc_fade_out.xml: 549 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/anim/abc_grow_fade_in_from_bottom.xml: 1458 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/anim/abc_popup_enter.xml: 650 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/anim/abc_popup_exit.xml: 650 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/anim/abc_shrink_fade_out_from_bottom.xml: 1458 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/anim/abc_slide_in_bottom.xml: 555 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/anim/abc_slide_in_top.xml: 556 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/anim/abc_slide_out_bottom.xml: 555 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/anim/abc_slide_out_top.xml: 556 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/anim-v21/fragment_fast_out_extra_slow_in.xml: 230 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_close_enter.xml: 2133 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_close_exit.xml: 2133 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_fade_enter.xml: 543 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_fade_exit.xml: 543 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_open_enter.xml: 2135 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_open_exit.xml: 2135 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/abc_background_cache_hint_selector_material_dark.xml: 471 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/abc_background_cache_hint_selector_material_light.xml: 473 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color-v21/abc_btn_colored_borderless_text_material.xml: 453 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/abc_btn_colored_text_material.xml: 676 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/abc_hint_foreground_material_dark.xml: 856 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/abc_hint_foreground_material_light.xml: 864 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/abc_primary_text_disable_only_material_dark.xml: 525 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/abc_primary_text_disable_only_material_light.xml: 529 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/abc_primary_text_material_dark.xml: 521 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/abc_primary_text_material_light.xml: 525 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/abc_search_url_text.xml: 737 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/abc_secondary_text_material_dark.xml: 529 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/abc_secondary_text_material_light.xml: 533 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/switch_thumb_material_dark.xml: 519 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/switch_thumb_material_light.xml: 523 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color-v23/abc_btn_colored_borderless_text_material.xml: 587 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color-v23/abc_btn_colored_text_material.xml: 624 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color-v23/abc_color_highlight_material.xml: 734 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-v21/abc_action_bar_item_background_material.xml: 227 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_ic_ab_back_material.xml: 873 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_ic_arrow_drop_right_black_24dp.xml: 1262 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_ic_clear_material.xml: 829 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_ic_go_search_api_material.xml: 782 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_ic_menu_overflow_material.xml: 934 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_ic_search_api_material.xml: 955 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_ic_voice_search_api_material.xml: 972 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_item_background_holo_dark.xml: 2036 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_item_background_holo_light.xml: 2044 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_list_selector_background_transition_holo_dark.xml: 422 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_list_selector_background_transition_holo_light.xml: 424 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_list_selector_holo_dark.xml: 2125 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/abc_list_selector_holo_light.xml: 2133 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_ai.xml: 852 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_bus.xml: 1078 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_calc.xml: 968 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_default_bullet.xml: 678 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_files.xml: 858 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_gallery.xml: 882 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_games.xml: 950 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_mail.xml: 902 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_paint.xml: 916 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_social.xml: 848 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_web.xml: 990 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-v21/notification_action_background.xml: 2250 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/notification_bg.xml: 751 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/notification_bg_low.xml: 753 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/notification_icon_background.xml: 314 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/notification_tile_bg.xml: 319 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/search_bg.xml: 529 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/test_level_drawable.xml: 335 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/tooltip_frame_dark.xml: 469 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/tooltip_frame_light.xml: 471 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-v23/abc_control_background_material.xml: 302 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/anim/abc_fade_in.xml: 365 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/anim/abc_fade_out.xml: 365 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/anim/abc_grow_fade_in_from_bottom.xml: 1056 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/anim/abc_popup_enter.xml: 459 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/anim/abc_popup_exit.xml: 459 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/anim/abc_shrink_fade_out_from_bottom.xml: 1056 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/anim/abc_slide_in_bottom.xml: 372 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/anim/abc_slide_in_top.xml: 372 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/anim/abc_slide_out_bottom.xml: 372 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/anim/abc_slide_out_top.xml: 372 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/anim-v21/fragment_fast_out_extra_slow_in.xml: 226 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/animator/fragment_close_enter.xml: 1709 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/animator/fragment_close_exit.xml: 1709 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/animator/fragment_fade_enter.xml: 444 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/animator/fragment_fade_exit.xml: 444 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/animator/fragment_open_enter.xml: 1709 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/animator/fragment_open_exit.xml: 1709 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/abc_background_cache_hint_selector_material_dark.xml: 323 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/abc_background_cache_hint_selector_material_light.xml: 323 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color-v21/abc_btn_colored_borderless_text_material.xml: 323 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color-v23/abc_btn_colored_borderless_text_material.xml: 394 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/abc_btn_colored_text_material.xml: 443 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color-v23/abc_btn_colored_text_material.xml: 393 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color-v23/abc_color_highlight_material.xml: 466 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/abc_hint_foreground_material_dark.xml: 536 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/abc_hint_foreground_material_light.xml: 536 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/abc_primary_text_disable_only_material_dark.xml: 320 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/abc_primary_text_disable_only_material_light.xml: 320 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/abc_primary_text_material_dark.xml: 320 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/abc_primary_text_material_light.xml: 320 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/abc_search_url_text.xml: 481 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/abc_secondary_text_material_dark.xml: 320 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/abc_secondary_text_material_light.xml: 320 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/switch_thumb_material_dark.xml: 320 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/switch_thumb_material_light.xml: 320 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-v21/abc_action_bar_item_background_material.xml: 145 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-v23/abc_control_background_material.xml: 212 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/abc_ic_ab_back_material.xml: 725 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/abc_ic_arrow_drop_right_black_24dp.xml: 1086 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/abc_ic_clear_material.xml: 689 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/abc_ic_go_search_api_material.xml: 642 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/abc_ic_menu_overflow_material.xml: 794 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/abc_ic_search_api_material.xml: 815 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/abc_ic_voice_search_api_material.xml: 832 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/abc_item_background_holo_dark.xml: 1347 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/abc_item_background_holo_light.xml: 1347 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-mdpi-v4/abc_list_focused_holo.9.png: 222 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png: 211 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png: 207 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png: 207 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png: 217 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png: 217 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png: 98 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-hdpi-v4/abc_list_focused_holo.9.png: 244 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png: 208 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png: 208 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png: 228 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png: 229 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png: 107 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/abc_list_focused_holo.9.png: 244 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png: 214 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png: 209 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png: 209 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png: 236 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png: 235 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png: 252 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png: 247 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png: 138 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png: 245 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png: 211 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png: 214 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png: 207 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png: 208 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png: 209 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png: 207 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png: 208 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png: 209 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable/abc_list_selector_background_transition_holo_dark.xml: 252 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/abc_list_selector_background_transition_holo_light.xml: 252 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png: 217 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png: 228 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png: 236 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png: 260 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png: 217 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png: 229 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png: 235 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png: 258 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable/abc_list_selector_holo_dark.xml: 1430 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/abc_list_selector_holo_light.xml: 1430 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/ic_ai.xml: 757 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_authenticator.png: 1230 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable/ic_bus.xml: 981 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/ic_calc.xml: 871 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_cloude.png: 1551 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_compass.png: 1409 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_contact.png: 793 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable/ic_default_bullet.xml: 630 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/ic_files.xml: 761 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/ic_gallery.xml: 785 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_gallery.png: 529 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable/ic_games.xml: 853 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_intertune.png: 849 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_keyboard.png: 696 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable/ic_mail.xml: 807 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/ic_paint.xml: 819 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/ic_social.xml: 753 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_spotify.png: 1477 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_uber.png: 509 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/layout/abc_action_bar_up_container.xml: 588 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_action_menu_layout.xml: 656 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_action_mode_bar.xml: 589 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_activity_chooser_view.xml: 3884 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_activity_chooser_view_list_item.xml: 2684 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_alert_dialog_button_bar_material.xml: 3101 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v22/abc_alert_dialog_button_bar_material.xml: 3192 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_alert_dialog_material.xml: 6125 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_alert_dialog_title_material.xml: 3326 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_dialog_title_material.xml: 2063 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_expanded_menu_layout.xml: 462 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_list_menu_item_layout.xml: 2985 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_screen_content_include.xml: 722 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_screen_simple.xml: 1346 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_screen_simple_overlay_action_mode.xml: 1261 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_screen_toolbar.xml: 2642 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/abc_select_dialog_material.xml: 1711 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/custom_dialog.xml: 828 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/notification_action.xml: 2216 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/notification_action_tombstone.xml: 2677 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/notification_template_custom_big.xml: 6318 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/notification_template_icon_group.xml: 2432 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_part_chronometer.xml: 643 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_part_time.xml: 630 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/select_dialog_item_material.xml: 1322 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/select_dialog_multichoice_material.xml: 2082 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/select_dialog_singlechoice_material.xml: 2074 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/support_simple_spinner_dropdown_item.xml: 701 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml: 2517 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-watch-v20/abc_alert_dialog_title_material.xml: 2835 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v26/abc_screen_toolbar.xml: 2736 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/ic_web.xml: 893 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-v21/notification_action_background.xml: 1152 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/notification_bg.xml: 482 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/notification_bg_low.xml: 482 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png: 252 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png: 247 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable/notification_icon_background.xml: 224 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/notification_tile_bg.xml: 211 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png: 98 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png: 107 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png: 138 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable/search_bg.xml: 462 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/test_level_drawable.xml: 243 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/tooltip_frame_dark.xml: 312 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/tooltip_frame_light.xml: 312 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_action_bar_up_container.xml: 458 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_action_menu_layout.xml: 539 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_action_mode_bar.xml: 445 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_activity_chooser_view.xml: 3094 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_activity_chooser_view_list_item.xml: 2121 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_alert_dialog_button_bar_material.xml: 2344 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml: 1898 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v22/abc_alert_dialog_button_bar_material.xml: 2421 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_alert_dialog_material.xml: 4483 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_alert_dialog_title_material.xml: 2467 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-watch-v20/abc_alert_dialog_title_material.xml: 2172 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_dialog_title_material.xml: 1513 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_expanded_menu_layout.xml: 342 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_list_menu_item_layout.xml: 2295 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_screen_content_include.xml: 515 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_screen_simple.xml: 967 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_screen_simple_overlay_action_mode.xml: 894 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_screen_toolbar.xml: 1908 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v26/abc_screen_toolbar.xml: 1994 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/abc_select_dialog_material.xml: 1198 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/custom_dialog.xml: 711 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v21/notification_action.xml: 1566 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v21/notification_action_tombstone.xml: 1977 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v21/notification_template_custom_big.xml: 4602 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v21/notification_template_icon_group.xml: 1574 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/notification_template_part_chronometer.xml: 461 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/notification_template_part_time.xml: 462 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/select_dialog_item_material.xml: 835 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/select_dialog_multichoice_material.xml: 1227 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/select_dialog_singlechoice_material.xml: 1227 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/support_simple_spinner_dropdown_item.xml: 468 bytes (replaced with small dummy file of size 9 bytes)

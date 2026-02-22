@@ -16,9 +16,10 @@ com.minimy.minimy.app-lifecycle-viewmodel-2.5.1-14 /home/yadhu/.gradle/caches/8.
 com.minimy.minimy.app-jetified-emoji2-1.2.0-15 /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/res
 com.minimy.minimy.app-core-1.9.0-16 /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/res
 com.minimy.minimy.app-jetified-activity-1.6.0-17 /home/yadhu/.gradle/caches/8.9/transforms/ffd426a1a1509e6abef96372aeb5cae7/transformed/jetified-activity-1.6.0/res
-com.minimy.minimy.app-resValues-18 /media/yadhu/hdisk/android-projects/minimy/app/build/generated/res/resValues/debug
-com.minimy.minimy.app-packageDebugResources-19 /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.minimy.minimy.app-packageDebugResources-20 /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.minimy.minimy.app-merged_res-21 /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/merged_res/debug
-com.minimy.minimy.app-debug-22 /media/yadhu/hdisk/android-projects/minimy/app/src/debug/res
-com.minimy.minimy.app-main-23 /media/yadhu/hdisk/android-projects/minimy/app/src/main/res
+com.minimy.minimy.app-pngs-18 /media/yadhu/hdisk/android-projects/minimy/app/build/generated/res/pngs/debug
+com.minimy.minimy.app-resValues-19 /media/yadhu/hdisk/android-projects/minimy/app/build/generated/res/resValues/debug
+com.minimy.minimy.app-packageDebugResources-20 /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.minimy.minimy.app-packageDebugResources-21 /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.minimy.minimy.app-merged_res-22 /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/merged_res/debug
+com.minimy.minimy.app-debug-23 /media/yadhu/hdisk/android-projects/minimy/app/src/debug/res
+com.minimy.minimy.app-main-24 /media/yadhu/hdisk/android-projects/minimy/app/src/main/res

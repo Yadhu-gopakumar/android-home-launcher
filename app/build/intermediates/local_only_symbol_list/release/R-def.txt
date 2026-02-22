@@ -67,13 +67,14 @@ id appList
 id btn_all_apps
 id btn_camera
 id btn_contacts
+id btn_incognito
 id btn_messages
 id btn_music
 id clock
 id dock
+id et_web_search
 id header_container
 id searchBar
-id search_line
 id tv_charging
 layout activity_main
 style AppTheme

@@ -778,6 +778,7 @@ id bottom
 id btn_all_apps
 id btn_camera
 id btn_contacts
+id btn_incognito
 id btn_messages
 id btn_music
 id buttonPanel
@@ -798,6 +799,7 @@ id disableHome
 id dock
 id edit_query
 id end
+id et_web_search
 id expand_activities_button
 id expanded_menu
 id forever
@@ -847,7 +849,6 @@ id search_button
 id search_close_btn
 id search_edit_frame
 id search_go_btn
-id search_line
 id search_mag_icon
 id search_plate
 id search_src_text

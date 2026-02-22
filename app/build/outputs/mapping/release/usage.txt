@@ -6916,16 +6916,46 @@ androidx.viewpager.widget.ViewPager$SimpleOnPageChangeListener
 androidx.viewpager.widget.ViewPager$ViewPositionComparator
 androidx.viewpager.widget.ViewPager
 com.google.common.util.concurrent.ListenableFuture
-com.minimy.minimy.AppAdapter:
-    public com.minimy.minimy.AppModel getAppAt(int)
+com.minimy.minimy.AppAdapter$OnAppActionListener:
+    public abstract void onLaunch(com.minimy.minimy.AppModel)
+com.minimy.minimy.AppModel:
+    public android.graphics.drawable.Drawable icon
 com.minimy.minimy.MainActivity:
     private static final java.lang.String FAV_FILE
     private static final java.lang.String HIDDEN_FILE
-com.minimy.minimy.R$drawable
+    private android.widget.TextView chargingView
+    private synthetic void lambda$onLaunch$8()
+    public void onLaunch(com.minimy.minimy.AppModel)
+com.minimy.minimy.R$drawable:
+    public static int dock_bg
+    public static int ic_ai
+    public static int ic_authenticator
+    public static int ic_bus
+    public static int ic_calc
+    public static int ic_cloude
+    public static int ic_compass
+    public static int ic_contact
+    public static int ic_default_bullet
+    public static int ic_files
+    public static int ic_gallery
+    public static int ic_games
+    public static int ic_intertune
+    public static int ic_keyboard
+    public static int ic_mail
+    public static int ic_paint
+    public static int ic_social
+    public static int ic_spotify
+    public static int ic_uber
+    public static int ic_web
+    public static int icon_bg_white
+    public static int search_bg
+    private void <init>()
 com.minimy.minimy.R$id:
+    public static int btn_incognito
     private void <init>()
 com.minimy.minimy.R$layout:
     private void <init>()
+com.minimy.minimy.R$style
 com.minimy.minimy.R
 kotlin.ArrayIntrinsicsKt
 kotlin.BuilderInference
@@ -14536,7 +14566,7 @@ androidx.core.view.WindowInsetsCompat:
     public final void setRootWindowInsets(androidx.core.view.WindowInsetsCompat)
     public static void setStableInsets()
 androidx.core.view.accessibility.AccessibilityEventCompat
-androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat$$InternalSyntheticThrowCCEIfNotNull$7$c1fad68fe340885a91ee2df785d8a12b1bda10320293b3dfc65523d397088fdd$0
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat$$InternalSyntheticThrowCCEIfNotNull$7$f2144b29458d53d4b3082d85d55d3973a0eb89982d7b5959a25fb317b7a775ea$0
 androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat:
     public static final androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_ACCESSIBILITY_FOCUS
     public static final androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_CLEAR_ACCESSIBILITY_FOCUS
@@ -15321,7 +15351,6 @@ androidx.recyclerview.widget.RecyclerView$Adapter:
     public abstract void onAttachedToRecyclerView()
     public abstract void onBindViewHolder()
     public abstract void onBindViewHolder$1()
-    public abstract androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder()
     public abstract void onDetachedFromRecyclerView()
     public abstract boolean onFailedToRecycleView()
     public abstract void onViewAttachedToWindow()
@@ -15882,38 +15911,45 @@ androidx.versionedparcelable.VersionedParcelParcel:
     public final void writeParcelable()
     public final void writeString(java.lang.String)
 com.minimy.minimy.AppAdapter$OnAppActionListener:
-    public abstract void onLaunch()
     public abstract void onLongPress()
 com.minimy.minimy.AppAdapter:
+    public static final java.util.Map iconCache
+    public final boolean isHome
+    public final android.content.pm.PackageManager pm
+    public final int sizePx
+    public static int getCategoryIcon()
     public final int getItemCount()
-    public static void lambda$onBindViewHolder$0()
     public static boolean lambda$onBindViewHolder$1()
     public final void onBindViewHolder()
     public static void onBindViewHolder$2()
-    public final androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder()
     public static com.minimy.minimy.AppAdapter$ViewHolder onCreateViewHolder()
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$0c3edcdfc208490934446b1b0e7fcf507516e8dcbe040bebd5d43cc0932ef64e$0
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$0c3edcdfc208490934446b1b0e7fcf507516e8dcbe040bebd5d43cc0932ef64e$2
 com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$79d573233c1d68525d8683c672ac424635d722a53e2b1246491096af125b91d0$0
-com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0
 com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$1
 com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$2
 com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$3
 com.minimy.minimy.MainActivity$2
 com.minimy.minimy.MainActivity$3
 com.minimy.minimy.MainActivity:
+    public static java.util.List getVisibleApps()
     public static synthetic void lambda$onCreate$0()
-    public static void lambda$onLongPress$6()
-    public static void lambda$onLongPress$7()
-    public static synthetic void lambda$setupDock$1()
-    public static synthetic void lambda$setupDock$2()
+    public static synthetic boolean lambda$onCreate$1()
+    public static synthetic void lambda$onCreate$2()
+    public static void lambda$onLongPress$10()
+    public static void lambda$onLongPress$9()
     public static synthetic void lambda$setupDock$3()
     public static synthetic void lambda$setupDock$4()
-    public final void onLaunch()
+    public static synthetic void lambda$setupDock$5()
+    public static synthetic void lambda$setupDock$6()
     public final void onLongPress()
     public static void saveHiddenApps()
     public static void setupDock()
     public static void setupPackageReceiver()
     public static void setupSearch()
     public static void startClock()
+    public static void updateAdapter()
+com.minimy.minimy.R$drawable
 com.minimy.minimy.R$id
 com.minimy.minimy.R$layout
 kotlin.ExceptionsKt

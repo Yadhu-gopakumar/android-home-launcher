@@ -10,8 +10,17 @@ android {
         targetSdkVersion 33
         versionCode 1
         versionName "1.0"
+        resConfigs "en"
     }
-
+    splits {
+        abi {
+            enable true
+            reset()
+            // Only include physical phone architectures, ignore x86 emulators
+            include "arm64-v8a" 
+            universalApk false
+        }
+    }
     buildTypes {
         release {
             minifyEnabled true      // Highly recommended for < 1MB APK

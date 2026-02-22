@@ -8,12 +8,17 @@
   "variantName": "release",
   "elements": [
     {
-      "type": "SINGLE",
-      "filters": [],
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
       "attributes": [],
       "versionCode": 1,
       "versionName": "1.0",
-      "outputFile": "resources-release-optimize.ap_"
+      "outputFile": "resources-arm64-v8a-release-optimize.ap_"
     }
   ],
   "elementType": "File"

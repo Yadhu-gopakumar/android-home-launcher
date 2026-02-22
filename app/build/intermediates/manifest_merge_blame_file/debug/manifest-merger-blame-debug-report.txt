@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:4:5-25:19
+17-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:4:5-23:19
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 18-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 19        android:debuggable="true"
@@ -29,39 +29,39 @@
 21-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:5:9-58
 22        android:label="Minimy"
 22-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:6:9-31
-23        android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >
-23-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:7:9-71
+23        android:theme="@style/AppTheme" >
+23-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:7:9-40
 24        <activity
-24-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:9:9-24:20
+24-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:9:9-22:20
 25            android:name="com.minimy.minimy.MainActivity"
 25-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:10:13-41
 26            android:clearTaskOnLaunch="true"
-26-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:13:13-45
-27            android:excludeFromRecents="true"
-27-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:15:13-46
-28            android:exported="true"
-28-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:11:13-36
-29            android:launchMode="singleTask"
-29-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:12:13-44
-30            android:stateNotNeeded="true"
-30-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:14:13-42
+26-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:14:13-45
+27            android:exported="true"
+27-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:12:13-36
+28            android:launchMode="singleTask"
+28-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:13:13-44
+29            android:stateNotNeeded="true"
+29-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:15:13-42
+30            android:theme="@style/AppTheme"
+30-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:11:13-44
 31            android:windowSoftInputMode="adjustPan" >
 31-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:16:13-52
 32            <intent-filter>
-32-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:18:13-23:29
+32-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:16:54-21:29
 33                <action android:name="android.intent.action.MAIN" />
-33-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:19:17-69
-33-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:19:25-66
+33-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:17:17-69
+33-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:17:25-66
 34
 35                <category android:name="android.intent.category.HOME" />
-35-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:20:17-73
-35-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:20:27-70
+35-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:18:17-73
+35-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:18:27-70
 36                <category android:name="android.intent.category.DEFAULT" />
-36-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:21:17-76
-36-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:21:27-73
+36-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:19:17-76
+36-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:19:27-73
 37                <category android:name="android.intent.category.LAUNCHER" />
-37-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:22:17-77
-37-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:22:27-74
+37-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:20:17-77
+37-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:20:27-74
 38            </intent-filter>
 39        </activity>
 40

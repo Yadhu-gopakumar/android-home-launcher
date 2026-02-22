@@ -3,8 +3,8 @@
 # min_api: 21
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.2"}
-# pg_map_id: 4fb8097
-# pg_map_hash: SHA-256 4fb8097835308f01bc7dad129f835371c94a7799fae8a92b8dce85bf9c58083c
+# pg_map_id: 9a41bb3
+# pg_map_hash: SHA-256 9a41bb3663c4eeadec0ad3f5977f16c7200f0e869d5815cc167fe565ee1967f5
 android.support.v4.app.RemoteActionCompatParcelizer -> android.support.v4.app.RemoteActionCompatParcelizer:
 # {"id":"sourceFile","fileName":"RemoteActionCompatParcelizer.java"}
     1:1:androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel):0:0 -> read
@@ -643,101 +643,91 @@ androidx.appcompat.graphics.drawable.DrawableContainerCompat$1 -> c.f:
     1:8:void $r8$init$synthetic(java.lang.Object,int):0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(ILjava/lang/Object;)V"}
-    15:16:android.widget.TextView com.minimy.minimy.MainActivity.access$1000(com.minimy.minimy.MainActivity):0:0 -> run
-    15:16:void com.minimy.minimy.MainActivity$3.run():0 -> run
-    15:16:void run$bridge():0 -> run
+    14:15:android.widget.TextView com.minimy.minimy.MainActivity.access$1000(com.minimy.minimy.MainActivity):0:0 -> run
+    14:15:void com.minimy.minimy.MainActivity$3.run():0 -> run
+    14:15:void run$bridge():0 -> run
       # {"id":"com.android.tools.r8.synthesized"}
-    17:39:void com.minimy.minimy.MainActivity$3.run():0:0 -> run
-    17:39:void run$bridge():0 -> run
-    40:43:boolean com.minimy.minimy.MainActivity.access$200(com.minimy.minimy.MainActivity):0:0 -> run
-    40:43:void com.minimy.minimy.MainActivity$3.run():0 -> run
-    40:43:void run$bridge():0 -> run
-    44:70:void com.minimy.minimy.MainActivity$3.run():0:0 -> run
-    44:70:void run$bridge():0 -> run
-    71:74:android.widget.TextView com.minimy.minimy.MainActivity.access$1100(com.minimy.minimy.MainActivity):0:0 -> run
-    71:74:void com.minimy.minimy.MainActivity$3.run():0 -> run
-    71:74:void run$bridge():0 -> run
-    75:98:void com.minimy.minimy.MainActivity$3.run():0:0 -> run
-    75:98:void run$bridge():0 -> run
-    99:100:android.widget.TextView com.minimy.minimy.MainActivity.access$1100(com.minimy.minimy.MainActivity):0:0 -> run
-    99:100:void com.minimy.minimy.MainActivity$3.run():0 -> run
-    99:100:void run$bridge():0 -> run
-    101:122:void com.minimy.minimy.MainActivity$3.run():0:0 -> run
-    101:122:void run$bridge():0 -> run
-    123:124:android.widget.TextView com.minimy.minimy.MainActivity.access$1100(com.minimy.minimy.MainActivity):0:0 -> run
-    123:124:void com.minimy.minimy.MainActivity$3.run():0 -> run
-    123:124:void run$bridge():0 -> run
-    125:127:void com.minimy.minimy.MainActivity$3.run():0:0 -> run
-    125:127:void run$bridge():0 -> run
-    128:131:android.os.Handler com.minimy.minimy.MainActivity.access$1200(com.minimy.minimy.MainActivity):0:0 -> run
-    128:131:void com.minimy.minimy.MainActivity$3.run():0 -> run
-    128:131:void run$bridge():0 -> run
-    132:137:void com.minimy.minimy.MainActivity$3.run():0:0 -> run
-    132:137:void run$bridge():0 -> run
-    138:139:void androidx.lifecycle.ProcessLifecycleOwner.dispatchPauseIfNeeded():0:0 -> run
-    138:139:void androidx.lifecycle.ProcessLifecycleOwner$1.run():0 -> run
+    16:38:void com.minimy.minimy.MainActivity$3.run():0:0 -> run
+    16:38:void run$bridge():0 -> run
+    39:42:boolean com.minimy.minimy.MainActivity.access$200(com.minimy.minimy.MainActivity):0:0 -> run
+    39:42:void com.minimy.minimy.MainActivity$3.run():0 -> run
+    39:42:void run$bridge():0 -> run
+    43:76:void com.minimy.minimy.MainActivity$3.run():0:0 -> run
+    43:76:void run$bridge():0 -> run
+    77:80:android.widget.TextView com.minimy.minimy.MainActivity.access$1100(com.minimy.minimy.MainActivity):0:0 -> run
+    77:80:void com.minimy.minimy.MainActivity$3.run():0 -> run
+    77:80:void run$bridge():0 -> run
+    81:100:void com.minimy.minimy.MainActivity$3.run():0:0 -> run
+    81:100:void run$bridge():0 -> run
+    101:104:android.os.Handler com.minimy.minimy.MainActivity.access$1200(com.minimy.minimy.MainActivity):0:0 -> run
+    101:104:void com.minimy.minimy.MainActivity$3.run():0 -> run
+    101:104:void run$bridge():0 -> run
+    105:110:void com.minimy.minimy.MainActivity$3.run():0:0 -> run
+    105:110:void run$bridge():0 -> run
+    111:112:void androidx.lifecycle.ProcessLifecycleOwner.dispatchPauseIfNeeded():0:0 -> run
+    111:112:void androidx.lifecycle.ProcessLifecycleOwner$1.run():0 -> run
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    138:139:void run$bridge():0 -> run
-    140:150:void androidx.lifecycle.ProcessLifecycleOwner.dispatchPauseIfNeeded():0:0 -> run
-    140:150:void androidx.lifecycle.ProcessLifecycleOwner$1.run():0 -> run
-    140:150:void run$bridge():0 -> run
-    151:168:void androidx.lifecycle.ProcessLifecycleOwner.dispatchStopIfNeeded():0:0 -> run
-    151:168:void androidx.lifecycle.ProcessLifecycleOwner$1.run():0 -> run
-    151:168:void run$bridge():0 -> run
-    169:185:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0:0 -> run
-    169:185:void run$bridge():0 -> run
-    186:201:void androidx.core.widget.AutoScrollHelper$ClampedScroller.start():0:0 -> run
-    186:201:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
-    186:201:void run$bridge():0 -> run
-    202:209:boolean androidx.core.widget.AutoScrollHelper$ClampedScroller.isFinished():0:0 -> run
-    202:209:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
+    111:112:void run$bridge():0 -> run
+    113:123:void androidx.lifecycle.ProcessLifecycleOwner.dispatchPauseIfNeeded():0:0 -> run
+    113:123:void androidx.lifecycle.ProcessLifecycleOwner$1.run():0 -> run
+    113:123:void run$bridge():0 -> run
+    124:141:void androidx.lifecycle.ProcessLifecycleOwner.dispatchStopIfNeeded():0:0 -> run
+    124:141:void androidx.lifecycle.ProcessLifecycleOwner$1.run():0 -> run
+    124:141:void run$bridge():0 -> run
+    142:159:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0:0 -> run
+    142:159:void run$bridge():0 -> run
+    160:175:void androidx.core.widget.AutoScrollHelper$ClampedScroller.start():0:0 -> run
+    160:175:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
+    160:175:void run$bridge():0 -> run
+    176:183:boolean androidx.core.widget.AutoScrollHelper$ClampedScroller.isFinished():0:0 -> run
+    176:183:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    202:209:void run$bridge():0 -> run
-    210:224:boolean androidx.core.widget.AutoScrollHelper$ClampedScroller.isFinished():0:0 -> run
-    210:224:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
-    210:224:void run$bridge():0 -> run
-    225:241:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0:0 -> run
-    225:241:void run$bridge():0 -> run
-    242:262:void androidx.core.widget.AutoScrollHelper.cancelTargetTouch():0:0 -> run
-    242:262:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
-    242:262:void run$bridge():0 -> run
-    263:301:void androidx.core.widget.AutoScrollHelper$ClampedScroller.computeScrollDelta():0:0 -> run
-    263:301:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
-    263:301:void run$bridge():0 -> run
-    302:303:void androidx.core.widget.ListViewCompat.scrollListBy(android.widget.ListView,int):0:0 -> run
-    302:303:void androidx.core.widget.ListViewAutoScrollHelper.scrollTargetBy(int,int):0 -> run
-    302:303:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
+    176:183:void run$bridge():0 -> run
+    184:198:boolean androidx.core.widget.AutoScrollHelper$ClampedScroller.isFinished():0:0 -> run
+    184:198:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
+    184:198:void run$bridge():0 -> run
+    199:215:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0:0 -> run
+    199:215:void run$bridge():0 -> run
+    216:235:void androidx.core.widget.AutoScrollHelper.cancelTargetTouch():0:0 -> run
+    216:235:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
+    216:235:void run$bridge():0 -> run
+    236:274:void androidx.core.widget.AutoScrollHelper$ClampedScroller.computeScrollDelta():0:0 -> run
+    236:274:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
+    236:274:void run$bridge():0 -> run
+    275:276:void androidx.core.widget.ListViewCompat.scrollListBy(android.widget.ListView,int):0:0 -> run
+    275:276:void androidx.core.widget.ListViewAutoScrollHelper.scrollTargetBy(int,int):0 -> run
+    275:276:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(2)"]}
-    302:303:void run$bridge():0 -> run
-    304:306:void androidx.core.widget.ListViewCompat.scrollListBy(android.widget.ListView,int):0:0 -> run
-    304:306:void androidx.core.widget.ListViewAutoScrollHelper.scrollTargetBy(int,int):0 -> run
-    304:306:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
-    304:306:void run$bridge():0 -> run
-    307:308:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0:0 -> run
-    307:308:void run$bridge():0 -> run
-    309:312:void androidx.core.view.ViewCompat.postOnAnimation(android.view.View,java.lang.Runnable):0:0 -> run
-    309:312:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
-    309:312:void run$bridge():0 -> run
-    313:322:void androidx.core.widget.AutoScrollHelper$ClampedScroller.computeScrollDelta():0:0 -> run
-    313:322:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
-    313:322:void run$bridge():0 -> run
-    323:326:boolean androidx.appcompat.widget.Toolbar.showOverflowMenu():0:0 -> run
-    323:326:void androidx.appcompat.widget.Toolbar$2.run():0 -> run
+    275:276:void run$bridge():0 -> run
+    277:279:void androidx.core.widget.ListViewCompat.scrollListBy(android.widget.ListView,int):0:0 -> run
+    277:279:void androidx.core.widget.ListViewAutoScrollHelper.scrollTargetBy(int,int):0 -> run
+    277:279:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
+    277:279:void run$bridge():0 -> run
+    280:281:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0:0 -> run
+    280:281:void run$bridge():0 -> run
+    282:285:void androidx.core.view.ViewCompat.postOnAnimation(android.view.View,java.lang.Runnable):0:0 -> run
+    282:285:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
+    282:285:void run$bridge():0 -> run
+    286:295:void androidx.core.widget.AutoScrollHelper$ClampedScroller.computeScrollDelta():0:0 -> run
+    286:295:void androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable.run():0 -> run
+    286:295:void run$bridge():0 -> run
+    296:299:boolean androidx.appcompat.widget.Toolbar.showOverflowMenu():0:0 -> run
+    296:299:void androidx.appcompat.widget.Toolbar$2.run():0 -> run
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    323:326:void run$bridge():0 -> run
-    327:330:boolean androidx.appcompat.widget.ActionMenuView.showOverflowMenu():0:0 -> run
-    327:330:boolean androidx.appcompat.widget.Toolbar.showOverflowMenu():0 -> run
+    296:299:void run$bridge():0 -> run
+    300:303:boolean androidx.appcompat.widget.ActionMenuView.showOverflowMenu():0:0 -> run
+    300:303:boolean androidx.appcompat.widget.Toolbar.showOverflowMenu():0 -> run
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    327:330:void androidx.appcompat.widget.Toolbar$2.run():0 -> run
-    327:330:void run$bridge():0 -> run
-    331:336:boolean androidx.appcompat.widget.ActionMenuView.showOverflowMenu():0:0 -> run
-    331:336:boolean androidx.appcompat.widget.Toolbar.showOverflowMenu():0 -> run
-    331:336:void androidx.appcompat.widget.Toolbar$2.run():0 -> run
-    331:336:void run$bridge():0 -> run
-    337:344:void androidx.appcompat.widget.DropDownListView$ResolveHoverRunnable.run():0:0 -> run
-    337:344:void run$bridge():0 -> run
-    345:352:void androidx.appcompat.graphics.drawable.DrawableContainerCompat$1.run():0:0 -> run
-    345:352:void run$bridge():0 -> run
+    300:303:void androidx.appcompat.widget.Toolbar$2.run():0 -> run
+    300:303:void run$bridge():0 -> run
+    304:309:boolean androidx.appcompat.widget.ActionMenuView.showOverflowMenu():0:0 -> run
+    304:309:boolean androidx.appcompat.widget.Toolbar.showOverflowMenu():0 -> run
+    304:309:void androidx.appcompat.widget.Toolbar$2.run():0 -> run
+    304:309:void run$bridge():0 -> run
+    310:317:void androidx.appcompat.widget.DropDownListView$ResolveHoverRunnable.run():0:0 -> run
+    310:317:void run$bridge():0 -> run
+    318:324:void androidx.appcompat.graphics.drawable.DrawableContainerCompat$1.run():0:0 -> run
+    318:324:void run$bridge():0 -> run
 androidx.appcompat.graphics.drawable.DrawableContainerCompat$Api21Impl -> R8$$REMOVED$$CLASS$$2:
 # {"id":"sourceFile","fileName":"DrawableContainerCompat.java"}
 androidx.appcompat.graphics.drawable.DrawableContainerCompat$BlockInvalidateCallback -> c.g:
@@ -5448,35 +5438,33 @@ androidx.appcompat.widget.SearchView$10 -> g.b2:
     1:8:void androidx.appcompat.widget.SearchView$10.<init>(androidx.appcompat.widget.SearchView):0:0 -> <init>
     1:8:void $r8$init$synthetic(android.view.KeyEvent$Callback,int):0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-    6:29:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0:0 -> afterTextChanged
-    6:29:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
+    6:44:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0:0 -> afterTextChanged
+    6:44:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
       # {"id":"com.android.tools.r8.synthesized"}
-    30:33:java.util.List com.minimy.minimy.MainActivity.access$700(com.minimy.minimy.MainActivity):0:0 -> afterTextChanged
-    30:33:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0 -> afterTextChanged
-    30:33:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
-    34:36:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0:0 -> afterTextChanged
-    34:36:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
-    37:39:com.minimy.minimy.AppAdapter com.minimy.minimy.MainActivity.access$602(com.minimy.minimy.MainActivity,com.minimy.minimy.AppAdapter):0:0 -> afterTextChanged
-    37:39:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0 -> afterTextChanged
-    37:39:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
-    40:47:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0:0 -> afterTextChanged
-    40:47:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
-    48:49:java.util.List com.minimy.minimy.MainActivity.access$800(com.minimy.minimy.MainActivity):0:0 -> afterTextChanged
-    48:49:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0 -> afterTextChanged
-    48:49:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
-    50:86:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0:0 -> afterTextChanged
-    50:86:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
-    87:90:com.minimy.minimy.AppAdapter com.minimy.minimy.MainActivity.access$602(com.minimy.minimy.MainActivity,com.minimy.minimy.AppAdapter):0:0 -> afterTextChanged
-    87:90:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0 -> afterTextChanged
-    87:90:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
-    91:92:androidx.recyclerview.widget.RecyclerView com.minimy.minimy.MainActivity.access$900(com.minimy.minimy.MainActivity):0:0 -> afterTextChanged
-    91:92:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0 -> afterTextChanged
-    91:92:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
-    93:94:com.minimy.minimy.AppAdapter com.minimy.minimy.MainActivity.access$600(com.minimy.minimy.MainActivity):0:0 -> afterTextChanged
+    45:81:java.util.List com.minimy.minimy.MainActivity.getVisibleApps():0:0 -> afterTextChanged
+    45:81:java.util.List com.minimy.minimy.MainActivity.access$700(com.minimy.minimy.MainActivity):0 -> afterTextChanged
+    45:81:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0 -> afterTextChanged
+    45:81:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
+    82:84:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0:0 -> afterTextChanged
+    82:84:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
+    85:87:com.minimy.minimy.AppAdapter com.minimy.minimy.MainActivity.access$602(com.minimy.minimy.MainActivity,com.minimy.minimy.AppAdapter):0:0 -> afterTextChanged
+    85:87:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0 -> afterTextChanged
+    85:87:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
+    88:92:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0:0 -> afterTextChanged
+    88:92:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
+    93:94:java.util.List com.minimy.minimy.MainActivity.access$800(com.minimy.minimy.MainActivity):0:0 -> afterTextChanged
     93:94:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0 -> afterTextChanged
     93:94:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
-    95:98:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0:0 -> afterTextChanged
-    95:98:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
+    95:132:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0:0 -> afterTextChanged
+    95:132:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
+    133:134:androidx.recyclerview.widget.RecyclerView com.minimy.minimy.MainActivity.access$900(com.minimy.minimy.MainActivity):0:0 -> afterTextChanged
+    133:134:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0 -> afterTextChanged
+    133:134:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
+    135:136:com.minimy.minimy.AppAdapter com.minimy.minimy.MainActivity.access$600(com.minimy.minimy.MainActivity):0:0 -> afterTextChanged
+    135:136:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0 -> afterTextChanged
+    135:136:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
+    137:140:void com.minimy.minimy.MainActivity$2.afterTextChanged(android.text.Editable):0:0 -> afterTextChanged
+    137:140:void afterTextChanged$bridge(android.text.Editable):0 -> afterTextChanged
     1:1:void beforeTextChanged$bridge(java.lang.CharSequence,int,int,int):0:0 -> beforeTextChanged
       # {"id":"com.android.tools.r8.synthesized"}
     11:12:void androidx.appcompat.widget.SearchView.onTextChanged(java.lang.CharSequence):0:0 -> onTextChanged
@@ -6346,17 +6334,20 @@ androidx.appcompat.widget.Toolbar$$ExternalSyntheticLambda0 -> g.v2:
     int androidx.appcompat.widget.Toolbar$$InternalSyntheticLambda$1$9d491c767e08664ee770b78946284ac791fb0c59871b12cb09771a4b9103b30a$0.$r8$classId -> a
       # {"id":"com.android.tools.r8.synthesized"}
     androidx.appcompat.widget.Toolbar androidx.appcompat.widget.Toolbar$$InternalSyntheticLambda$1$9d491c767e08664ee770b78946284ac791fb0c59871b12cb09771a4b9103b30a$0.f$0 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Landroid/view/KeyEvent$Callback;"}
       # {"id":"com.android.tools.r8.synthesized"}
     1:8:void androidx.appcompat.widget.Toolbar$$InternalSyntheticLambda$1$9d491c767e08664ee770b78946284ac791fb0c59871b12cb09771a4b9103b30a$0.<init>(androidx.appcompat.widget.Toolbar):0:0 -> <init>
-    1:8:void androidx.appcompat.widget.Toolbar$$InternalSyntheticLambda$1$9d491c767e08664ee770b78946284ac791fb0c59871b12cb09771a4b9103b30a$0.$r8$init$synthetic(androidx.appcompat.widget.Toolbar,int):0 -> <init>
+    1:8:void androidx.appcompat.widget.Toolbar$$InternalSyntheticLambda$1$9d491c767e08664ee770b78946284ac791fb0c59871b12cb09771a4b9103b30a$0.$r8$init$synthetic(android.view.KeyEvent$Callback,int):0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-    8:13:void androidx.appcompat.widget.Toolbar.collapseActionView():0:0 -> run
-    8:13:void androidx.appcompat.widget.Toolbar$$InternalSyntheticLambda$1$9d491c767e08664ee770b78946284ac791fb0c59871b12cb09771a4b9103b30a$0.run$bridge():0 -> run
+    10:39:void com.minimy.minimy.MainActivity.lambda$onLaunch$6():0:0 -> run
+    10:39:void androidx.appcompat.widget.Toolbar$$InternalSyntheticLambda$1$9d491c767e08664ee770b78946284ac791fb0c59871b12cb09771a4b9103b30a$0.run$bridge():0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+    40:45:void androidx.appcompat.widget.Toolbar.collapseActionView():0:0 -> run
+    40:45:void androidx.appcompat.widget.Toolbar$$InternalSyntheticLambda$1$9d491c767e08664ee770b78946284ac791fb0c59871b12cb09771a4b9103b30a$0.run$bridge():0 -> run
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-      # {"id":"com.android.tools.r8.synthesized"}
-    14:21:void androidx.appcompat.widget.Toolbar.collapseActionView():0:0 -> run
-    14:21:void androidx.appcompat.widget.Toolbar$$InternalSyntheticLambda$1$9d491c767e08664ee770b78946284ac791fb0c59871b12cb09771a4b9103b30a$0.run$bridge():0 -> run
-    22:26:void androidx.appcompat.widget.Toolbar$$InternalSyntheticLambda$1$9d491c767e08664ee770b78946284ac791fb0c59871b12cb09771a4b9103b30a$0.run$bridge():0:0 -> run
+    46:55:void androidx.appcompat.widget.Toolbar.collapseActionView():0:0 -> run
+    46:55:void androidx.appcompat.widget.Toolbar$$InternalSyntheticLambda$1$9d491c767e08664ee770b78946284ac791fb0c59871b12cb09771a4b9103b30a$0.run$bridge():0 -> run
+    56:60:void androidx.appcompat.widget.Toolbar$$InternalSyntheticLambda$1$9d491c767e08664ee770b78946284ac791fb0c59871b12cb09771a4b9103b30a$0.run$bridge():0:0 -> run
 androidx.appcompat.widget.Toolbar$1 -> g.w2:
 # {"id":"sourceFile","fileName":"Toolbar.java"}
     androidx.appcompat.widget.Toolbar this$0 -> a
@@ -15389,6 +15380,8 @@ androidx.recyclerview.widget.RecyclerView$Adapter -> e0.g0:
       # {"id":"com.android.tools.r8.residualsignature","signature":"I"}
     6:14:void androidx.recyclerview.widget.RecyclerView$AdapterDataObservable.<init>():0:0 -> <init>
     6:14:void <init>():0 -> <init>
+    androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroidx/recyclerview/widget/RecyclerView;)Lj0/d;"}
 androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy$EnumUnboxingSharedUtility -> e0.f0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -16129,100 +16122,104 @@ androidx.recyclerview.widget.RecyclerView$Recycler -> e0.w0:
     53:53:void androidx.core.os.TraceCompat.beginSection(java.lang.String):0:0 -> k
     53:53:androidx.recyclerview.widget.RecyclerView$ViewHolder androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(android.view.ViewGroup,int):0 -> k
     53:53:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    54:54:com.minimy.minimy.AppAdapter$ViewHolder com.minimy.minimy.AppAdapter.onCreateViewHolder(android.view.ViewGroup,int):0:0 -> k
-    54:54:androidx.recyclerview.widget.RecyclerView$ViewHolder com.minimy.minimy.AppAdapter.onCreateViewHolder(android.view.ViewGroup,int):0 -> k
-    54:54:androidx.recyclerview.widget.RecyclerView$ViewHolder androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(android.view.ViewGroup,int):0 -> k
+    54:54:androidx.recyclerview.widget.RecyclerView$ViewHolder androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(android.view.ViewGroup,int):0:0 -> k
     54:54:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    55:55:void com.minimy.minimy.AppAdapter$ViewHolder.<init>(android.widget.TextView):0:0 -> k
-    55:55:com.minimy.minimy.AppAdapter$ViewHolder com.minimy.minimy.AppAdapter.onCreateViewHolder(android.view.ViewGroup,int):0 -> k
-    55:55:androidx.recyclerview.widget.RecyclerView$ViewHolder com.minimy.minimy.AppAdapter.onCreateViewHolder(android.view.ViewGroup,int):0 -> k
+    55:55:void androidx.core.os.TraceCompat.endSection():0:0 -> k
     55:55:androidx.recyclerview.widget.RecyclerView$ViewHolder androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(android.view.ViewGroup,int):0 -> k
     55:55:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    56:56:androidx.recyclerview.widget.RecyclerView$ViewHolder androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(android.view.ViewGroup,int):0:0 -> k
-    56:56:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    57:57:void androidx.core.os.TraceCompat.endSection():0:0 -> k
-    57:57:androidx.recyclerview.widget.RecyclerView$ViewHolder androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(android.view.ViewGroup,int):0 -> k
+    56:56:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0:0 -> k
+    57:57:void androidx.recyclerview.widget.RecyclerView$RecycledViewPool.factorInCreateTime(int,long):0:0 -> k
     57:57:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    58:58:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0:0 -> k
-    59:59:void androidx.recyclerview.widget.RecyclerView$RecycledViewPool.factorInCreateTime(int,long):0:0 -> k
-    59:59:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    58:58:void androidx.recyclerview.widget.RecyclerView$RecycledViewPool.factorInCreateTime(int,long):0:0 -> k
+    58:58:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
+    59:59:long androidx.recyclerview.widget.RecyclerView$RecycledViewPool.runningAverage(long,long):0:0 -> k
+    59:59:void androidx.recyclerview.widget.RecyclerView$RecycledViewPool.factorInCreateTime(int,long):0 -> k
+    59:59:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
     60:60:void androidx.recyclerview.widget.RecyclerView$RecycledViewPool.factorInCreateTime(int,long):0:0 -> k
     60:60:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    61:61:long androidx.recyclerview.widget.RecyclerView$RecycledViewPool.runningAverage(long,long):0:0 -> k
-    61:61:void androidx.recyclerview.widget.RecyclerView$RecycledViewPool.factorInCreateTime(int,long):0 -> k
+    61:61:androidx.recyclerview.widget.RecyclerView$ViewHolder androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(android.view.ViewGroup,int):0:0 -> k
     61:61:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    62:62:void androidx.recyclerview.widget.RecyclerView$RecycledViewPool.factorInCreateTime(int,long):0:0 -> k
+    62:62:void androidx.core.os.TraceCompat.endSection():0:0 -> k
+    62:62:androidx.recyclerview.widget.RecyclerView$ViewHolder androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(android.view.ViewGroup,int):0 -> k
     62:62:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
     63:63:androidx.recyclerview.widget.RecyclerView$ViewHolder androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(android.view.ViewGroup,int):0:0 -> k
     63:63:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    64:64:void androidx.core.os.TraceCompat.endSection():0:0 -> k
-    64:64:androidx.recyclerview.widget.RecyclerView$ViewHolder androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(android.view.ViewGroup,int):0 -> k
-    64:64:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    65:65:androidx.recyclerview.widget.RecyclerView$ViewHolder androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(android.view.ViewGroup,int):0:0 -> k
+    64:64:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0:0 -> k
+    65:65:boolean androidx.recyclerview.widget.RecyclerView$State.isPreLayout():0:0 -> k
     65:65:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     66:66:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0:0 -> k
-    67:67:boolean androidx.recyclerview.widget.RecyclerView$State.isPreLayout():0:0 -> k
+    67:67:void androidx.recyclerview.widget.RecyclerView$ViewHolder.setFlags(int,int):0:0 -> k
     67:67:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     68:68:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0:0 -> k
-    69:69:void androidx.recyclerview.widget.RecyclerView$ViewHolder.setFlags(int,int):0:0 -> k
+    69:69:androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo androidx.recyclerview.widget.RecyclerView$ItemAnimator.obtainHolderInfo():0:0 -> k
+    69:69:androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo androidx.recyclerview.widget.RecyclerView$ItemAnimator.recordPreLayoutInformation(androidx.recyclerview.widget.RecyclerView$State,androidx.recyclerview.widget.RecyclerView$ViewHolder,int,java.util.List):0 -> k
     69:69:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    70:70:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0:0 -> k
-    71:71:androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo androidx.recyclerview.widget.RecyclerView$ItemAnimator.obtainHolderInfo():0:0 -> k
-    71:71:androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo androidx.recyclerview.widget.RecyclerView$ItemAnimator.recordPreLayoutInformation(androidx.recyclerview.widget.RecyclerView$State,androidx.recyclerview.widget.RecyclerView$ViewHolder,int,java.util.List):0 -> k
+    70:70:void androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo.<init>():0:0 -> k
+    70:70:androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo androidx.recyclerview.widget.RecyclerView$ItemAnimator.obtainHolderInfo():0 -> k
+    70:70:androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo androidx.recyclerview.widget.RecyclerView$ItemAnimator.recordPreLayoutInformation(androidx.recyclerview.widget.RecyclerView$State,androidx.recyclerview.widget.RecyclerView$ViewHolder,int,java.util.List):0 -> k
+    70:70:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
+    71:71:androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo androidx.recyclerview.widget.RecyclerView$ItemAnimator.recordPreLayoutInformation(androidx.recyclerview.widget.RecyclerView$State,androidx.recyclerview.widget.RecyclerView$ViewHolder,int,java.util.List):0:0 -> k
     71:71:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    72:72:void androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo.<init>():0:0 -> k
-    72:72:androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo androidx.recyclerview.widget.RecyclerView$ItemAnimator.obtainHolderInfo():0 -> k
-    72:72:androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo androidx.recyclerview.widget.RecyclerView$ItemAnimator.recordPreLayoutInformation(androidx.recyclerview.widget.RecyclerView$State,androidx.recyclerview.widget.RecyclerView$ViewHolder,int,java.util.List):0 -> k
-    72:72:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    73:73:androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo androidx.recyclerview.widget.RecyclerView$ItemAnimator.recordPreLayoutInformation(androidx.recyclerview.widget.RecyclerView$State,androidx.recyclerview.widget.RecyclerView$ViewHolder,int,java.util.List):0:0 -> k
+    72:72:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0:0 -> k
+    73:73:boolean androidx.recyclerview.widget.RecyclerView$State.isPreLayout():0:0 -> k
     73:73:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     74:74:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0:0 -> k
-    75:75:boolean androidx.recyclerview.widget.RecyclerView$State.isPreLayout():0:0 -> k
+    75:75:boolean androidx.recyclerview.widget.RecyclerView$ViewHolder.needsUpdate():0:0 -> k
     75:75:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     76:76:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0:0 -> k
-    77:77:boolean androidx.recyclerview.widget.RecyclerView$ViewHolder.needsUpdate():0:0 -> k
+    77:77:int androidx.recyclerview.widget.AdapterHelper.findPositionOffset(int):0:0 -> k
     77:77:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    78:78:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0:0 -> k
-    79:79:int androidx.recyclerview.widget.AdapterHelper.findPositionOffset(int):0:0 -> k
-    79:79:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    78:78:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0:0 -> k
+    78:78:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
+    79:79:int androidx.recyclerview.widget.RecyclerView$ViewHolder.getItemViewType():0:0 -> k
+    79:79:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0 -> k
+    79:79:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
     80:80:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0:0 -> k
     80:80:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    81:81:int androidx.recyclerview.widget.RecyclerView$ViewHolder.getItemViewType():0:0 -> k
+    81:81:boolean androidx.recyclerview.widget.RecyclerView$RecycledViewPool.willBindInTime(int,long,long):0:0 -> k
     81:81:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0 -> k
-    81:81:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    82:82:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0:0 -> k
-    82:82:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    83:83:boolean androidx.recyclerview.widget.RecyclerView$RecycledViewPool.willBindInTime(int,long,long):0:0 -> k
-    83:83:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0 -> k
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    81:81:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
+    82:82:boolean androidx.recyclerview.widget.RecyclerView$RecycledViewPool.willBindInTime(int,long,long):0:0 -> k
+    82:82:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0 -> k
+    82:82:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
+    83:83:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0:0 -> k
     83:83:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    84:84:boolean androidx.recyclerview.widget.RecyclerView$RecycledViewPool.willBindInTime(int,long,long):0:0 -> k
+    84:84:void androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0:0 -> k
     84:84:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0 -> k
     84:84:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    85:85:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0:0 -> k
+    85:85:void androidx.recyclerview.widget.RecyclerView$ViewHolder.setFlags(int,int):0:0 -> k
+    85:85:void androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0 -> k
+    85:85:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0 -> k
     85:85:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
     86:86:void androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0:0 -> k
     86:86:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0 -> k
     86:86:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    87:87:void androidx.recyclerview.widget.RecyclerView$ViewHolder.setFlags(int,int):0:0 -> k
+    87:87:void androidx.core.os.TraceCompat.beginSection(java.lang.String):0:0 -> k
     87:87:void androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0 -> k
     87:87:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0 -> k
     87:87:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
     88:88:void androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0:0 -> k
     88:88:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0 -> k
     88:88:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    89:89:void androidx.core.os.TraceCompat.beginSection(java.lang.String):0:0 -> k
+    89:89:void com.minimy.minimy.AppAdapter.onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0:0 -> k
+    89:89:void androidx.recyclerview.widget.RecyclerView$Adapter.onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,java.util.List):0 -> k
     89:89:void androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0 -> k
     89:89:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0 -> k
     89:89:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    90:90:void androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0:0 -> k
+    90:90:void com.minimy.minimy.AppAdapter.onBindViewHolder(com.minimy.minimy.AppAdapter$ViewHolder,int):0:0 -> k
+    90:90:void com.minimy.minimy.AppAdapter.onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0 -> k
+    90:90:void androidx.recyclerview.widget.RecyclerView$Adapter.onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,java.util.List):0 -> k
+    90:90:void androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0 -> k
     90:90:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0 -> k
     90:90:androidx.recyclerview.widget.RecyclerView$ViewHolder tryGetViewHolderForPositionByDeadline(int,boolean,long):0 -> k
-    91:91:void com.minimy.minimy.AppAdapter.onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0:0 -> k
+    91:91:int com.minimy.minimy.AppAdapter.getCategoryIcon(com.minimy.minimy.AppModel):0:0 -> k
+    91:91:void com.minimy.minimy.AppAdapter.onBindViewHolder(com.minimy.minimy.AppAdapter$ViewHolder,int):0 -> k
+    91:91:void com.minimy.minimy.AppAdapter.onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0 -> k
     91:91:void androidx.recyclerview.widget.RecyclerView$Adapter.onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,java.util.List):0 -> k
     91:91:void androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0 -> k
     91:91:boolean androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,int,long):0 -> k
@@ -18330,11 +18327,15 @@ com.minimy.minimy.AppAdapter -> j0.e:
     java.util.List appList -> c
     com.minimy.minimy.AppAdapter$OnAppActionListener actionListener -> d
       # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/c;"}
-    boolean isHome -> e
-    int sizePx -> f
-    android.content.pm.PackageManager pm -> g
-    1:1:void <init>(java.util.List,boolean,com.minimy.minimy.AppAdapter$OnAppActionListener):0:0 -> <init>
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/util/ArrayList;ZLj0/c;)V"}
+    1:1:void <clinit>():0:0 -> <clinit>
+    1:1:void <init>(java.util.List,boolean,com.minimy.minimy.AppAdapter$OnAppActionListener,android.content.pm.PackageManager,int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/util/ArrayList;Lj0/c;)V"}
+    1:63:com.minimy.minimy.AppAdapter$ViewHolder com.minimy.minimy.AppAdapter.onCreateViewHolder(android.view.ViewGroup,int):0:0 -> a
+    1:63:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int):0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroidx/recyclerview/widget/RecyclerView;)Lj0/d;"}
+    64:69:void com.minimy.minimy.AppAdapter$ViewHolder.<init>(android.widget.TextView):0:0 -> a
+    64:69:com.minimy.minimy.AppAdapter$ViewHolder com.minimy.minimy.AppAdapter.onCreateViewHolder(android.view.ViewGroup,int):0 -> a
+    64:69:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int):0 -> a
 com.minimy.minimy.AppAdapter$$ExternalSyntheticLambda0 -> j0.a:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -18354,9 +18355,9 @@ com.minimy.minimy.AppAdapter$$ExternalSyntheticLambda0 -> j0.a:
     7:12:void com.minimy.minimy.AppAdapter.lambda$onBindViewHolder$0(com.minimy.minimy.AppModel,android.view.View):0 -> onClick
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     7:12:void com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$0.onClick(android.view.View):0 -> onClick
-    13:24:void com.minimy.minimy.MainActivity.onLaunch(com.minimy.minimy.AppModel):0:0 -> onClick
-    13:24:void com.minimy.minimy.AppAdapter.lambda$onBindViewHolder$0(com.minimy.minimy.AppModel,android.view.View):0 -> onClick
-    13:24:void com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$0.onClick(android.view.View):0 -> onClick
+    13:44:void com.minimy.minimy.MainActivity.onLaunch(com.minimy.minimy.AppModel):0:0 -> onClick
+    13:44:void com.minimy.minimy.AppAdapter.lambda$onBindViewHolder$0(com.minimy.minimy.AppModel,android.view.View):0 -> onClick
+    13:44:void com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$0.onClick(android.view.View):0 -> onClick
 com.minimy.minimy.AppAdapter$$ExternalSyntheticLambda1 -> j0.b:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -18388,7 +18389,6 @@ com.minimy.minimy.AppModel -> j0.f:
 # {"id":"sourceFile","fileName":"AppModel.java"}
     java.lang.String label -> a
     java.lang.String packageName -> b
-    android.graphics.drawable.Drawable icon -> c
 com.minimy.minimy.MainActivity -> com.minimy.minimy.MainActivity:
 # {"id":"sourceFile","fileName":"MainActivity.java"}
     androidx.recyclerview.widget.RecyclerView recyclerView -> a
@@ -18401,36 +18401,35 @@ com.minimy.minimy.MainActivity -> com.minimy.minimy.MainActivity:
     java.util.List hiddenApps -> e
       # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/util/ArrayList;"}
     android.widget.TextView clockView -> f
-    android.widget.TextView btnAllApps -> g
-    android.os.Handler handler -> h
-    android.widget.EditText searchBar -> i
-    android.view.View dockView -> j
-    boolean isHomeState -> k
-    android.content.BroadcastReceiver packageReceiver -> l
+    android.widget.TextView batteryTextView -> g
+    android.widget.TextView btnAllApps -> h
+    android.os.Handler handler -> i
+    android.widget.EditText searchBar -> j
+    android.view.View dockView -> k
+    boolean isHomeState -> l
+    android.content.BroadcastReceiver packageReceiver -> m
       # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/j;"}
-    android.widget.TextView chargingView -> m
     int $r8$clinit -> n
       # {"id":"com.android.tools.r8.synthesized"}
-    1:1:java.util.List getVisibleApps():0:0 -> a
-      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/ArrayList;"}
-    46:48:void com.minimy.minimy.AppModel.<init>():0:0 -> b
-    46:48:void loadAllApps():0 -> b
-    49:78:void loadAllApps():0:0 -> b
-    1:1:void loadHiddenApps():0:0 -> c
-    1:1:void loadHomeApps():0:0 -> d
-    1:1:void saveHomeApps():0:0 -> e
-    1:1:void showAllApps():0:0 -> f
-    1:1:void showHome():0:0 -> g
-    98:158:void setupDock():0:0 -> onCreate
-    98:158:void onCreate(android.os.Bundle):0 -> onCreate
-    159:169:void onCreate(android.os.Bundle):0:0 -> onCreate
-    170:178:void startClock():0:0 -> onCreate
-    170:178:void onCreate(android.os.Bundle):0 -> onCreate
-    179:217:void setupPackageReceiver():0:0 -> onCreate
-    179:217:void onCreate(android.os.Bundle):0 -> onCreate
-    218:225:void setupSearch():0:0 -> onCreate
-    218:225:void onCreate(android.os.Bundle):0 -> onCreate
-    226:229:void onCreate(android.os.Bundle):0:0 -> onCreate
+    46:48:void com.minimy.minimy.AppModel.<init>():0:0 -> a
+    46:48:void loadAllApps():0 -> a
+    49:78:void loadAllApps():0:0 -> a
+    1:1:void loadHiddenApps():0:0 -> b
+    1:1:void loadHomeApps():0:0 -> c
+    1:1:void saveHomeApps():0:0 -> d
+    1:1:void showAllApps():0:0 -> e
+    62:87:void updateAdapter(java.util.List,boolean):0:0 -> f
+    62:87:void showHome():0 -> f
+    148:207:void setupDock():0:0 -> onCreate
+    148:207:void onCreate(android.os.Bundle):0 -> onCreate
+    208:218:void onCreate(android.os.Bundle):0:0 -> onCreate
+    219:227:void startClock():0:0 -> onCreate
+    219:227:void onCreate(android.os.Bundle):0 -> onCreate
+    228:266:void setupPackageReceiver():0:0 -> onCreate
+    228:266:void onCreate(android.os.Bundle):0 -> onCreate
+    267:274:void setupSearch():0:0 -> onCreate
+    267:274:void onCreate(android.os.Bundle):0 -> onCreate
+    275:278:void onCreate(android.os.Bundle):0:0 -> onCreate
 com.minimy.minimy.MainActivity$$ExternalSyntheticLambda0 -> j0.g:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -18454,8 +18453,8 @@ com.minimy.minimy.MainActivity$$ExternalSyntheticLambda0 -> j0.g:
     99:120:void com.minimy.minimy.MainActivity.lambda$setupDock$1(android.view.View):0:0 -> onClick
     99:120:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$0c3edcdfc208490934446b1b0e7fcf507516e8dcbe040bebd5d43cc0932ef64e$0.onClick$bridge(android.view.View):0 -> onClick
     121:122:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$0c3edcdfc208490934446b1b0e7fcf507516e8dcbe040bebd5d43cc0932ef64e$0.onClick$bridge(android.view.View):0:0 -> onClick
-    123:126:void com.minimy.minimy.MainActivity.lambda$onCreate$0(android.view.View):0:0 -> onClick
-    123:126:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$0c3edcdfc208490934446b1b0e7fcf507516e8dcbe040bebd5d43cc0932ef64e$0.onClick$bridge(android.view.View):0 -> onClick
+    123:128:void com.minimy.minimy.MainActivity.lambda$onCreate$0(android.view.View):0:0 -> onClick
+    123:128:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$0c3edcdfc208490934446b1b0e7fcf507516e8dcbe040bebd5d43cc0932ef64e$0.onClick$bridge(android.view.View):0 -> onClick
 com.minimy.minimy.MainActivity$$ExternalSyntheticLambda1 -> j0.h:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -18467,15 +18466,15 @@ com.minimy.minimy.MainActivity$$ExternalSyntheticLambda1 -> j0.h:
     1:1:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$0.<init>(com.minimy.minimy.MainActivity,com.minimy.minimy.AppModel):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/minimy/minimy/MainActivity;Lj0/f;)V"}
-    3:14:void com.minimy.minimy.MainActivity.lambda$onLongPress$6(com.minimy.minimy.AppModel,android.content.DialogInterface,int):0:0 -> onClick
+    3:14:void com.minimy.minimy.MainActivity.lambda$onLongPress$7(com.minimy.minimy.AppModel,android.content.DialogInterface,int):0:0 -> onClick
     3:14:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$0.onClick(android.content.DialogInterface,int):0 -> onClick
       # {"id":"com.android.tools.r8.synthesized"}
     15:16:void androidx.recyclerview.widget.RecyclerView$Adapter.notifyDataSetChanged():0:0 -> onClick
-    15:16:void com.minimy.minimy.MainActivity.lambda$onLongPress$6(com.minimy.minimy.AppModel,android.content.DialogInterface,int):0 -> onClick
+    15:16:void com.minimy.minimy.MainActivity.lambda$onLongPress$7(com.minimy.minimy.AppModel,android.content.DialogInterface,int):0 -> onClick
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     15:16:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$0.onClick(android.content.DialogInterface,int):0 -> onClick
     17:20:void androidx.recyclerview.widget.RecyclerView$Adapter.notifyDataSetChanged():0:0 -> onClick
-    17:20:void com.minimy.minimy.MainActivity.lambda$onLongPress$6(com.minimy.minimy.AppModel,android.content.DialogInterface,int):0 -> onClick
+    17:20:void com.minimy.minimy.MainActivity.lambda$onLongPress$7(com.minimy.minimy.AppModel,android.content.DialogInterface,int):0 -> onClick
     17:20:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$0.onClick(android.content.DialogInterface,int):0 -> onClick
 com.minimy.minimy.MainActivity$$ExternalSyntheticLambda2 -> j0.i:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
@@ -18490,18 +18489,18 @@ com.minimy.minimy.MainActivity$$ExternalSyntheticLambda2 -> j0.i:
     1:1:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.<init>(com.minimy.minimy.MainActivity,com.minimy.minimy.AppModel,boolean):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/minimy/minimy/MainActivity;Lj0/f;Z)V"}
-    9:121:void com.minimy.minimy.MainActivity.lambda$onLongPress$7(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
+    9:121:void com.minimy.minimy.MainActivity.lambda$onLongPress$8(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
     9:121:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.onClick(android.content.DialogInterface,int):0 -> onClick
       # {"id":"com.android.tools.r8.synthesized"}
     122:190:void com.minimy.minimy.MainActivity.saveHiddenApps():0:0 -> onClick
-    122:190:void com.minimy.minimy.MainActivity.lambda$onLongPress$7(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0 -> onClick
+    122:190:void com.minimy.minimy.MainActivity.lambda$onLongPress$8(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0 -> onClick
     122:190:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.onClick(android.content.DialogInterface,int):0 -> onClick
-    191:204:void com.minimy.minimy.MainActivity.lambda$onLongPress$7(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
+    191:204:void com.minimy.minimy.MainActivity.lambda$onLongPress$8(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
     191:204:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.onClick(android.content.DialogInterface,int):0 -> onClick
     205:206:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.onClick(android.content.DialogInterface,int):0:0 -> onClick
-    207:212:void com.minimy.minimy.MainActivity.$r8$lambda$jPidxtUIxOG_N9QkCXZJ06VJha4(com.minimy.minimy.MainActivity,com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
+    207:212:void com.minimy.minimy.MainActivity.$r8$lambda$Vv5FjKBA0XbqsE_lIZHod2i0kwo(com.minimy.minimy.MainActivity,com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
     207:212:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.onClick(android.content.DialogInterface,int):0 -> onClick
-    213:246:void com.minimy.minimy.MainActivity.lambda$onLongPress$7(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
+    213:246:void com.minimy.minimy.MainActivity.lambda$onLongPress$8(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
     213:246:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.onClick(android.content.DialogInterface,int):0 -> onClick
 com.minimy.minimy.MainActivity$1 -> j0.j:
 # {"id":"sourceFile","fileName":"MainActivity.java"}
@@ -18524,8 +18523,8 @@ com.minimy.minimy.MainActivity$1 -> j0.j:
     43:44:android.widget.EditText com.minimy.minimy.MainActivity.access$400(com.minimy.minimy.MainActivity):0:0 -> onReceive
     43:44:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
     45:56:void onReceive(android.content.Context,android.content.Intent):0:0 -> onReceive
-    57:60:void com.minimy.minimy.MainActivity.access$500(com.minimy.minimy.MainActivity):0:0 -> onReceive
-    57:60:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
+    57:61:void com.minimy.minimy.MainActivity.access$500(com.minimy.minimy.MainActivity):0:0 -> onReceive
+    57:61:void onReceive(android.content.Context,android.content.Intent):0 -> onReceive
 com.minimy.minimy.MainActivity$2 -> R8$$REMOVED$$CLASS$$145:
 # {"id":"sourceFile","fileName":"MainActivity.java"}
 com.minimy.minimy.MainActivity$3 -> R8$$REMOVED$$CLASS$$146:

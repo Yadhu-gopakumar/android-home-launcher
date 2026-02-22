@@ -4,18 +4,16 @@
     <application
         android:icon="@android:drawable/sym_def_app_icon"
         android:label="Minimy"
-        android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+        android:theme="@style/AppTheme">
         
         <activity
             android:name=".MainActivity"
+            android:theme="@style/AppTheme"
             android:exported="true" 
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"
-            android:excludeFromRecents="true"
-            android:windowSoftInputMode="adjustPan">
-            
-            <intent-filter>
+            android:windowSoftInputMode="adjustPan"> <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.HOME" />
                 <category android:name="android.intent.category.DEFAULT" />

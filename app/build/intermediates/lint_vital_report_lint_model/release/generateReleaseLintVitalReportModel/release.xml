@@ -1,5 +1,6 @@
 <variant
     name="release"
+    useSupportLibraryVectorDrawables="true"
     package="com.minimy.minimy"
     minSdkVersion="21"
     targetSdkVersion="33"

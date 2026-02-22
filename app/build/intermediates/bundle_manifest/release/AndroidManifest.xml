@@ -19,14 +19,14 @@
         android:extractNativeLibs="true"
         android:icon="@android:drawable/sym_def_app_icon"
         android:label="Minimy"
-        android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >
+        android:theme="@style/AppTheme" >
         <activity
             android:name="com.minimy.minimy.MainActivity"
             android:clearTaskOnLaunch="true"
-            android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask"
             android:stateNotNeeded="true"
+            android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustPan" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

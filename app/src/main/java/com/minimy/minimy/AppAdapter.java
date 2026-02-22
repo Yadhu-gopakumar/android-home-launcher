@@ -70,48 +70,54 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
         return new ViewHolder(tv);
     }
 
-    @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        AppModel app = appList.get(position);
-    
-        // 1. Set text to lowercase for that minimalist look
-        holder.tv.setText(app.label.toLowerCase());
-        
-        // 2. INCREASE FONT SIZE HERE
-        holder.tv.setTextSize(android.util.TypedValue.COMPLEX_UNIT_SP, 18); 
-        holder.tv.setTypeface(null, android.graphics.Typeface.BOLD); 
+   @Override
+public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    AppModel app = appList.get(position);
 
-        // 3. Instant-open click listener (Zero Animation)
-        holder.itemView.setOnClickListener(v -> {
-            Intent launchIntent = v.getContext().getPackageManager().getLaunchIntentForPackage(app.packageName);
-            if (launchIntent != null) {
-                launchIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                android.os.Bundle instantOpen = android.app.ActivityOptions.makeCustomAnimation(v.getContext(), 0, 0).toBundle();
-                v.getContext().startActivity(launchIntent, instantOpen);
-            }
-        });
+    // 1. Text Styling
+    holder.tv.setText(app.label.toLowerCase());
+    holder.tv.setTextSize(android.util.TypedValue.COMPLEX_UNIT_SP, 18); 
+    holder.tv.setTypeface(null, android.graphics.Typeface.BOLD); 
 
-        // ICON SETUP
-        int iconResId = getCategoryIcon(app);
-        try {
-            android.graphics.drawable.Drawable icon = androidx.appcompat.content.res.AppCompatResources.getDrawable(holder.tv.getContext(), iconResId);
-            if (icon != null) {
-                int iconSize = (int) (38 * holder.tv.getContext().getResources().getDisplayMetrics().density);
-                icon.setBounds(0, 0, iconSize, iconSize);
-                holder.tv.setCompoundDrawables(icon, null, null, null);
+    // 2. Updated Click Listener
+    holder.itemView.setOnClickListener(v -> {
+        Intent launchIntent = v.getContext().getPackageManager().getLaunchIntentForPackage(app.packageName);
+        if (launchIntent != null) {
+            launchIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            
+            // Instant-open bundle
+            android.os.Bundle instantOpen = android.app.ActivityOptions.makeCustomAnimation(v.getContext(), 0, 0).toBundle();
+            v.getContext().startActivity(launchIntent, instantOpen);
+
+            // ⚠️ THIS PART CLEARS THE SEARCH WHEN YOU RETURN
+            // We tell the listener (MainActivity) that an app was launched
+            if (actionListener != null) {
+                actionListener.onLaunch(app); 
             }
-        } catch (Exception e) {
-            e.printStackTrace();
         }
+    });
 
-        holder.tv.setCompoundDrawablePadding(20);
-
-        // KEEP LONG-PRESS (For uninstalling/hiding apps)
-        holder.tv.setOnLongClickListener(v -> {
-            actionListener.onLongPress(app);
-            return true;
-        });
+    // 3. Icon Setup
+    int iconResId = getCategoryIcon(app);
+    try {
+        android.graphics.drawable.Drawable icon = androidx.appcompat.content.res.AppCompatResources.getDrawable(holder.tv.getContext(), iconResId);
+        if (icon != null) {
+            int iconSize = (int) (38 * holder.tv.getContext().getResources().getDisplayMetrics().density);
+            icon.setBounds(0, 0, iconSize, iconSize);
+            holder.tv.setCompoundDrawables(icon, null, null, null);
+        }
+    } catch (Exception e) {
+        e.printStackTrace();
     }
+
+    holder.tv.setCompoundDrawablePadding(20);
+
+    // 4. Long Press
+    holder.tv.setOnLongClickListener(v -> {
+        actionListener.onLongPress(app);
+        return true;
+    });
+}
 
     private int getCategoryIcon(AppModel app) {
         String pkg = app.packageName.toLowerCase();
@@ -127,6 +133,9 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
             return R.drawable.ic_telegram;
         }
         if (pkg.contains("instagram") || pkg.contains(".x.")) {
+            return R.drawable.ic_instagram;
+        }
+        if (pkg.contains(".x.")) {
             return R.drawable.ic_x;
         }
         if (pkg.contains("linkedin") || pkg.contains("linkdin")) {
@@ -137,7 +146,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
         }
 
         // --- Google & Productivity ---
-        if (pkg.contains("com.google.android.gm")) {
+        if (pkg.contains("com.google.android.gm")||pkg.contains("email")) {
             return R.drawable.ic_gmail;
         }
         if (pkg.contains("chrome")) {
@@ -146,8 +155,11 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
         if (pkg.contains("drive")) {
             return R.drawable.ic_drive;
         }
-        if (pkg.contains("google.android.apps.photos") || pkg.contains("gallery")) {
+        if (pkg.contains("google.android.apps.photos")) {
             return R.drawable.ic_photos;
+        }
+        if (pkg.contains("albums") || pkg.contains("gallery")) {
+            return R.drawable.ic_gallery;
         }
         if (pkg.contains("gmap") || pkg.contains("maps")) {
             return R.drawable.ic_gmap;
@@ -183,7 +195,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
         if (pkg.contains("settings")) {
             return R.drawable.ic_settings;
         }
-        if (pkg.contains("security") || pkg.contains("safecenter")) {
+        if (pkg.contains("security") || pkg.contains("imanager")) {
             return R.drawable.ic_security;
         }
         if (pkg.contains("camera")) {
@@ -201,6 +213,9 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
         if (pkg.contains("weather")) {
             return R.drawable.ic_weather;
         }
+        if (pkg.contains("gboard")) {
+            return R.drawable.ic_keyboard;
+        }
         if (pkg.contains("filemanager") || pkg.contains("documentsui")) {
             return R.drawable.ic_filemanager;
         }
@@ -209,6 +224,9 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
         }
         if (pkg.contains("contact")) {
             return R.drawable.ic_contacts;
+        }
+        if (pkg.contains("compass")) {
+            return R.drawable.ic_compass;
         }
         if (pkg.contains("message") || pkg.contains("mms")) {
             return R.drawable.ic_message;
@@ -222,7 +240,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
             return R.drawable.ic_vlc;
         }
         if (pkg.contains("spotify") || pkg.contains("music") || pkg.contains("intertune")) {
-            return R.drawable.ic_music;
+            return R.drawable.ic_intertune;
         }
         if (pkg.contains("video")) {
             return R.drawable.ic_video;
@@ -230,9 +248,12 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
         if (pkg.contains("game")) {
             return R.drawable.ic_game;
         }
+        if (pkg.contains("vivo")) {
+            return R.drawable.ic_cloude;
+        }
 
         // --- Other Categories ---
-        if (pkg.contains("upi") || pkg.contains("paisa")) {
+        if (pkg.contains("upi") || pkg.contains("paisa") || pkg.contains("phonepa") || pkg.contains("paytm")) {
             return R.drawable.ic_upi;
         }
         if (pkg.contains("pdf")) {

@@ -458,28 +458,30 @@ public class MainActivity extends Activity implements AppAdapter.OnAppActionList
         });
     }
 
-    @Override
-    public void onLaunch(AppModel app) {
-        // 1. Launch the app IMMEDIATELY (Highest Priority)
-        Intent i = getPackageManager().getLaunchIntentForPackage(app.packageName);
-        if (i != null) {
-            startActivity(i);
-        }
-
-        // 2. Perform UI cleanup after a short delay (Lower Priority)
-        if (!isHomeState) {
-            new Handler().postDelayed(() -> {
-                // Clear search text
-                searchBar.setText("");
-
-                // Hide keyboard
-                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-                if (imm != null) {
-                    imm.hideSoftInputFromWindow(searchBar.getWindowToken(), 0);
-                }
-            }, 300); // 300ms delay ensures the app is already opening
-        }
+   @Override
+public void onLaunch(AppModel app) {
+    // 1. Launch the app IMMEDIATELY with the Zero-Animation hack
+    Intent i = getPackageManager().getLaunchIntentForPackage(app.packageName);
+    if (i != null) {
+        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        android.os.Bundle instantOpen = android.app.ActivityOptions.makeCustomAnimation(this, 0, 0).toBundle();
+        startActivity(i, instantOpen);
     }
+
+    // 2. Perform UI cleanup WITHOUT leaving the All Apps page
+    if (!isHomeState) {
+        // Clear the text so the full app list returns
+        searchBar.setText("");
+
+        // Hide the keyboard so it's not blocking the list when you return
+        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        if (imm != null && searchBar != null) {
+            imm.hideSoftInputFromWindow(searchBar.getWindowToken(), 0);
+        }
+        
+        // Note: We REMOVED showHome() here so you stay in the app drawer
+    }
+}
 
     @Override
     public void onLongPress(AppModel app) {

@@ -129,47 +129,52 @@ Marking id:btn_contacts:2131230788 reachable: referenced from /media/yadhu/hdisk
 Marking id:btn_music:2131230791 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:btn_messages:2131230790 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:nestedScrollViewStyle:2130903230 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_whatsapp:2131165329 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_telegram:2131165322 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_pinterst:2131165316 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_gmail:2131165301 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_chrome:2131165282 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_drive:2131165291 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_google:2131165303 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_googleapps:2131165304 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_chatgpt:2131165281 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_deepseek:2131165288 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_gemini:2131165299 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_github:2131165300 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_flutter:2131165295 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_settings:2131165319 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_camera:2131165280 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_calculator:2131165278 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_calnder:2131165279 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_weather:2131165327 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_contacts:2131165287 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_youtube:2131165331 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_vlc:2131165326 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_video:2131165325 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_game:2131165297 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_pdf:2131165313 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_notes:2131165311 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_browsers:2131165275 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_android:2131165273 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_default_apps:2131165289 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_upi:2131165324 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_music:2131165310 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_message:2131165309 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_phone:2131165314 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_filemanager:2131165293 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_clock:2131165283 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_security:2131165318 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_playstore:2131165317 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_gmap:2131165302 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_photos:2131165315 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_linkdin:2131165307 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_x:2131165330 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_fb:2131165292 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_whatsapp:2131165320 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_telegram:2131165314 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_x:2131165321 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_pinterst:2131165309 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_chrome:2131165279 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_drive:2131165287 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_photos:2131165308 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_google:2131165297 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_googleapps:2131165298 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_chatgpt:2131165278 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_deepseek:2131165285 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_gemini:2131165293 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_github:2131165294 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_flutter:2131165290 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_settings:2131165312 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_camera:2131165277 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_calculator:2131165275 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_calnder:2131165276 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_weather:2131165319 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_keyboard:2131165301 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_contacts:2131165284 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_compass:2131165282 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_youtube:2131165322 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_vlc:2131165318 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_video:2131165317 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_game:2131165292 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_cloude:2131165281 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_pdf:2131165306 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_notes:2131165305 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_browsers:2131165274 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_android:2131165272 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_default_apps:2131165286 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_upi:2131165316 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_intertune:2131165300 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_message:2131165303 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_phone:2131165307 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_filemanager:2131165289 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_clock:2131165280 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_security:2131165311 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_playstore:2131165310 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_gmap:2131165296 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_gallery:2131165291 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_gmail:2131165295 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_linkdin:2131165302 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_instagram:2131165299 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_fb:2131165288 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:actionOverflowMenuStyle:2130903072 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_config_prefDialogWidth:2131099671 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_cascading_menu_item_layout:2131427339 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -249,6 +254,7 @@ drive
 TraceCompat
 android.speech.extra.LANGUAGE_MODEL
 removeItemAt
+albums
 setNextSelectedPositionInt
 kotlin.internal.JRE7PlatformImplement...
 emoji2.text.DefaultEmojiConfig
@@ -299,6 +305,7 @@ _queue
 autoMirrored
 RESULT_OK
 hidden_apps.txt
+vivo
 ACTION_SCROLL_FORWARD
 androidx.core.view.inputmethod.Editor...
 add
@@ -421,6 +428,7 @@ _cur
 mOverlapAnchor
 com.android.chrome
 font_italic
+compass
 _id
 objectAnimator
 nm
@@ -453,13 +461,13 @@ UNKNOWN
 /proc/self/fd/
 ACTION_PASTE
 android.graphics.FontFamily
+imanager
 valueTo
 suggest_icon_1
 suggest_icon_2
 accessibility
 endColor
 android.media.action.STILL_IMAGE_CAMERA
-safecenter
 suggest_intent_extra_data
 instagram
 createAsync
@@ -494,6 +502,7 @@ vector
 ACTION_SCROLL_TO_POSITION
 chatgpt
 key
+email
 ACTION_SELECT
 RESOURCE
 calendar
@@ -620,6 +629,7 @@ ViewConfigCompat
 INITIALIZED
 mContentInsets
 producerIndex
+phonepa
 ACTION_DRAG_START
 suggest_intent_data_id
 .x.
@@ -628,11 +638,13 @@ fraction
 nullLayouts
 .immediate
 elements
+paytm
 ACTION_SET_TEXT
 strokeAlpha
 URI_MASKABLE
 ON_CREATE
 kotlinx.coroutines.fast.service.loader
+gboard
 EmojiCompatInitializer
 com.mta.intertune
 ON_RESUME
@@ -1623,47 +1635,40 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
     @anim/btn_radio_to_off_mtrl_ring_outer_path_animation
     @anim/btn_radio_to_off_mtrl_dot_group_animation
 @drawable/dock_bg : reachable=false
-@drawable/ic_ai : reachable=false
 @drawable/ic_android : reachable=true
 @drawable/ic_authenticator : reachable=false
 @drawable/ic_browsers : reachable=true
-@drawable/ic_bus : reachable=false
-@drawable/ic_calc : reachable=false
 @drawable/ic_calculator : reachable=true
 @drawable/ic_calnder : reachable=true
 @drawable/ic_camera : reachable=true
 @drawable/ic_chatgpt : reachable=true
 @drawable/ic_chrome : reachable=true
 @drawable/ic_clock : reachable=true
-@drawable/ic_cloude : reachable=false
-@drawable/ic_compass : reachable=false
+@drawable/ic_cloude : reachable=true
+@drawable/ic_compass : reachable=true
 @drawable/ic_contact : reachable=false
 @drawable/ic_contacts : reachable=true
 @drawable/ic_deepseek : reachable=true
 @drawable/ic_default_apps : reachable=true
-@drawable/ic_default_bullet : reachable=false
 @drawable/ic_drive : reachable=true
 @drawable/ic_fb : reachable=true
 @drawable/ic_filemanager : reachable=true
-@drawable/ic_files : reachable=false
 @drawable/ic_flutter : reachable=true
-@drawable/ic_gallery : reachable=false
+@drawable/ic_gallery : reachable=true
 @drawable/ic_game : reachable=true
-@drawable/ic_games : reachable=false
 @drawable/ic_gemini : reachable=true
 @drawable/ic_github : reachable=true
 @drawable/ic_gmail : reachable=true
 @drawable/ic_gmap : reachable=true
 @drawable/ic_google : reachable=true
 @drawable/ic_googleapps : reachable=true
-@drawable/ic_intertune : reachable=false
-@drawable/ic_keyboard : reachable=false
+@drawable/ic_instagram : reachable=true
+@drawable/ic_intertune : reachable=true
+@drawable/ic_keyboard : reachable=true
 @drawable/ic_linkdin : reachable=true
-@drawable/ic_mail : reachable=false
 @drawable/ic_message : reachable=true
-@drawable/ic_music : reachable=true
+@drawable/ic_music : reachable=false
 @drawable/ic_notes : reachable=true
-@drawable/ic_paint : reachable=false
 @drawable/ic_pdf : reachable=true
 @drawable/ic_phone : reachable=true
 @drawable/ic_photos : reachable=true
@@ -1671,7 +1676,6 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
 @drawable/ic_playstore : reachable=true
 @drawable/ic_security : reachable=true
 @drawable/ic_settings : reachable=true
-@drawable/ic_social : reachable=false
 @drawable/ic_spotify : reachable=false
 @drawable/ic_telegram : reachable=true
 @drawable/ic_uber : reachable=false
@@ -1679,7 +1683,6 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
 @drawable/ic_video : reachable=true
 @drawable/ic_vlc : reachable=true
 @drawable/ic_weather : reachable=true
-@drawable/ic_web : reachable=false
 @drawable/ic_whatsapp : reachable=true
 @drawable/ic_x : reachable=true
 @drawable/ic_youtube : reachable=true
@@ -3703,47 +3706,52 @@ The root reachable resources are:
  drawable:abc_textfield_search_default_mtrl_alpha:2131165260
  drawable:abc_textfield_search_material:2131165261
  drawable:abc_vector_test:2131165262
- drawable:ic_android:2131165273
- drawable:ic_browsers:2131165275
- drawable:ic_calculator:2131165278
- drawable:ic_calnder:2131165279
- drawable:ic_camera:2131165280
- drawable:ic_chatgpt:2131165281
- drawable:ic_chrome:2131165282
- drawable:ic_clock:2131165283
- drawable:ic_contacts:2131165287
- drawable:ic_deepseek:2131165288
- drawable:ic_default_apps:2131165289
- drawable:ic_drive:2131165291
- drawable:ic_fb:2131165292
- drawable:ic_filemanager:2131165293
- drawable:ic_flutter:2131165295
- drawable:ic_game:2131165297
- drawable:ic_gemini:2131165299
- drawable:ic_github:2131165300
- drawable:ic_gmail:2131165301
- drawable:ic_gmap:2131165302
- drawable:ic_google:2131165303
- drawable:ic_googleapps:2131165304
- drawable:ic_linkdin:2131165307
- drawable:ic_message:2131165309
- drawable:ic_music:2131165310
- drawable:ic_notes:2131165311
- drawable:ic_pdf:2131165313
- drawable:ic_phone:2131165314
- drawable:ic_photos:2131165315
- drawable:ic_pinterst:2131165316
- drawable:ic_playstore:2131165317
- drawable:ic_security:2131165318
- drawable:ic_settings:2131165319
- drawable:ic_telegram:2131165322
- drawable:ic_upi:2131165324
- drawable:ic_video:2131165325
- drawable:ic_vlc:2131165326
- drawable:ic_weather:2131165327
- drawable:ic_whatsapp:2131165329
- drawable:ic_x:2131165330
- drawable:ic_youtube:2131165331
+ drawable:ic_android:2131165272
+ drawable:ic_browsers:2131165274
+ drawable:ic_calculator:2131165275
+ drawable:ic_calnder:2131165276
+ drawable:ic_camera:2131165277
+ drawable:ic_chatgpt:2131165278
+ drawable:ic_chrome:2131165279
+ drawable:ic_clock:2131165280
+ drawable:ic_cloude:2131165281
+ drawable:ic_compass:2131165282
+ drawable:ic_contacts:2131165284
+ drawable:ic_deepseek:2131165285
+ drawable:ic_default_apps:2131165286
+ drawable:ic_drive:2131165287
+ drawable:ic_fb:2131165288
+ drawable:ic_filemanager:2131165289
+ drawable:ic_flutter:2131165290
+ drawable:ic_gallery:2131165291
+ drawable:ic_game:2131165292
+ drawable:ic_gemini:2131165293
+ drawable:ic_github:2131165294
+ drawable:ic_gmail:2131165295
+ drawable:ic_gmap:2131165296
+ drawable:ic_google:2131165297
+ drawable:ic_googleapps:2131165298
+ drawable:ic_instagram:2131165299
+ drawable:ic_intertune:2131165300
+ drawable:ic_keyboard:2131165301
+ drawable:ic_linkdin:2131165302
+ drawable:ic_message:2131165303
+ drawable:ic_notes:2131165305
+ drawable:ic_pdf:2131165306
+ drawable:ic_phone:2131165307
+ drawable:ic_photos:2131165308
+ drawable:ic_pinterst:2131165309
+ drawable:ic_playstore:2131165310
+ drawable:ic_security:2131165311
+ drawable:ic_settings:2131165312
+ drawable:ic_telegram:2131165314
+ drawable:ic_upi:2131165316
+ drawable:ic_video:2131165317
+ drawable:ic_vlc:2131165318
+ drawable:ic_weather:2131165319
+ drawable:ic_whatsapp:2131165320
+ drawable:ic_x:2131165321
+ drawable:ic_youtube:2131165322
  id:accessibility_action_clickable_span:2131230726
  id:accessibility_custom_action_0:2131230727
  id:accessibility_custom_action_1:2131230728
@@ -4067,41 +4075,27 @@ Unused resources are:
  drawable:abc_list_selector_disabled_holo_light:2131165229
  drawable:abc_list_selector_holo_dark:2131165230
  drawable:abc_list_selector_holo_light:2131165231
- drawable:ic_ai:2131165272
- drawable:ic_authenticator:2131165274
- drawable:ic_bus:2131165276
- drawable:ic_calc:2131165277
- drawable:ic_cloude:2131165284
- drawable:ic_compass:2131165285
- drawable:ic_contact:2131165286
- drawable:ic_default_bullet:2131165290
- drawable:ic_files:2131165294
- drawable:ic_gallery:2131165296
- drawable:ic_games:2131165298
- drawable:ic_intertune:2131165305
- drawable:ic_keyboard:2131165306
- drawable:ic_mail:2131165308
- drawable:ic_paint:2131165312
- drawable:ic_social:2131165320
- drawable:ic_spotify:2131165321
- drawable:ic_uber:2131165323
- drawable:ic_web:2131165328
- drawable:notification_action_background:2131165333
- drawable:notification_bg:2131165334
- drawable:notification_bg_low:2131165335
- drawable:notification_bg_low_normal:2131165336
- drawable:notification_bg_low_pressed:2131165337
- drawable:notification_bg_normal:2131165338
- drawable:notification_bg_normal_pressed:2131165339
- drawable:notification_icon_background:2131165340
- drawable:notification_template_icon_bg:2131165341
- drawable:notification_template_icon_low_bg:2131165342
- drawable:notification_tile_bg:2131165343
- drawable:notify_panel_notification_icon_bg:2131165344
- drawable:search_bg:2131165345
- drawable:test_level_drawable:2131165346
- drawable:tooltip_frame_dark:2131165347
- drawable:tooltip_frame_light:2131165348
+ drawable:ic_authenticator:2131165273
+ drawable:ic_contact:2131165283
+ drawable:ic_music:2131165304
+ drawable:ic_spotify:2131165313
+ drawable:ic_uber:2131165315
+ drawable:notification_action_background:2131165324
+ drawable:notification_bg:2131165325
+ drawable:notification_bg_low:2131165326
+ drawable:notification_bg_low_normal:2131165327
+ drawable:notification_bg_low_pressed:2131165328
+ drawable:notification_bg_normal:2131165329
+ drawable:notification_bg_normal_pressed:2131165330
+ drawable:notification_icon_background:2131165331
+ drawable:notification_template_icon_bg:2131165332
+ drawable:notification_template_icon_low_bg:2131165333
+ drawable:notification_tile_bg:2131165334
+ drawable:notify_panel_notification_icon_bg:2131165335
+ drawable:search_bg:2131165336
+ drawable:test_level_drawable:2131165337
+ drawable:tooltip_frame_dark:2131165338
+ drawable:tooltip_frame_light:2131165339
  id:ALT:2131230720
  id:CTRL:2131230721
  id:FUNCTION:2131230722
@@ -4659,26 +4653,11 @@ Skipped unused resource res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_li
 Skipped unused resource res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png: 258 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable/abc_list_selector_holo_dark.xml: 1430 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/abc_list_selector_holo_light.xml: 1430 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_ai.xml: 757 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_authenticator.png: 1230 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable/ic_bus.xml: 981 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_calc.xml: 871 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-nodpi-v4/ic_cloude.png: 1551 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-nodpi-v4/ic_compass.png: 1409 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_contact.png: 793 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable/ic_default_bullet.xml: 630 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_files.xml: 761 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_gallery.xml: 785 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-nodpi-v4/ic_gallery.png: 529 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable/ic_games.xml: 853 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-nodpi-v4/ic_intertune.png: 849 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-nodpi-v4/ic_keyboard.png: 696 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable/ic_mail.xml: 807 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_paint.xml: 819 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_social.xml: 753 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-nodpi-v4/ic_music.png: 1133 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_spotify.png: 1477 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-nodpi-v4/ic_uber.png: 509 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable/ic_web.xml: 893 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-v21/notification_action_background.xml: 1152 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/notification_bg.xml: 482 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/notification_bg_low.xml: 482 bytes (replaced with small dummy file of size 9 bytes)

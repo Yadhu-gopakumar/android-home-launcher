@@ -23,6 +23,7 @@ android {
     }
     buildTypes {
         release {
+            signingConfig signingConfigs.debug
             minifyEnabled true      // Highly recommended for < 1MB APK
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt')

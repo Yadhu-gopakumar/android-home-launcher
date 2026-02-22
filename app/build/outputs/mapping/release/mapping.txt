@@ -3,8 +3,8 @@
 # min_api: 21
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.2"}
-# pg_map_id: 49dca79
-# pg_map_hash: SHA-256 49dca796aa81ab5b150fe98a0688fc0c383cbb95e69d4e29e204cf6afdbdbbb2
+# pg_map_id: 0eab21c
+# pg_map_hash: SHA-256 0eab21c1d8b0c75bf149c390f4fae74a6922ab7143b87db30998a90f6546edaf
 android.support.v4.app.RemoteActionCompatParcelizer -> android.support.v4.app.RemoteActionCompatParcelizer:
 # {"id":"sourceFile","fileName":"RemoteActionCompatParcelizer.java"}
     1:1:androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel):0:0 -> read
@@ -15381,7 +15381,7 @@ androidx.recyclerview.widget.RecyclerView$Adapter -> e0.g0:
     6:14:void androidx.recyclerview.widget.RecyclerView$AdapterDataObservable.<init>():0:0 -> <init>
     6:14:void <init>():0 -> <init>
     androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> a
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroidx/recyclerview/widget/RecyclerView;)Lj0/d;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroidx/recyclerview/widget/RecyclerView;)Lj0/c;"}
 androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy$EnumUnboxingSharedUtility -> e0.f0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -18322,49 +18322,34 @@ androidx.versionedparcelable.VersionedParcelParcel -> i0.b:
     38:44:void setOutputField(int):0 -> h
 androidx.versionedparcelable.VersionedParcelable -> i0.c:
 # {"id":"sourceFile","fileName":"VersionedParcelable.java"}
-com.minimy.minimy.AppAdapter -> j0.e:
+com.minimy.minimy.AppAdapter -> j0.d:
 # {"id":"sourceFile","fileName":"AppAdapter.java"}
     java.util.List appList -> c
     com.minimy.minimy.AppAdapter$OnAppActionListener actionListener -> d
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/c;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/b;"}
+    int $r8$clinit -> e
+      # {"id":"com.android.tools.r8.synthesized"}
     1:1:void <clinit>():0:0 -> <clinit>
     1:1:void <init>(java.util.List,boolean,com.minimy.minimy.AppAdapter$OnAppActionListener,android.content.pm.PackageManager,int):0:0 -> <init>
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/util/ArrayList;Lj0/c;)V"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/util/ArrayList;Lj0/b;)V"}
     1:63:com.minimy.minimy.AppAdapter$ViewHolder com.minimy.minimy.AppAdapter.onCreateViewHolder(android.view.ViewGroup,int):0:0 -> a
     1:63:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int):0 -> a
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroidx/recyclerview/widget/RecyclerView;)Lj0/d;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroidx/recyclerview/widget/RecyclerView;)Lj0/c;"}
     64:69:void com.minimy.minimy.AppAdapter$ViewHolder.<init>(android.widget.TextView):0:0 -> a
     64:69:com.minimy.minimy.AppAdapter$ViewHolder com.minimy.minimy.AppAdapter.onCreateViewHolder(android.view.ViewGroup,int):0 -> a
     64:69:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int):0 -> a
 com.minimy.minimy.AppAdapter$$ExternalSyntheticLambda0 -> j0.a:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    int com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$0.$r8$classId -> a
-      # {"id":"com.android.tools.r8.synthesized"}
-    com.minimy.minimy.AppModel com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$0.f$0 -> b
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/lang/Object;"}
-      # {"id":"com.android.tools.r8.synthesized"}
-    1:8:void com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$0.<init>(com.minimy.minimy.AppModel):0:0 -> <init>
-    1:8:void com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$0.$r8$init$synthetic(java.lang.Object,int):0 -> <init>
-      # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(ILjava/lang/Object;)V"}
-    12:17:void com.minimy.minimy.MainActivity.lambda$onCreate$2(android.view.View):0:0 -> onClick
-    12:17:void com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$0.onClick$bridge(android.view.View):0 -> onClick
-      # {"id":"com.android.tools.r8.synthesized"}
-    18:60:void com.minimy.minimy.AppAdapter.lambda$onBindViewHolder$0(com.minimy.minimy.AppModel,android.view.View):0:0 -> onClick
-    18:60:void com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$0.onClick$bridge(android.view.View):0 -> onClick
-com.minimy.minimy.AppAdapter$$ExternalSyntheticLambda1 -> j0.b:
-# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
-# {"id":"com.android.tools.r8.synthesized"}
     com.minimy.minimy.AppAdapter com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$1.f$0 -> a
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/e;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/d;"}
       # {"id":"com.android.tools.r8.synthesized"}
     com.minimy.minimy.AppModel com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$1.f$1 -> b
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/f;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/e;"}
       # {"id":"com.android.tools.r8.synthesized"}
     1:1:void com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$1.<init>(com.minimy.minimy.AppAdapter,com.minimy.minimy.AppModel):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lj0/e;Lj0/f;)V"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lj0/d;Lj0/e;)V"}
     3:6:boolean com.minimy.minimy.AppAdapter.lambda$onBindViewHolder$1(com.minimy.minimy.AppModel,android.view.View):0:0 -> onLongClick
     3:6:boolean com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$1.onLongClick(android.view.View):0 -> onLongClick
       # {"id":"com.android.tools.r8.synthesized"}
@@ -18375,12 +18360,12 @@ com.minimy.minimy.AppAdapter$$ExternalSyntheticLambda1 -> j0.b:
     14:117:void com.minimy.minimy.MainActivity.onLongPress(com.minimy.minimy.AppModel):0:0 -> onLongClick
     14:117:boolean com.minimy.minimy.AppAdapter.lambda$onBindViewHolder$1(com.minimy.minimy.AppModel,android.view.View):0 -> onLongClick
     14:117:boolean com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$1.onLongClick(android.view.View):0 -> onLongClick
-com.minimy.minimy.AppAdapter$OnAppActionListener -> j0.c:
+com.minimy.minimy.AppAdapter$OnAppActionListener -> j0.b:
 # {"id":"sourceFile","fileName":"AppAdapter.java"}
-com.minimy.minimy.AppAdapter$ViewHolder -> j0.d:
+com.minimy.minimy.AppAdapter$ViewHolder -> j0.c:
 # {"id":"sourceFile","fileName":"AppAdapter.java"}
     android.widget.TextView tv -> u
-com.minimy.minimy.AppModel -> j0.f:
+com.minimy.minimy.AppModel -> j0.e:
 # {"id":"sourceFile","fileName":"AppModel.java"}
     java.lang.String label -> a
     java.lang.String packageName -> b
@@ -18388,7 +18373,7 @@ com.minimy.minimy.MainActivity -> com.minimy.minimy.MainActivity:
 # {"id":"sourceFile","fileName":"MainActivity.java"}
     androidx.recyclerview.widget.RecyclerView recyclerView -> a
     com.minimy.minimy.AppAdapter adapter -> b
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/e;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/d;"}
     java.util.List allApps -> c
       # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/util/ArrayList;"}
     java.util.List homeApps -> d
@@ -18425,7 +18410,7 @@ com.minimy.minimy.MainActivity -> com.minimy.minimy.MainActivity:
     304:311:void setupSearch():0:0 -> onCreate
     304:311:void onCreate(android.os.Bundle):0 -> onCreate
     312:315:void onCreate(android.os.Bundle):0:0 -> onCreate
-com.minimy.minimy.MainActivity$$ExternalSyntheticLambda0 -> j0.g:
+com.minimy.minimy.MainActivity$$ExternalSyntheticLambda0 -> j0.f:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
     com.minimy.minimy.MainActivity com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$0c3edcdfc208490934446b1b0e7fcf507516e8dcbe040bebd5d43cc0932ef64e$1.f$0 -> a
@@ -18437,77 +18422,99 @@ com.minimy.minimy.MainActivity$$ExternalSyntheticLambda0 -> j0.g:
     15:99:boolean com.minimy.minimy.MainActivity.lambda$onCreate$1(android.widget.EditText,android.widget.TextView,int,android.view.KeyEvent):0:0 -> onEditorAction
     15:99:boolean com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$0c3edcdfc208490934446b1b0e7fcf507516e8dcbe040bebd5d43cc0932ef64e$1.onEditorAction(android.widget.TextView,int,android.view.KeyEvent):0 -> onEditorAction
       # {"id":"com.android.tools.r8.synthesized"}
-com.minimy.minimy.MainActivity$$ExternalSyntheticLambda1 -> j0.h:
+com.minimy.minimy.MainActivity$$ExternalSyntheticLambda1 -> j0.g:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.minimy.minimy.MainActivity com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$0c3edcdfc208490934446b1b0e7fcf507516e8dcbe040bebd5d43cc0932ef64e$2.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$0c3edcdfc208490934446b1b0e7fcf507516e8dcbe040bebd5d43cc0932ef64e$2.<init>(com.minimy.minimy.MainActivity):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    5:8:void com.minimy.minimy.MainActivity.lambda$onCreate$2(android.view.View):0:0 -> onClick
+    5:8:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$0c3edcdfc208490934446b1b0e7fcf507516e8dcbe040bebd5d43cc0932ef64e$2.onClick(android.view.View):0 -> onClick
+      # {"id":"com.android.tools.r8.synthesized"}
+com.minimy.minimy.MainActivity$$ExternalSyntheticLambda2 -> j0.h:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
     com.minimy.minimy.MainActivity com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$0.f$0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
     com.minimy.minimy.AppModel com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$0.f$1 -> b
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/f;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/e;"}
       # {"id":"com.android.tools.r8.synthesized"}
     1:1:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$0.<init>(com.minimy.minimy.MainActivity,com.minimy.minimy.AppModel):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/minimy/minimy/MainActivity;Lj0/f;)V"}
-    3:14:void com.minimy.minimy.MainActivity.lambda$onLongPress$9(com.minimy.minimy.AppModel,android.content.DialogInterface,int):0:0 -> onClick
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/minimy/minimy/MainActivity;Lj0/e;)V"}
+    3:14:void com.minimy.minimy.MainActivity.lambda$onLongPress$8(com.minimy.minimy.AppModel,android.content.DialogInterface,int):0:0 -> onClick
     3:14:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$0.onClick(android.content.DialogInterface,int):0 -> onClick
       # {"id":"com.android.tools.r8.synthesized"}
     15:16:void androidx.recyclerview.widget.RecyclerView$Adapter.notifyDataSetChanged():0:0 -> onClick
-    15:16:void com.minimy.minimy.MainActivity.lambda$onLongPress$9(com.minimy.minimy.AppModel,android.content.DialogInterface,int):0 -> onClick
+    15:16:void com.minimy.minimy.MainActivity.lambda$onLongPress$8(com.minimy.minimy.AppModel,android.content.DialogInterface,int):0 -> onClick
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     15:16:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$0.onClick(android.content.DialogInterface,int):0 -> onClick
     17:20:void androidx.recyclerview.widget.RecyclerView$Adapter.notifyDataSetChanged():0:0 -> onClick
-    17:20:void com.minimy.minimy.MainActivity.lambda$onLongPress$9(com.minimy.minimy.AppModel,android.content.DialogInterface,int):0 -> onClick
+    17:20:void com.minimy.minimy.MainActivity.lambda$onLongPress$8(com.minimy.minimy.AppModel,android.content.DialogInterface,int):0 -> onClick
     17:20:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$0.onClick(android.content.DialogInterface,int):0 -> onClick
-com.minimy.minimy.MainActivity$$ExternalSyntheticLambda2 -> j0.i:
+com.minimy.minimy.MainActivity$$ExternalSyntheticLambda3 -> j0.i:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
     com.minimy.minimy.MainActivity com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.f$0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
     com.minimy.minimy.AppModel com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.f$1 -> b
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/f;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lj0/e;"}
       # {"id":"com.android.tools.r8.synthesized"}
     boolean com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.f$2 -> c
       # {"id":"com.android.tools.r8.synthesized"}
     1:1:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.<init>(com.minimy.minimy.MainActivity,com.minimy.minimy.AppModel,boolean):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/minimy/minimy/MainActivity;Lj0/f;Z)V"}
-    9:121:void com.minimy.minimy.MainActivity.lambda$onLongPress$10(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/minimy/minimy/MainActivity;Lj0/e;Z)V"}
+    9:121:void com.minimy.minimy.MainActivity.lambda$onLongPress$9(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
     9:121:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.onClick(android.content.DialogInterface,int):0 -> onClick
       # {"id":"com.android.tools.r8.synthesized"}
     122:190:void com.minimy.minimy.MainActivity.saveHiddenApps():0:0 -> onClick
-    122:190:void com.minimy.minimy.MainActivity.lambda$onLongPress$10(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0 -> onClick
+    122:190:void com.minimy.minimy.MainActivity.lambda$onLongPress$9(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0 -> onClick
     122:190:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.onClick(android.content.DialogInterface,int):0 -> onClick
-    191:204:void com.minimy.minimy.MainActivity.lambda$onLongPress$10(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
+    191:204:void com.minimy.minimy.MainActivity.lambda$onLongPress$9(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
     191:204:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.onClick(android.content.DialogInterface,int):0 -> onClick
     205:206:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.onClick(android.content.DialogInterface,int):0:0 -> onClick
-    207:212:void com.minimy.minimy.MainActivity.$r8$lambda$3YxYSWUa3XFP3WX0LlpLWFgL2ZY(com.minimy.minimy.MainActivity,com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
+    207:212:void com.minimy.minimy.MainActivity.$r8$lambda$34fr4nEJlPMpOGJdg_FDOpTNxmk(com.minimy.minimy.MainActivity,com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
     207:212:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.onClick(android.content.DialogInterface,int):0 -> onClick
-    213:246:void com.minimy.minimy.MainActivity.lambda$onLongPress$10(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
+    213:246:void com.minimy.minimy.MainActivity.lambda$onLongPress$9(com.minimy.minimy.AppModel,boolean,android.content.DialogInterface,int):0:0 -> onClick
     213:246:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$72c519041123a5f7ab28a2d907f708572dcd4003398f58945120d250b64f0754$1.onClick(android.content.DialogInterface,int):0 -> onClick
-com.minimy.minimy.MainActivity$$ExternalSyntheticLambda3 -> j0.j:
+com.minimy.minimy.MainActivity$$ExternalSyntheticLambda4 -> j0.j:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
     int com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.$r8$classId -> a
       # {"id":"com.android.tools.r8.synthesized"}
     com.minimy.minimy.MainActivity com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.f$0 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/lang/Object;"}
       # {"id":"com.android.tools.r8.synthesized"}
     android.os.Bundle com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.f$1 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/lang/Object;"}
       # {"id":"com.android.tools.r8.synthesized"}
     1:10:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.<init>(com.minimy.minimy.MainActivity,android.os.Bundle):0:0 -> <init>
-    1:10:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.$r8$init$synthetic(com.minimy.minimy.MainActivity,android.os.Bundle,int):0 -> <init>
+    1:10:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.$r8$init$synthetic(java.lang.Object,java.lang.Object,int):0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-    19:58:void com.minimy.minimy.MainActivity.lambda$setupDock$6(android.os.Bundle,android.view.View):0:0 -> onClick
-    19:58:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0 -> onClick
+    24:67:void com.minimy.minimy.AppAdapter.lambda$onBindViewHolder$0(com.minimy.minimy.AppModel,android.view.View):0:0 -> onClick
+    24:67:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0 -> onClick
       # {"id":"com.android.tools.r8.synthesized"}
-    59:60:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0:0 -> onClick
-    61:90:void com.minimy.minimy.MainActivity.lambda$setupDock$5(android.os.Bundle,android.view.View):0:0 -> onClick
-    61:90:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0 -> onClick
-    91:95:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0:0 -> onClick
-    96:109:void com.minimy.minimy.MainActivity.lambda$setupDock$4(android.os.Bundle,android.view.View):0:0 -> onClick
-    96:109:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0 -> onClick
-    110:114:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0:0 -> onClick
-    115:142:void com.minimy.minimy.MainActivity.lambda$setupDock$3(android.os.Bundle,android.view.View):0:0 -> onClick
-    115:142:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0 -> onClick
+    68:71:void com.minimy.minimy.MainActivity.onLaunch(com.minimy.minimy.AppModel):0:0 -> onClick
+    68:71:void com.minimy.minimy.AppAdapter.lambda$onBindViewHolder$0(com.minimy.minimy.AppModel,android.view.View):0 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    68:71:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0 -> onClick
+    72:130:void com.minimy.minimy.MainActivity.onLaunch(com.minimy.minimy.AppModel):0:0 -> onClick
+    72:130:void com.minimy.minimy.AppAdapter.lambda$onBindViewHolder$0(com.minimy.minimy.AppModel,android.view.View):0 -> onClick
+    72:130:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0 -> onClick
+    131:135:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0:0 -> onClick
+    136:179:void com.minimy.minimy.MainActivity.lambda$setupDock$6(android.os.Bundle,android.view.View):0:0 -> onClick
+    136:179:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0 -> onClick
+    180:181:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0:0 -> onClick
+    182:214:void com.minimy.minimy.MainActivity.lambda$setupDock$5(android.os.Bundle,android.view.View):0:0 -> onClick
+    182:214:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0 -> onClick
+    215:219:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0:0 -> onClick
+    220:237:void com.minimy.minimy.MainActivity.lambda$setupDock$4(android.os.Bundle,android.view.View):0:0 -> onClick
+    220:237:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0 -> onClick
+    238:242:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0:0 -> onClick
+    243:270:void com.minimy.minimy.MainActivity.lambda$setupDock$3(android.os.Bundle,android.view.View):0:0 -> onClick
+    243:270:void com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$0.onClick$bridge(android.view.View):0 -> onClick
 com.minimy.minimy.MainActivity$1 -> j0.k:
 # {"id":"sourceFile","fileName":"MainActivity.java"}
     com.minimy.minimy.MainActivity this$0 -> a

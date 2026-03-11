@@ -1,21 +1,21 @@
 Marking attr:alpha:2130903081 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:lStar:2130903201 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_tooltip:2131427355 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:message:2131230831 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:message:2131230834 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Animation_AppCompat_Tooltip:2131558404 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:tooltip_precise_anchor_threshold:2131099770 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:tooltip_precise_anchor_extra_offset:2131099769 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:tooltip_y_offset_touch:2131099773 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:tooltip_y_offset_non_touch:2131099772 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_window_insets_animation_callback:2131230890 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_on_apply_window_listener:2131230882 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_screen_reader_focusable:2131230885 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_accessibility_heading:2131230880 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_accessibility_pane_title:2131230881 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_state_description:2131230886 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_accessibility_clickable_spans:2131230879 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_window_insets_animation_callback:2131230894 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_on_apply_window_listener:2131230886 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_screen_reader_focusable:2131230889 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_accessibility_heading:2131230884 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_accessibility_pane_title:2131230885 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_state_description:2131230890 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_accessibility_clickable_spans:2131230883 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_action_clickable_span:2131230726 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_accessibility_actions:2131230878 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_accessibility_actions:2131230882 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_textfield_default_mtrl_alpha:2131165258 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_ab_share_pack_mtrl_alpha:2131165184 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_textfield_search_default_mtrl_alpha:2131165260 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -66,7 +66,7 @@ Marking drawable:abc_seekbar_thumb_material:2131165242 reachable: referenced fro
 Marking color:abc_tint_seek_thumb:2131034134 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking color:abc_tint_spinner:2131034135 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_cascading_menus_min_smallest_width:2131099670 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:pooling_container_listener_holder_tag:2131230843 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:pooling_container_listener_holder_tag:2131230846 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:autoCompleteTextViewStyle:2130903085 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:listMenuViewStyle:2130903212 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:dropDownListViewStyle:2130903160 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -80,16 +80,16 @@ Marking string:abc_menu_function_shortcut_label:2131492876 reachable: referenced
 Marking string:abc_menu_space_shortcut_label:2131492879 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_menu_enter_shortcut_label:2131492875 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_menu_delete_shortcut_label:2131492874 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:title:2131230896 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:shortcut:2131230865 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:submenuarrow:2131230875 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:title:2131230900 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:shortcut:2131230868 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:submenuarrow:2131230879 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:group_divider:2131230815 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:content:2131230799 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_list_menu_item_radio:2131427345 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_list_menu_item_checkbox:2131427342 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_list_menu_item_icon:2131427343 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_unhandled_key_listeners:2131230889 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:split_action_bar:2131230871 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_unhandled_key_listeners:2131230893 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:split_action_bar:2131230875 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_bar:2131230759 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_context_bar:2131230767 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:androidx_startup:2131492891 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -103,7 +103,7 @@ Marking dimen:fastscroll_default_thickness:2131099738 reachable: referenced from
 Marking dimen:fastscroll_minimum_range:2131099740 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:fastscroll_margin:2131099739 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:is_pooling_container_tag:2131230824 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:spacer:2131230869 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:spacer:2131230873 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_cab_background_top_material:2131165200 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_ratingbar_material:2131165235 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_star_big:2131099707 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -116,65 +116,22 @@ Marking drawable:abc_seekbar_track_material:2131165244 reachable: referenced fro
 Marking drawable:abc_list_divider_mtrl_alpha:2131165221 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_dialog_material_background:2131165203 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:header_container:2131230816 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:searchBar:2131230853 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:slider_wrapper:2131230872 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:letter_index_container:2131230827 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:all_apps_container:2131230780 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:searchBar:2131230856 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:activity_main:2131427356 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:et_web_search:2131230810 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:clock:2131230797 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tv_charging:2131230901 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:appList:2131230781 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:appList:2131230782 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:dock:2131230807 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:btn_all_apps:2131230786 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:btn_camera:2131230787 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:btn_contacts:2131230788 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:btn_all_apps:2131230787 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:btn_camera:2131230788 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:btn_contacts:2131230789 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:btn_music:2131230791 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:btn_messages:2131230790 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:lock_drag_track:2131230833 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:lock_drag_handle:2131230832 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:nestedScrollViewStyle:2130903230 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_whatsapp:2131165320 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_telegram:2131165314 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_x:2131165321 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_pinterst:2131165309 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_chrome:2131165279 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_drive:2131165287 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_photos:2131165308 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_google:2131165297 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_googleapps:2131165298 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_chatgpt:2131165278 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_deepseek:2131165285 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_gemini:2131165293 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_github:2131165294 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_flutter:2131165290 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_settings:2131165312 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_camera:2131165277 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_calculator:2131165275 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_calnder:2131165276 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_weather:2131165319 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_keyboard:2131165301 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_contacts:2131165284 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_compass:2131165282 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_youtube:2131165322 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_vlc:2131165318 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_video:2131165317 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_game:2131165292 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_cloude:2131165281 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_pdf:2131165306 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_notes:2131165305 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_browsers:2131165274 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_android:2131165272 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_default_apps:2131165286 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_upi:2131165316 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_intertune:2131165300 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_message:2131165303 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_phone:2131165307 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_filemanager:2131165289 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_clock:2131165280 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_security:2131165311 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_playstore:2131165310 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_gmap:2131165296 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_gallery:2131165291 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_gmail:2131165295 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_linkdin:2131165302 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_instagram:2131165299 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_fb:2131165288 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:actionOverflowMenuStyle:2130903072 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_config_prefDialogWidth:2131099671 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_cascading_menu_item_layout:2131427339 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -182,20 +139,20 @@ Marking layout:abc_popup_menu_header_item_layout:2131427346 reachable: reference
 Marking attr:toolbarNavigationButtonStyle:2130903318 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:searchViewStyle:2130903257 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_search_view:2131427353 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_src_text:2131230862 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_edit_frame:2131230858 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_plate:2131230861 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:submit_area:2131230876 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_button:2131230856 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_go_btn:2131230859 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_close_btn:2131230857 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_voice_btn:2131230863 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:search_mag_icon:2131230860 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_src_text:2131230865 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_edit_frame:2131230861 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_plate:2131230864 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:submit_area:2131230880 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_button:2131230859 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_go_btn:2131230862 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_close_btn:2131230860 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_voice_btn:2131230866 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:search_mag_icon:2131230863 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_searchview_description_search:2131492885 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_search_dropdown_item_icons_2line:2131427352 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_search_view_preferred_height:2131099702 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_search_view_preferred_width:2131099703 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:topPanel:2131230900 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:topPanel:2131230904 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:buttonPanel:2131230792 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:contentPanel:2131230800 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:customPanel:2131230802 reachable: referenced from /media/yadhu/hdisk/android-projects/minimy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -222,7 +179,6 @@ gradientRadius
 java.specification.version
 suggest_intent_data
 path
-music
 ViewHolder
 setLayoutDirection
 propertyValuesHolder
@@ -239,6 +195,7 @@ ON_ANY
 keyframe
 0
 traceCounter
+Unhide
 kotlinx.coroutines.scheduler.resoluti...
 kotlin.Unit
 ON_PAUSE
@@ -250,11 +207,10 @@ kotlinx.coroutines.DefaultExecutor
 left
 c:
 ACTION_CLICK
-drive
 TraceCompat
 android.speech.extra.LANGUAGE_MODEL
+android.app.extra.ADD_EXPLANATION
 removeItemAt
-albums
 setNextSelectedPositionInt
 kotlin.internal.JRE7PlatformImplement...
 emoji2.text.DefaultEmojiConfig
@@ -271,7 +227,6 @@ set
 ACTION_CLEAR_ACCESSIBILITY_FOCUS
 user_query
 ACTION_IME_ENTER
-vlc
 m
 transition
 computeFitSystemWindows
@@ -288,8 +243,6 @@ Startup
 font
 acc
 setTouchModal
-notes
-dialer
 propertyXName
 currentIndex
 startColor
@@ -299,29 +252,22 @@ addSuppressed
 free_form
 androidx.view.accessibility.Accessibi...
 CSLCompat
-contact
 ACTION_SET_PROGRESS
 _queue
 autoMirrored
 RESULT_OK
 hidden_apps.txt
-vivo
 ACTION_SCROLL_FORWARD
 androidx.core.view.inputmethod.Editor...
 add
 android.speech.extra.MAX_RESULTS
-google.android.apps.photos
-chrome
 trimPathEnd
-googleapps
 TypefaceCompatUtil
 ACTION_ACCESSIBILITY_FOCUS
-fb
 frame
 font_weight
 strokeWidth
 androidx.view.accessibility.Accessibi...
-linkdin
 setSelectedPositionInt
 repeatMode
 ACTION_LONG_CLICK
@@ -342,17 +288,14 @@ selector
 kotlinx.coroutines.main.delay
 _delayed
 ACTION_SCROLL_UP
-deepseek
 BITMAP_MASKABLE
 pathData
 androidx.view.accessibility.Accessibi...
 IconCompat
 label
-message
 workerCtl
 trimPathStart
 ACTION_DRAG_DROP
-pdf
 SearchView
 ACTION_MOVE_WINDOW
 strokeMiterLimit
@@ -363,7 +306,6 @@ Dispatchers.IO
 centerX
 lastScheduledTask
 viewportHeight
-filemanager
 ACTION_CONTEXT_CLICK
 androidx.view.accessibility.Accessibi...
 TooltipCompatHandler
@@ -373,10 +315,10 @@ write
 arch_disk_io_%d
 getLayoutAlignment
 UNDECIDED
-upi
 getResId
 doAfterTextChanged
 .xml
+Hide
 ACTION_CLEAR_SELECTION
 %s.%sParcelizer
 URI
@@ -390,7 +332,6 @@ ACTION_PAGE_UP
 it.parameterTypes
 mNextServedView
 androidx.view.accessibility.Accessibi...
-camera
 android.intent.action.PACKAGE_REPLACED
 mServedView
 ACTION_PAGE_RIGHT
@@ -401,7 +342,6 @@ com.android.internal.view.menu.MenuBu...
 DESTROYED
 mH
 EmojiCompat.MetadataRepo.create
-documentsui
 AsldcInflateDelegate
 RESUMED
 android.speech.action.RECOGNIZE_SPEECH
@@ -417,18 +357,12 @@ android.resource://
 setEpicenterBounds
 strokeColor
 repeatCount
-settings
 read
-level
-vending
 mv
-clock
 mStableInsets
 _cur
 mOverlapAnchor
-com.android.chrome
 font_italic
-compass
 _id
 objectAnimator
 nm
@@ -461,7 +395,6 @@ UNKNOWN
 /proc/self/fd/
 ACTION_PASTE
 android.graphics.FontFamily
-imanager
 valueTo
 suggest_icon_1
 suggest_icon_2
@@ -469,7 +402,6 @@ accessibility
 endColor
 android.media.action.STILL_IMAGE_CAMERA
 suggest_intent_extra_data
-instagram
 createAsync
 suggest_flags
 centerColor
@@ -481,7 +413,6 @@ TRACE_TAG_APP
 SuggestionsAdapter
 element
 drawable
-github
 ACTION_NEXT_HTML_ELEMENT
 ACTION_SCROLL_DOWN
 android.view.ViewRootImpl
@@ -500,15 +431,11 @@ fillAlpha
 ACTION_PAGE_DOWN
 vector
 ACTION_SCROLL_TO_POSITION
-chatgpt
 key
-email
 ACTION_SELECT
 RESOURCE
-calendar
 viewportWidth
 gradient
-spotify
 ACTION_EXPAND
 blockingTasksInBuffer
 propertyName
@@ -519,7 +446,6 @@ animator
 dimen
 DefaultDispatcher
 DrawableDelegate
-android.intent.action.BATTERY_CHANGED
 android.intent.action.PACKAGE_REMOVED
 positionSelector
 ON_START
@@ -533,7 +459,6 @@ Dispatchers.Default
 suggest_intent_query
 kotlinx.coroutines.io.parallelism
 ResourcesCompat
-maps
 search_suggest_query
 androidx.core.view.inputmethod.Editor...
 query
@@ -541,15 +466,12 @@ android.resource
 TypefaceCompatApi21Impl
 collection
 android.intent.category.APP_MESSAGING
-paisa
-flutter
 startOffset
 name
 NOT_IN_STACK
 NestedScrollView
 _next
 getDescriptor
-whatsapp
 font_variation_settings
 bool
 Yes
@@ -557,7 +479,6 @@ android
 removeObserver
 ON_DESTROY
 java.lang.module.ModuleDescriptor
-video
 _isTerminated
 abortCreation
 tint
@@ -566,7 +487,6 @@ status_bar_height
 native_instance
 CREATED
 android.text.DynamicLayout$ChangeWatcher
-mms
 setClipToScreenEnabled
 androidx.content.action.LOAD_EMOJI_FONT
 getMaxAvailableHeight
@@ -581,11 +501,11 @@ Dispatchers.Main.immediate
 View
 valueFrom
 target
+icon_
 getLayoutDirection
 endY
 endX
 android.intent.action.PACKAGE_ADDED
-pinterst
 android.intent.action.VIEW
 startY
 window
@@ -594,6 +514,7 @@ ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY
 VdcInflateDelegate
 xx
 tileMode
+android.app.extra.DEVICE_ADMIN
 android.intent.action.DELETE
 ACCESSIBILITY_CLICKABLE_SPAN_ID
 type
@@ -603,24 +524,17 @@ in_progress
 getViewRootImpl
 font_ttc_index
 propertyYName
-weather
-playstore
-gallery
 ACTION_SHOW_ON_SCREEN
 getTextDirectionHeuristic
-calculator
 item
 kotlinx.coroutines.scheduler.core.poo...
 kotlinx.coroutines.scheduler.max.pool...
 config_showMenuShortcutsWhenKeyboardP...
 CONSUMED
-intertune
 android.support.text.emoji.emojiCompa...
 strokeLineJoin
 intent_extra_data_key
-phone
 _state
-googlequicksearchbox
 result_code
 ACTION_FOCUS
 Dispatchers.Unconfined
@@ -629,22 +543,17 @@ ViewConfigCompat
 INITIALIZED
 mContentInsets
 producerIndex
-phonepa
 ACTION_DRAG_START
 suggest_intent_data_id
-.x.
-facebook
 fraction
 nullLayouts
 .immediate
 elements
-paytm
 ACTION_SET_TEXT
 strokeAlpha
 URI_MASKABLE
 ON_CREATE
 kotlinx.coroutines.fast.service.loader
-gboard
 EmojiCompatInitializer
 com.mta.intertune
 ON_RESUME
@@ -655,11 +564,9 @@ group
 EmojiCompat.FontRequestEmojiCompatCon...
 package
 android.speech.extra.PROMPT
-gmap
 ACTION_COPY
 android.speech.extra.RESULTS_PENDINGI...
 controlState
-gemini
 DATA
 androidx.core.view.inputmethod.Editor...
 file_id
@@ -669,19 +576,14 @@ res/
 calling_package
 android.intent.category.LAUNCHER
 DrawableCompat
-youtube
-game
+device_policy
 .font
+android.app.action.ADD_DEVICE_ADMIN
 ACTION_CUT
-scale
-linkedin
 consumerIndex
 mAccessibilityDelegate
-security
 array
 fillType
-browser
-alarm
 value
 ACTION_PREVIOUS_HTML_ELEMENT
 http://schemas.android.com/apk/res/an...
@@ -689,7 +591,6 @@ ACTION_SHOW_TOOLTIP
 0x%08x
 suggest_text_2_url
 appcompat_skip_skip
-telegram
 ON_STOP
 addFontFromAssetManager
 doBeforeTextChanged
@@ -697,7 +598,6 @@ ensureImeVisible
 WindowInsetsCompat
 PopupWindowCompatApi21
 android.intent.action.PROCESS_TEXT
-com.google.android.gm
 mAttachInfo
 trimPathOffset
 mIsChildViewEnabled
@@ -760,11 +660,9 @@ Marking id:content:2131230799 used because it matches string pool constant conte
 Marking id:contentPanel:2131230800 used because it matches string pool constant content
 Marking attr:alpha:2130903081 used because it matches string pool constant alpha
 Marking attr:alphabeticModifiers:2130903082 used because it matches string pool constant alpha
-Marking id:message:2131230831 used because it matches string pool constant message
-Marking id:blocking:2131230784 used because it matches string pool constant block
+Marking id:blocking:2131230785 used because it matches string pool constant block
 Marking attr:menu:2130903225 used because it matches string pool constant menu
 Marking attr:tintMode:2130903307 used because it matches string pool constant tintMode
-Marking id:clock:2131230797 used because it matches string pool constant clock
 Marking id:accessibility_action_clickable_span:2131230726 used because it matches string pool constant accessibility
 Marking id:accessibility_custom_action_0:2131230727 used because it matches string pool constant accessibility
 Marking id:accessibility_custom_action_1:2131230728 used because it matches string pool constant accessibility
@@ -808,7 +706,7 @@ Marking attr:drawableStartCompat:2130903155 used because it matches string pool 
 Marking attr:drawableTint:2130903156 used because it matches string pool constant drawable
 Marking attr:drawableTintMode:2130903157 used because it matches string pool constant drawable
 Marking attr:drawableTopCompat:2130903158 used because it matches string pool constant drawable
-Marking id:up:2131230904 used because it matches string pool constant up
+Marking id:up:2131230907 used because it matches string pool constant up
 Marking attr:queryBackground:2130903246 used because it matches string pool constant query
 Marking attr:queryHint:2130903247 used because it matches string pool constant query
 Marking attr:queryPatterns:2130903248 used because it matches string pool constant query
@@ -817,6 +715,8 @@ Marking color:androidx_core_secondary_text_default_material_light:2131034140 use
 Marking string:androidx_startup:2131492891 used because it matches string pool constant android
 Marking attr:tint:2130903306 used because it matches string pool constant tint
 Marking attr:tintMode:2130903307 used because it matches string pool constant tint
+Marking drawable:icon_bg_white:2131165272 used because it matches string pool constant icon_
+Marking id:icon_group:2131230820 used because it matches string pool constant icon_
 Marking attr:windowActionBar:2130903329 used because it matches string pool constant window
 Marking attr:windowActionBarOverlay:2130903330 used because it matches string pool constant window
 Marking attr:windowActionModeOverlay:2130903331 used because it matches string pool constant window
@@ -1635,58 +1535,11 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
     @anim/btn_radio_to_off_mtrl_ring_outer_path_animation
     @anim/btn_radio_to_off_mtrl_dot_group_animation
 @drawable/dock_bg : reachable=false
-@drawable/ic_android : reachable=true
-@drawable/ic_authenticator : reachable=false
-@drawable/ic_browsers : reachable=true
-@drawable/ic_calculator : reachable=true
-@drawable/ic_calnder : reachable=true
-@drawable/ic_camera : reachable=true
-@drawable/ic_chatgpt : reachable=true
-@drawable/ic_chrome : reachable=true
-@drawable/ic_clock : reachable=true
-@drawable/ic_cloude : reachable=true
-@drawable/ic_compass : reachable=true
-@drawable/ic_contact : reachable=false
-@drawable/ic_contacts : reachable=true
-@drawable/ic_deepseek : reachable=true
-@drawable/ic_default_apps : reachable=true
-@drawable/ic_drive : reachable=true
-@drawable/ic_fb : reachable=true
-@drawable/ic_filemanager : reachable=true
-@drawable/ic_flutter : reachable=true
-@drawable/ic_gallery : reachable=true
-@drawable/ic_game : reachable=true
-@drawable/ic_gemini : reachable=true
-@drawable/ic_github : reachable=true
-@drawable/ic_gmail : reachable=true
-@drawable/ic_gmap : reachable=true
-@drawable/ic_google : reachable=true
-@drawable/ic_googleapps : reachable=true
-@drawable/ic_instagram : reachable=true
-@drawable/ic_intertune : reachable=true
-@drawable/ic_keyboard : reachable=true
-@drawable/ic_linkdin : reachable=true
-@drawable/ic_message : reachable=true
-@drawable/ic_music : reachable=false
-@drawable/ic_notes : reachable=true
-@drawable/ic_pdf : reachable=true
-@drawable/ic_phone : reachable=true
-@drawable/ic_photos : reachable=true
-@drawable/ic_pinterst : reachable=true
-@drawable/ic_playstore : reachable=true
-@drawable/ic_security : reachable=true
-@drawable/ic_settings : reachable=true
-@drawable/ic_spotify : reachable=false
-@drawable/ic_telegram : reachable=true
-@drawable/ic_uber : reachable=false
-@drawable/ic_upi : reachable=true
-@drawable/ic_video : reachable=true
-@drawable/ic_vlc : reachable=true
-@drawable/ic_weather : reachable=true
-@drawable/ic_whatsapp : reachable=true
-@drawable/ic_x : reachable=true
-@drawable/ic_youtube : reachable=true
-@drawable/icon_bg_white : reachable=false
+@drawable/icon_bg_white : reachable=true
+@drawable/lock_handle_bg : reachable=false
+@drawable/lock_handle_halo : reachable=false
+@drawable/lock_track : reachable=false
+@drawable/lock_track_bg : reachable=false
 @drawable/notification_action_background : reachable=false
     @color/androidx_core_ripple_material_light
     @dimen/compat_button_inset_horizontal_material
@@ -1711,6 +1564,7 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
 @drawable/notification_tile_bg : reachable=false
     @drawable/notify_panel_notification_icon_bg
 @drawable/notify_panel_notification_icon_bg : reachable=false
+@drawable/raw_selector : reachable=false
 @drawable/search_bg : reachable=false
 @drawable/test_level_drawable : reachable=false
     @color/primary_dark_material_dark
@@ -1780,6 +1634,7 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
 @id/activity_chooser_view_content : reachable=false
 @id/add : reachable=true
 @id/alertTitle : reachable=false
+@id/all_apps_container : reachable=true
 @id/always : reachable=false
 @id/appList : reachable=true
 @id/async : reachable=false
@@ -1789,7 +1644,6 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
 @id/btn_all_apps : reachable=true
 @id/btn_camera : reachable=true
 @id/btn_contacts : reachable=true
-@id/btn_incognito : reachable=false
 @id/btn_messages : reachable=true
 @id/btn_music : reachable=true
 @id/buttonPanel : reachable=true
@@ -1810,7 +1664,7 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
 @id/dock : reachable=true
 @id/edit_query : reachable=true
 @id/end : reachable=false
-@id/et_web_search : reachable=true
+@id/et_web_search : reachable=false
 @id/expand_activities_button : reachable=false
 @id/expanded_menu : reachable=false
 @id/forever : reachable=false
@@ -1820,17 +1674,20 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
 @id/home : reachable=false
 @id/homeAsUp : reachable=false
 @id/icon : reachable=false
-@id/icon_group : reachable=false
+@id/icon_group : reachable=true
 @id/ifRoom : reachable=false
 @id/image : reachable=false
 @id/info : reachable=false
 @id/is_pooling_container_tag : reachable=true
 @id/italic : reachable=false
 @id/item_touch_helper_previous_elevation : reachable=true
+@id/letter_index_container : reachable=true
 @id/line1 : reachable=false
 @id/line3 : reachable=false
 @id/listMode : reachable=false
 @id/list_item : reachable=false
+@id/lock_drag_handle : reachable=true
+@id/lock_drag_track : reachable=true
 @id/message : reachable=true
 @id/middle : reachable=false
 @id/multiply : reachable=false
@@ -1869,6 +1726,7 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
 @id/showCustom : reachable=false
 @id/showHome : reachable=false
 @id/showTitle : reachable=false
+@id/slider_wrapper : reachable=true
 @id/spacer : reachable=true
 @id/special_effects_controller_view_tag : reachable=false
 @id/split_action_bar : reachable=true
@@ -1901,7 +1759,6 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
 @id/title_template : reachable=false
 @id/top : reachable=false
 @id/topPanel : reachable=true
-@id/tv_charging : reachable=true
 @id/unchecked : reachable=false
 @id/uniform : reachable=false
 @id/up : reachable=true
@@ -2048,7 +1905,7 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
     @dimen/tooltip_margin
 @layout/activity_main : reachable=true
     @drawable/icon_bg_white
-    @drawable/ic_chrome
+    @drawable/lock_handle_halo
     @drawable/dock_bg
 @layout/custom_dialog : reachable=false
 @layout/notification_action : reachable=false
@@ -3560,6 +3417,7 @@ Marking id:group_divider:2131230815 used because it matches string pool constant
 @style/Widget_Compat_NotificationActionText : reachable=false
     @dimen/notification_action_text_size
     @color/androidx_core_secondary_text_default_material_light
+@xml/device_admin_rules : reachable=true
 
 The root reachable resources are:
  attr:actionBarPopupTheme:2130903042
@@ -3706,52 +3564,7 @@ The root reachable resources are:
  drawable:abc_textfield_search_default_mtrl_alpha:2131165260
  drawable:abc_textfield_search_material:2131165261
  drawable:abc_vector_test:2131165262
- drawable:ic_android:2131165272
- drawable:ic_browsers:2131165274
- drawable:ic_calculator:2131165275
- drawable:ic_calnder:2131165276
- drawable:ic_camera:2131165277
- drawable:ic_chatgpt:2131165278
- drawable:ic_chrome:2131165279
- drawable:ic_clock:2131165280
- drawable:ic_cloude:2131165281
- drawable:ic_compass:2131165282
- drawable:ic_contacts:2131165284
- drawable:ic_deepseek:2131165285
- drawable:ic_default_apps:2131165286
- drawable:ic_drive:2131165287
- drawable:ic_fb:2131165288
- drawable:ic_filemanager:2131165289
- drawable:ic_flutter:2131165290
- drawable:ic_gallery:2131165291
- drawable:ic_game:2131165292
- drawable:ic_gemini:2131165293
- drawable:ic_github:2131165294
- drawable:ic_gmail:2131165295
- drawable:ic_gmap:2131165296
- drawable:ic_google:2131165297
- drawable:ic_googleapps:2131165298
- drawable:ic_instagram:2131165299
- drawable:ic_intertune:2131165300
- drawable:ic_keyboard:2131165301
- drawable:ic_linkdin:2131165302
- drawable:ic_message:2131165303
- drawable:ic_notes:2131165305
- drawable:ic_pdf:2131165306
- drawable:ic_phone:2131165307
- drawable:ic_photos:2131165308
- drawable:ic_pinterst:2131165309
- drawable:ic_playstore:2131165310
- drawable:ic_security:2131165311
- drawable:ic_settings:2131165312
- drawable:ic_telegram:2131165314
- drawable:ic_upi:2131165316
- drawable:ic_video:2131165317
- drawable:ic_vlc:2131165318
- drawable:ic_weather:2131165319
- drawable:ic_whatsapp:2131165320
- drawable:ic_x:2131165321
- drawable:ic_youtube:2131165322
+ drawable:icon_bg_white:2131165272
  id:accessibility_action_clickable_span:2131230726
  id:accessibility_custom_action_0:2131230727
  id:accessibility_custom_action_1:2131230728
@@ -3792,11 +3605,12 @@ The root reachable resources are:
  id:action_bar_title:2131230765
  id:action_context_bar:2131230767
  id:add:2131230778
- id:appList:2131230781
- id:blocking:2131230784
- id:btn_all_apps:2131230786
- id:btn_camera:2131230787
- id:btn_contacts:2131230788
+ id:all_apps_container:2131230780
+ id:appList:2131230782
+ id:blocking:2131230785
+ id:btn_all_apps:2131230787
+ id:btn_camera:2131230788
+ id:btn_contacts:2131230789
  id:btn_messages:2131230790
  id:btn_music:2131230791
  id:buttonPanel:2131230792
@@ -3806,40 +3620,43 @@ The root reachable resources are:
  id:customPanel:2131230802
  id:dock:2131230807
  id:edit_query:2131230808
- id:et_web_search:2131230810
  id:group_divider:2131230815
  id:header_container:2131230816
+ id:icon_group:2131230820
  id:is_pooling_container_tag:2131230824
  id:item_touch_helper_previous_elevation:2131230826
- id:message:2131230831
- id:pooling_container_listener_holder_tag:2131230843
- id:searchBar:2131230853
- id:search_button:2131230856
- id:search_close_btn:2131230857
- id:search_edit_frame:2131230858
- id:search_go_btn:2131230859
- id:search_mag_icon:2131230860
- id:search_plate:2131230861
- id:search_src_text:2131230862
- id:search_voice_btn:2131230863
- id:shortcut:2131230865
- id:spacer:2131230869
- id:split_action_bar:2131230871
- id:submenuarrow:2131230875
- id:submit_area:2131230876
- id:tag_accessibility_actions:2131230878
- id:tag_accessibility_clickable_spans:2131230879
- id:tag_accessibility_heading:2131230880
- id:tag_accessibility_pane_title:2131230881
- id:tag_on_apply_window_listener:2131230882
- id:tag_screen_reader_focusable:2131230885
- id:tag_state_description:2131230886
- id:tag_unhandled_key_listeners:2131230889
- id:tag_window_insets_animation_callback:2131230890
- id:title:2131230896
- id:topPanel:2131230900
- id:tv_charging:2131230901
- id:up:2131230904
+ id:letter_index_container:2131230827
+ id:lock_drag_handle:2131230832
+ id:lock_drag_track:2131230833
+ id:message:2131230834
+ id:pooling_container_listener_holder_tag:2131230846
+ id:searchBar:2131230856
+ id:search_button:2131230859
+ id:search_close_btn:2131230860
+ id:search_edit_frame:2131230861
+ id:search_go_btn:2131230862
+ id:search_mag_icon:2131230863
+ id:search_plate:2131230864
+ id:search_src_text:2131230865
+ id:search_voice_btn:2131230866
+ id:shortcut:2131230868
+ id:slider_wrapper:2131230872
+ id:spacer:2131230873
+ id:split_action_bar:2131230875
+ id:submenuarrow:2131230879
+ id:submit_area:2131230880
+ id:tag_accessibility_actions:2131230882
+ id:tag_accessibility_clickable_spans:2131230883
+ id:tag_accessibility_heading:2131230884
+ id:tag_accessibility_pane_title:2131230885
+ id:tag_on_apply_window_listener:2131230886
+ id:tag_screen_reader_focusable:2131230889
+ id:tag_state_description:2131230890
+ id:tag_unhandled_key_listeners:2131230893
+ id:tag_window_insets_animation_callback:2131230894
+ id:title:2131230900
+ id:topPanel:2131230904
+ id:up:2131230907
  layout:abc_action_bar_title_item:2131427328
  layout:abc_action_menu_item_layout:2131427330
  layout:abc_action_mode_close_item_material:2131427333
@@ -3868,6 +3685,7 @@ The root reachable resources are:
  string:androidx_startup:2131492891
  style:Animation_AppCompat_Tooltip:2131558404
  style:AppTheme:2131558405
+ xml:device_admin_rules:2131689472
 Unused resources are: 
  anim:abc_fade_in:2130771968
  anim:abc_fade_out:2130771969
@@ -4075,27 +3893,26 @@ Unused resources are:
  drawable:abc_list_selector_disabled_holo_light:2131165229
  drawable:abc_list_selector_holo_dark:2131165230
  drawable:abc_list_selector_holo_light:2131165231
- drawable:ic_authenticator:2131165273
- drawable:ic_contact:2131165283
- drawable:ic_music:2131165304
- drawable:ic_spotify:2131165313
- drawable:ic_uber:2131165315
- drawable:notification_action_background:2131165324
- drawable:notification_bg:2131165325
- drawable:notification_bg_low:2131165326
- drawable:notification_bg_low_normal:2131165327
- drawable:notification_bg_low_pressed:2131165328
- drawable:notification_bg_normal:2131165329
- drawable:notification_bg_normal_pressed:2131165330
- drawable:notification_icon_background:2131165331
- drawable:notification_template_icon_bg:2131165332
- drawable:notification_template_icon_low_bg:2131165333
- drawable:notification_tile_bg:2131165334
- drawable:notify_panel_notification_icon_bg:2131165335
- drawable:search_bg:2131165336
- drawable:test_level_drawable:2131165337
- drawable:tooltip_frame_dark:2131165338
- drawable:tooltip_frame_light:2131165339
+ drawable:lock_handle_bg:2131165273
+ drawable:lock_track:2131165275
+ drawable:lock_track_bg:2131165276
+ drawable:notification_action_background:2131165277
+ drawable:notification_bg:2131165278
+ drawable:notification_bg_low:2131165279
+ drawable:notification_bg_low_normal:2131165280
+ drawable:notification_bg_low_pressed:2131165281
+ drawable:notification_bg_normal:2131165282
+ drawable:notification_bg_normal_pressed:2131165283
+ drawable:notification_icon_background:2131165284
+ drawable:notification_template_icon_bg:2131165285
+ drawable:notification_template_icon_low_bg:2131165286
+ drawable:notification_tile_bg:2131165287
+ drawable:notify_panel_notification_icon_bg:2131165288
+ drawable:raw_selector:2131165289
+ drawable:search_bg:2131165290
+ drawable:test_level_drawable:2131165291
+ drawable:tooltip_frame_dark:2131165292
+ drawable:tooltip_frame_light:2131165293
  id:ALT:2131230720
  id:CTRL:2131230721
  id:FUNCTION:2131230722
@@ -4116,11 +3933,10 @@ Unused resources are:
  id:actions:2131230776
  id:activity_chooser_view_content:2131230777
  id:alertTitle:2131230779
- id:always:2131230780
- id:async:2131230782
- id:beginning:2131230783
- id:bottom:2131230785
- id:btn_incognito:2131230789
+ id:always:2131230781
+ id:async:2131230783
+ id:beginning:2131230784
+ id:bottom:2131230786
  id:center_vertical:2131230793
  id:checkbox:2131230794
  id:checked:2131230795
@@ -4132,6 +3948,7 @@ Unused resources are:
  id:dialog_button:2131230805
  id:disableHome:2131230806
  id:end:2131230809
+ id:et_web_search:2131230810
  id:expand_activities_button:2131230811
  id:expanded_menu:2131230812
  id:forever:2131230813
@@ -4139,68 +3956,67 @@ Unused resources are:
  id:home:2131230817
  id:homeAsUp:2131230818
  id:icon:2131230819
- id:icon_group:2131230820
  id:ifRoom:2131230821
  id:image:2131230822
  id:info:2131230823
  id:italic:2131230825
- id:line1:2131230827
- id:line3:2131230828
- id:listMode:2131230829
- id:list_item:2131230830
- id:middle:2131230832
- id:multiply:2131230833
- id:never:2131230834
- id:none:2131230835
- id:normal:2131230836
- id:notification_background:2131230837
- id:notification_main_column:2131230838
- id:notification_main_column_container:2131230839
- id:off:2131230840
- id:on:2131230841
- id:parentPanel:2131230842
- id:progress_circular:2131230844
- id:progress_horizontal:2131230845
- id:radio:2131230846
- id:right_icon:2131230847
- id:right_side:2131230848
- id:screen:2131230849
- id:scrollIndicatorDown:2131230850
- id:scrollIndicatorUp:2131230851
- id:scrollView:2131230852
- id:search_badge:2131230854
- id:search_bar:2131230855
- id:select_dialog_listview:2131230864
- id:showCustom:2131230866
- id:showHome:2131230867
- id:showTitle:2131230868
- id:special_effects_controller_view_tag:2131230870
- id:src_atop:2131230872
- id:src_in:2131230873
- id:src_over:2131230874
- id:tabMode:2131230877
- id:tag_on_receive_content_listener:2131230883
- id:tag_on_receive_content_mime_types:2131230884
- id:tag_transition_group:2131230887
- id:tag_unhandled_key_event_manager:2131230888
- id:text:2131230891
- id:text2:2131230892
- id:textSpacerNoButtons:2131230893
- id:textSpacerNoTitle:2131230894
- id:time:2131230895
- id:titleDividerNoCustom:2131230897
- id:title_template:2131230898
- id:top:2131230899
- id:unchecked:2131230902
- id:uniform:2131230903
- id:useLogo:2131230905
- id:view_tree_lifecycle_owner:2131230906
- id:view_tree_on_back_pressed_dispatcher_owner:2131230907
- id:view_tree_saved_state_registry_owner:2131230908
- id:view_tree_view_model_store_owner:2131230909
- id:visible_removing_fragment_view_tag:2131230910
- id:withText:2131230911
- id:wrap_content:2131230912
+ id:line1:2131230828
+ id:line3:2131230829
+ id:listMode:2131230830
+ id:list_item:2131230831
+ id:middle:2131230835
+ id:multiply:2131230836
+ id:never:2131230837
+ id:none:2131230838
+ id:normal:2131230839
+ id:notification_background:2131230840
+ id:notification_main_column:2131230841
+ id:notification_main_column_container:2131230842
+ id:off:2131230843
+ id:on:2131230844
+ id:parentPanel:2131230845
+ id:progress_circular:2131230847
+ id:progress_horizontal:2131230848
+ id:radio:2131230849
+ id:right_icon:2131230850
+ id:right_side:2131230851
+ id:screen:2131230852
+ id:scrollIndicatorDown:2131230853
+ id:scrollIndicatorUp:2131230854
+ id:scrollView:2131230855
+ id:search_badge:2131230857
+ id:search_bar:2131230858
+ id:select_dialog_listview:2131230867
+ id:showCustom:2131230869
+ id:showHome:2131230870
+ id:showTitle:2131230871
+ id:special_effects_controller_view_tag:2131230874
+ id:src_atop:2131230876
+ id:src_in:2131230877
+ id:src_over:2131230878
+ id:tabMode:2131230881
+ id:tag_on_receive_content_listener:2131230887
+ id:tag_on_receive_content_mime_types:2131230888
+ id:tag_transition_group:2131230891
+ id:tag_unhandled_key_event_manager:2131230892
+ id:text:2131230895
+ id:text2:2131230896
+ id:textSpacerNoButtons:2131230897
+ id:textSpacerNoTitle:2131230898
+ id:time:2131230899
+ id:titleDividerNoCustom:2131230901
+ id:title_template:2131230902
+ id:top:2131230903
+ id:unchecked:2131230905
+ id:uniform:2131230906
+ id:useLogo:2131230908
+ id:view_tree_lifecycle_owner:2131230909
+ id:view_tree_on_back_pressed_dispatcher_owner:2131230910
+ id:view_tree_saved_state_registry_owner:2131230911
+ id:view_tree_view_model_store_owner:2131230912
+ id:visible_removing_fragment_view_tag:2131230913
+ id:withText:2131230914
+ id:wrap_content:2131230915
  integer:abc_config_activityDefaultDur:2131296256
  integer:abc_config_activityShortDur:2131296257
  integer:cancel_button_image_alpha:2131296258
@@ -4653,11 +4469,9 @@ Skipped unused resource res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_li
 Skipped unused resource res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png: 258 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable/abc_list_selector_holo_dark.xml: 1430 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/abc_list_selector_holo_light.xml: 1430 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-nodpi-v4/ic_authenticator.png: 1230 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-nodpi-v4/ic_contact.png: 793 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-nodpi-v4/ic_music.png: 1133 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-nodpi-v4/ic_spotify.png: 1477 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-nodpi-v4/ic_uber.png: 509 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable/lock_handle_bg.xml: 243 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/lock_track.xml: 243 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/lock_track_bg.xml: 243 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-v21/notification_action_background.xml: 1152 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/notification_bg.xml: 482 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/notification_bg_low.xml: 482 bytes (replaced with small dummy file of size 9 bytes)
@@ -4678,6 +4492,7 @@ Skipped unused resource res/drawable/notification_tile_bg.xml: 211 bytes (replac
 Skipped unused resource res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png: 98 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png: 107 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png: 138 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable/raw_selector.xml: 379 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/search_bg.xml: 462 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/test_level_drawable.xml: 243 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/tooltip_frame_dark.xml: 312 bytes (replaced with small dummy file of size 9 bytes)

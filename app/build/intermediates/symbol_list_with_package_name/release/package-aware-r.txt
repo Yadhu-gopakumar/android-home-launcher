@@ -370,6 +370,10 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color browser_actions_bg_grey
+color browser_actions_divider_color
+color browser_actions_text_color
+color browser_actions_title_color
 color button_material_dark
 color button_material_light
 color dim_foreground_disabled_material_dark
@@ -499,6 +503,8 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen browser_actions_context_menu_max_width
+dimen browser_actions_context_menu_min_padding
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -633,9 +639,8 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable dock_bg
 drawable icon_bg_white
+drawable key_bg
 drawable lock_handle_bg
-drawable lock_handle_halo
-drawable lock_track
 drawable lock_track_bg
 drawable notification_action_background
 drawable notification_bg
@@ -649,8 +654,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable raw_selector
-drawable search_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -721,7 +724,11 @@ id async
 id beginning
 id blocking
 id bottom
-id btn_all_apps
+id browser_actions_header_text
+id browser_actions_menu_item_icon
+id browser_actions_menu_item_text
+id browser_actions_menu_items
+id browser_actions_menu_view
 id btn_camera
 id btn_contacts
 id btn_messages
@@ -737,6 +744,7 @@ id content
 id contentPanel
 id custom
 id customPanel
+id custom_keyboard
 id decor_content_parent
 id default_activity_button
 id dialog_button
@@ -761,6 +769,7 @@ id info
 id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
+id key_delete
 id letter_index_container
 id line1
 id line3
@@ -786,6 +795,7 @@ id progress_horizontal
 id radio
 id right_icon
 id right_side
+id root_layout
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -891,6 +901,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
@@ -930,6 +942,10 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
+string copy_toast_msg
+string fallback_menu_item_copy_link
+string fallback_menu_item_open_in_browser
+string fallback_menu_item_share_link
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
@@ -1094,6 +1110,7 @@ style Base_Widget_AppCompat_TextView
 style Base_Widget_AppCompat_TextView_SpinnerItem
 style Base_Widget_AppCompat_Toolbar
 style Base_Widget_AppCompat_Toolbar_Button_Navigation
+style KeyStyle
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_ThemeOverlay_AppCompat
@@ -1332,3 +1349,4 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
 xml device_admin_rules
+xml image_share_filepaths

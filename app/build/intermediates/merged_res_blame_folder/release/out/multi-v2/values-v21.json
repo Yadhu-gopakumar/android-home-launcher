@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.minimy.minimy.app-mergeReleaseResources-20:/values-v21/values-v21.xml",
+            "outputFile": "com.minimy.minimy.app-mergeReleaseResources-21:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/res/values-v21/values-v21.xml",

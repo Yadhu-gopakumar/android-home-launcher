@@ -6165,7 +6165,6 @@ androidx.recyclerview.widget.LinearLayoutManager:
     private void logChildren()
     public void prepareForDrop(android.view.View,android.view.View,int,int)
     public void scrollToPosition(int)
-    public void scrollToPositionWithOffset(int,int)
     public void setInitialPrefetchItemCount(int)
     public void setRecycleChildrenOnDetach(boolean)
     public void setSmoothScrollbarEnabled(boolean)
@@ -6202,6 +6201,7 @@ androidx.recyclerview.widget.RecyclerView$Adapter:
     public int findRelativeAdapterPositionIn(androidx.recyclerview.widget.RecyclerView$Adapter,androidx.recyclerview.widget.RecyclerView$ViewHolder,int)
     public final androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy getStateRestorationPolicy()
     public final boolean hasObservers()
+    public final void notifyDataSetChanged()
     public final void notifyItemChanged(int)
     public final void notifyItemChanged(int,java.lang.Object)
     public final void notifyItemInserted(int)
@@ -6215,6 +6215,7 @@ androidx.recyclerview.widget.RecyclerView$Adapter:
     public void setStateRestorationPolicy(androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy)
 androidx.recyclerview.widget.RecyclerView$AdapterDataObservable:
     public boolean hasObservers()
+    public void notifyChanged()
     public void notifyItemMoved(int,int)
     public void notifyItemRangeChanged(int,int)
     public void notifyItemRangeChanged(int,int,java.lang.Object)
@@ -6222,6 +6223,7 @@ androidx.recyclerview.widget.RecyclerView$AdapterDataObservable:
     public void notifyItemRangeRemoved(int,int)
     public void notifyStateRestorationPolicyChanged()
 androidx.recyclerview.widget.RecyclerView$AdapterDataObserver:
+    public void onChanged()
     public void onItemRangeChanged(int,int)
     public void onItemRangeChanged(int,int,java.lang.Object)
     public void onItemRangeInserted(int,int)
@@ -6299,6 +6301,7 @@ androidx.recyclerview.widget.RecyclerView$Recycler:
     static final int DEFAULT_CACHE_SIZE
     public void bindViewToPosition(android.view.View,int)
 androidx.recyclerview.widget.RecyclerView$RecyclerViewDataObserver:
+    public void onChanged()
     public void onItemRangeChanged(int,int,java.lang.Object)
     public void onItemRangeInserted(int,int)
     public void onItemRangeMoved(int,int,int)
@@ -6921,23 +6924,14 @@ com.minimy.minimy.AppModel:
 com.minimy.minimy.MainActivity:
     private static final java.lang.String FAV_FILE
     private static final java.lang.String HIDDEN_FILE
-    private android.widget.TextView chargingView
-com.minimy.minimy.R$drawable:
-    public static int dock_bg
-    public static int ic_authenticator
-    public static int ic_contact
-    public static int ic_music
-    public static int ic_spotify
-    public static int ic_uber
-    public static int icon_bg_white
-    public static int search_bg
-    private void <init>()
+com.minimy.minimy.R$drawable
 com.minimy.minimy.R$id:
-    public static int btn_incognito
+    public static int et_web_search
     private void <init>()
 com.minimy.minimy.R$layout:
     private void <init>()
 com.minimy.minimy.R$style
+com.minimy.minimy.R$xml
 com.minimy.minimy.R
 kotlin.ArrayIntrinsicsKt
 kotlin.BuilderInference
@@ -12821,6 +12815,7 @@ androidx.activity.ComponentActivity$4:
     public final synthetic androidx.activity.ComponentActivity this$0
 androidx.activity.ComponentActivity$5:
     public final synthetic androidx.activity.ComponentActivity this$0
+androidx.activity.ComponentActivity$Api19Impl$$IA$1
 androidx.activity.ComponentActivity$Api19Impl$$InternalSyntheticThrowCCEIfNotNull$6$9f88b8057b18bdaaad9bc2d071647b46f69b460579e798f384a0555466837b38$0
 androidx.activity.ComponentActivity$Api19Impl:
     public abstract androidx.activity.Cancellable addCancellableCallback()
@@ -13537,7 +13532,6 @@ androidx.appcompat.widget.AppCompatTextClassifierHelper
 androidx.appcompat.widget.AppCompatTextHelper$1:
     public static androidx.core.text.PrecomputedTextCompat$Params build()
     public static void callbackFailAsync$androidx$core$content$res$ResourcesCompat$FontCallback()
-    public final void callbackSuccessAsync(android.graphics.Typeface)
     public static void callbackSuccessAsync$androidx$core$content$res$ResourcesCompat$FontCallback()
     public static android.os.Handler getHandler()
     public static synthetic bridge void lambda$callbackFailAsync$1()
@@ -15108,6 +15102,7 @@ androidx.recyclerview.widget.AdapterHelper:
     public static void applyUpdate()
     public static int findPositionOffset()
     public final boolean hasAnyUpdateTypes(int)
+    public final boolean hasPendingUpdates()
     public static boolean hasUpdates()
     public final void reset()
 androidx.recyclerview.widget.ChildHelper$Callback
@@ -15263,6 +15258,7 @@ androidx.recyclerview.widget.LinearLayoutManager:
     public static void recycleViewsFromEnd()
     public static void recycleViewsFromStart()
     public final boolean resolveIsInfinite()
+    public static void scrollToPositionWithOffset()
     public final void setReverseLayout(boolean)
     public static boolean updateAnchorFromChildren()
     public static boolean updateAnchorFromPendingData()
@@ -15329,7 +15325,6 @@ androidx.recyclerview.widget.RecyclerView$Adapter:
     public abstract long getItemId()
     public abstract int getItemViewType()
     public abstract boolean hasStableIds()
-    public abstract void notifyDataSetChanged()
     public abstract void onAttachedToRecyclerView()
     public abstract void onBindViewHolder()
     public abstract void onBindViewHolder$1()
@@ -15520,8 +15515,7 @@ androidx.recyclerview.widget.RecyclerView$Recycler:
     public static void viewRangeUpdate()
 androidx.recyclerview.widget.RecyclerView$RecyclerListener:
     public abstract void onViewRecycled()
-androidx.recyclerview.widget.RecyclerView$RecyclerViewDataObserver:
-    public static void onChanged()
+androidx.recyclerview.widget.RecyclerView$RecyclerViewDataObserver
 androidx.recyclerview.widget.RecyclerView$SavedState$1
 androidx.recyclerview.widget.RecyclerView$SavedState:
     public static void copyFrom()
@@ -15631,6 +15625,7 @@ androidx.recyclerview.widget.RecyclerView:
     public static void onScrollStateChanged()
     public static void onScrolled()
     public final boolean predictiveItemAnimationsEnabled()
+    public static void processDataSetCompletelyChanged()
     public static void pullGlows()
     public static void recoverFocusFromState()
     public static void releaseGlows()
@@ -15893,48 +15888,60 @@ androidx.versionedparcelable.VersionedParcelParcel:
     public final void writeParcelable()
     public final void writeString(java.lang.String)
 com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$0
+com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$2$2a4b8f7f33b67e2b9f58ded608a27836333b38982518238c517d4877f196d8ad$0
+com.minimy.minimy.AppAdapter$1:
+    public final synthetic com.minimy.minimy.AppAdapter this$0
+    public static int sizeOf()
 com.minimy.minimy.AppAdapter$OnAppActionListener:
     public abstract void onLaunch()
     public abstract void onLongPress()
 com.minimy.minimy.AppAdapter:
-    public static final java.util.Map iconCache
-    public final boolean isHome
-    public final android.content.pm.PackageManager pm
-    public final int sizePx
-    public static int getCategoryIcon()
+    public final void applyIcon(android.widget.TextView,android.graphics.Bitmap)
+    public static android.graphics.Bitmap extractFromSystem()
     public final int getItemCount()
+    public static synthetic void lambda$loadAppIcon$2()
+    public static void lambda$loadAppIcon$3()
     public static void lambda$onBindViewHolder$0()
     public static boolean lambda$onBindViewHolder$1()
+    public static void loadAppIcon()
+    public static android.graphics.Bitmap loadFromDisk()
     public final void onBindViewHolder()
     public static void onBindViewHolder$2()
     public static com.minimy.minimy.AppAdapter$ViewHolder onCreateViewHolder()
-com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$0c3edcdfc208490934446b1b0e7fcf507516e8dcbe040bebd5d43cc0932ef64e$0
-com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$79d573233c1d68525d8683c672ac424635d722a53e2b1246491096af125b91d0$0
+    public static void saveToDisk()
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$59f460d082336f0c8481092ecf47b3beddf6bd2a18ce4ac73f281643df8f20d3$0
 com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$1
 com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$2
 com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$3
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$f5bcd03e06fecc1671de9beef07887c38da139182620432499d83e29f8c74b8d$0
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$f5bcd03e06fecc1671de9beef07887c38da139182620432499d83e29f8c74b8d$1
 com.minimy.minimy.MainActivity$2
 com.minimy.minimy.MainActivity$3
 com.minimy.minimy.MainActivity:
-    public static java.util.List getVisibleApps()
+    public com.minimy.minimy.AppAdapter adapter
+    public static synthetic void lambda$loadAllApps$7()
+    public static void lambda$loadAllApps$8()
     public static synthetic void lambda$onCreate$0()
-    public static synthetic boolean lambda$onCreate$1()
-    public static synthetic void lambda$onCreate$2()
-    public static void lambda$onLongPress$8()
-    public static void lambda$onLongPress$9()
+    public static synthetic void lambda$onLaunch$9()
+    public static synthetic void lambda$onLongPress$10()
+    public static void lambda$onLongPress$11()
+    public static synthetic void lambda$setupDock$1()
+    public static synthetic void lambda$setupDock$2()
     public static synthetic void lambda$setupDock$3()
     public static synthetic void lambda$setupDock$4()
-    public static synthetic void lambda$setupDock$5()
-    public static synthetic void lambda$setupDock$6()
+    public static void lambda$setupLetterIndex$5()
+    public final void loadAllApps()
+    public static void loadHiddenApps()
+    public static void lockScreen()
     public final void onLaunch()
     public final void onLongPress()
     public static void saveHiddenApps()
     public static void setupDock()
+    public static void setupDragToLock()
+    public static void setupLetterIndex()
     public static void setupPackageReceiver()
     public static void setupSearch()
     public static void startClock()
-    public static void updateAdapter()
-com.minimy.minimy.R$drawable
 com.minimy.minimy.R$id
 com.minimy.minimy.R$layout
 kotlin.ExceptionsKt

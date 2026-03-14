@@ -1,3 +1,71 @@
+android.support.customtabs.ICustomTabsCallback$Default
+android.support.customtabs.ICustomTabsCallback$Stub$Proxy
+android.support.customtabs.ICustomTabsCallback$Stub:
+    static final int TRANSACTION_extraCallback
+    static final int TRANSACTION_extraCallbackWithResult
+    static final int TRANSACTION_onActivityResized
+    static final int TRANSACTION_onMessageChannelReady
+    static final int TRANSACTION_onNavigationEvent
+    static final int TRANSACTION_onPostMessage
+    static final int TRANSACTION_onRelationshipValidationResult
+    public static android.support.customtabs.ICustomTabsCallback asInterface(android.os.IBinder)
+android.support.customtabs.ICustomTabsCallback$_Parcel:
+    public void <init>()
+android.support.customtabs.ICustomTabsCallback:
+    public static final java.lang.String DESCRIPTOR
+android.support.customtabs.ICustomTabsService$Default
+android.support.customtabs.ICustomTabsService$Stub$Proxy:
+    public android.os.Bundle extraCommand(java.lang.String,android.os.Bundle)
+    public java.lang.String getInterfaceDescriptor()
+    public int postMessage(android.support.customtabs.ICustomTabsCallback,java.lang.String,android.os.Bundle)
+    public boolean receiveFile(android.support.customtabs.ICustomTabsCallback,android.net.Uri,int,android.os.Bundle)
+    public boolean requestPostMessageChannel(android.support.customtabs.ICustomTabsCallback,android.net.Uri)
+    public boolean requestPostMessageChannelWithExtras(android.support.customtabs.ICustomTabsCallback,android.net.Uri,android.os.Bundle)
+    public boolean updateVisuals(android.support.customtabs.ICustomTabsCallback,android.os.Bundle)
+    public boolean validateRelationship(android.support.customtabs.ICustomTabsCallback,int,android.net.Uri,android.os.Bundle)
+android.support.customtabs.ICustomTabsService$Stub:
+    static final int TRANSACTION_extraCommand
+    static final int TRANSACTION_mayLaunchUrl
+    static final int TRANSACTION_newSession
+    static final int TRANSACTION_newSessionWithExtras
+    static final int TRANSACTION_postMessage
+    static final int TRANSACTION_receiveFile
+    static final int TRANSACTION_requestPostMessageChannel
+    static final int TRANSACTION_requestPostMessageChannelWithExtras
+    static final int TRANSACTION_updateVisuals
+    static final int TRANSACTION_validateRelationship
+    static final int TRANSACTION_warmup
+    public void <init>()
+    public android.os.IBinder asBinder()
+    public boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+android.support.customtabs.ICustomTabsService$_Parcel:
+    public void <init>()
+    static synthetic java.lang.Object access$000(android.os.Parcel,android.os.Parcelable$Creator)
+    private static java.lang.Object readTypedObject(android.os.Parcel,android.os.Parcelable$Creator)
+android.support.customtabs.ICustomTabsService:
+    public static final java.lang.String DESCRIPTOR
+    public abstract android.os.Bundle extraCommand(java.lang.String,android.os.Bundle)
+    public abstract int postMessage(android.support.customtabs.ICustomTabsCallback,java.lang.String,android.os.Bundle)
+    public abstract boolean receiveFile(android.support.customtabs.ICustomTabsCallback,android.net.Uri,int,android.os.Bundle)
+    public abstract boolean requestPostMessageChannel(android.support.customtabs.ICustomTabsCallback,android.net.Uri)
+    public abstract boolean requestPostMessageChannelWithExtras(android.support.customtabs.ICustomTabsCallback,android.net.Uri,android.os.Bundle)
+    public abstract boolean updateVisuals(android.support.customtabs.ICustomTabsCallback,android.os.Bundle)
+    public abstract boolean validateRelationship(android.support.customtabs.ICustomTabsCallback,int,android.net.Uri,android.os.Bundle)
+android.support.customtabs.IPostMessageService$Default
+android.support.customtabs.IPostMessageService$Stub$Proxy
+android.support.customtabs.IPostMessageService$Stub
+android.support.customtabs.IPostMessageService$_Parcel
+android.support.customtabs.IPostMessageService
+android.support.customtabs.trusted.ITrustedWebActivityCallback$Default
+android.support.customtabs.trusted.ITrustedWebActivityCallback$Stub$Proxy
+android.support.customtabs.trusted.ITrustedWebActivityCallback$Stub
+android.support.customtabs.trusted.ITrustedWebActivityCallback$_Parcel
+android.support.customtabs.trusted.ITrustedWebActivityCallback
+android.support.customtabs.trusted.ITrustedWebActivityService$Default
+android.support.customtabs.trusted.ITrustedWebActivityService$Stub$Proxy
+android.support.customtabs.trusted.ITrustedWebActivityService$Stub
+android.support.customtabs.trusted.ITrustedWebActivityService$_Parcel
+android.support.customtabs.trusted.ITrustedWebActivityService
 android.support.v4.app.INotificationSideChannel$Default
 android.support.v4.app.INotificationSideChannel$Stub$Proxy
 android.support.v4.app.INotificationSideChannel$Stub
@@ -2458,6 +2526,225 @@ androidx.arch.core.executor.TaskExecutor:
 androidx.arch.core.internal.SafeIterableMap:
     public java.lang.Object putIfAbsent(java.lang.Object,java.lang.Object)
 androidx.arch.core.util.Function
+androidx.browser.R$color
+androidx.browser.R$dimen:
+    private void <init>()
+androidx.browser.R$id
+androidx.browser.R$layout
+androidx.browser.R$string
+androidx.browser.R$xml
+androidx.browser.R
+androidx.browser.browseractions.BrowserActionItem
+androidx.browser.browseractions.BrowserActionsFallbackMenuAdapter$1
+androidx.browser.browseractions.BrowserActionsFallbackMenuAdapter$2
+androidx.browser.browseractions.BrowserActionsFallbackMenuAdapter$ViewHolderItem
+androidx.browser.browseractions.BrowserActionsFallbackMenuAdapter
+androidx.browser.browseractions.BrowserActionsFallbackMenuDialog$1
+androidx.browser.browseractions.BrowserActionsFallbackMenuDialog
+androidx.browser.browseractions.BrowserActionsFallbackMenuUi$1
+androidx.browser.browseractions.BrowserActionsFallbackMenuUi$2
+androidx.browser.browseractions.BrowserActionsFallbackMenuUi$3
+androidx.browser.browseractions.BrowserActionsFallbackMenuUi$BrowserActionsFallMenuUiListener
+androidx.browser.browseractions.BrowserActionsFallbackMenuUi
+androidx.browser.browseractions.BrowserActionsIntent$BrowserActionsFallDialogListener
+androidx.browser.browseractions.BrowserActionsIntent$BrowserActionsItemId
+androidx.browser.browseractions.BrowserActionsIntent$BrowserActionsUrlType
+androidx.browser.browseractions.BrowserActionsIntent$Builder
+androidx.browser.browseractions.BrowserActionsIntent
+androidx.browser.browseractions.BrowserServiceFileProvider$1
+androidx.browser.browseractions.BrowserServiceFileProvider$FileCleanupTask
+androidx.browser.browseractions.BrowserServiceFileProvider$FileSaveTask
+androidx.browser.browseractions.BrowserServiceFileProvider
+androidx.browser.customtabs.CustomTabColorSchemeParams$Builder:
+    public androidx.browser.customtabs.CustomTabColorSchemeParams$Builder setNavigationBarColor(int)
+    public androidx.browser.customtabs.CustomTabColorSchemeParams$Builder setNavigationBarDividerColor(int)
+    public androidx.browser.customtabs.CustomTabColorSchemeParams$Builder setSecondaryToolbarColor(int)
+androidx.browser.customtabs.CustomTabColorSchemeParams:
+    static androidx.browser.customtabs.CustomTabColorSchemeParams fromBundle(android.os.Bundle)
+    androidx.browser.customtabs.CustomTabColorSchemeParams withDefaults(androidx.browser.customtabs.CustomTabColorSchemeParams)
+androidx.browser.customtabs.CustomTabsCallback:
+    public static final int NAVIGATION_ABORTED
+    public static final int NAVIGATION_FAILED
+    public static final int NAVIGATION_FINISHED
+    public static final int NAVIGATION_STARTED
+    public static final java.lang.String ONLINE_EXTRAS_KEY
+    public static final int TAB_HIDDEN
+    public static final int TAB_SHOWN
+    public void <init>()
+androidx.browser.customtabs.CustomTabsClient$1
+androidx.browser.customtabs.CustomTabsClient:
+    private static final java.lang.String TAG
+    public androidx.browser.customtabs.CustomTabsSession attachSession(androidx.browser.customtabs.CustomTabsSession$PendingSession)
+    public static boolean bindCustomTabsServicePreservePriority(android.content.Context,java.lang.String,androidx.browser.customtabs.CustomTabsServiceConnection)
+    public static boolean connectAndInitialize(android.content.Context,java.lang.String)
+    private static android.app.PendingIntent createSessionId(android.content.Context,int)
+    public android.os.Bundle extraCommand(java.lang.String,android.os.Bundle)
+    public static java.lang.String getPackageName(android.content.Context,java.util.List)
+    public static java.lang.String getPackageName(android.content.Context,java.util.List,boolean)
+    public static androidx.browser.customtabs.CustomTabsSession$PendingSession newPendingSession(android.content.Context,androidx.browser.customtabs.CustomTabsCallback,int)
+    public androidx.browser.customtabs.CustomTabsSession newSession(androidx.browser.customtabs.CustomTabsCallback,int)
+androidx.browser.customtabs.CustomTabsIntent$ActivityHeightResizeBehavior
+androidx.browser.customtabs.CustomTabsIntent$Api24Impl:
+    private void <init>()
+androidx.browser.customtabs.CustomTabsIntent$Builder:
+    public void <init>()
+    public androidx.browser.customtabs.CustomTabsIntent$Builder addDefaultShareMenuItem()
+    public androidx.browser.customtabs.CustomTabsIntent$Builder addMenuItem(java.lang.String,android.app.PendingIntent)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder addToolbarItem(int,android.graphics.Bitmap,java.lang.String,android.app.PendingIntent)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder enableUrlBarHiding()
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setActionButton(android.graphics.Bitmap,java.lang.String,android.app.PendingIntent)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setActionButton(android.graphics.Bitmap,java.lang.String,android.app.PendingIntent,boolean)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setCloseButtonIcon(android.graphics.Bitmap)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setCloseButtonPosition(int)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setColorScheme(int)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setColorSchemeParams(int,androidx.browser.customtabs.CustomTabColorSchemeParams)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setDefaultColorSchemeParams(androidx.browser.customtabs.CustomTabColorSchemeParams)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setDefaultShareMenuItemEnabled(boolean)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setInitialActivityHeightPx(int)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setInitialActivityHeightPx(int,int)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setInstantAppsEnabled(boolean)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setNavigationBarColor(int)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setNavigationBarDividerColor(int)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setPendingSession(androidx.browser.customtabs.CustomTabsSession$PendingSession)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setSecondaryToolbarColor(int)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setSecondaryToolbarViews(android.widget.RemoteViews,int[],android.app.PendingIntent)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setShareState(int)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setToolbarCornerRadiusDp(int)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setUrlBarHidingEnabled(boolean)
+androidx.browser.customtabs.CustomTabsIntent$CloseButtonPosition
+androidx.browser.customtabs.CustomTabsIntent$ColorScheme
+androidx.browser.customtabs.CustomTabsIntent$ShareState
+androidx.browser.customtabs.CustomTabsIntent:
+    public static final int ACTIVITY_HEIGHT_ADJUSTABLE
+    public static final int ACTIVITY_HEIGHT_DEFAULT
+    public static final int ACTIVITY_HEIGHT_FIXED
+    private static final int ACTIVITY_HEIGHT_MAX
+    public static final int CLOSE_BUTTON_POSITION_DEFAULT
+    public static final int CLOSE_BUTTON_POSITION_END
+    private static final int CLOSE_BUTTON_POSITION_MAX
+    public static final int CLOSE_BUTTON_POSITION_START
+    public static final int COLOR_SCHEME_DARK
+    public static final int COLOR_SCHEME_LIGHT
+    private static final int COLOR_SCHEME_MAX
+    public static final int COLOR_SCHEME_SYSTEM
+    public static final java.lang.String EXTRA_ACTION_BUTTON_BUNDLE
+    public static final java.lang.String EXTRA_ACTIVITY_HEIGHT_RESIZE_BEHAVIOR
+    public static final java.lang.String EXTRA_CLOSE_BUTTON_ICON
+    public static final java.lang.String EXTRA_CLOSE_BUTTON_POSITION
+    public static final java.lang.String EXTRA_COLOR_SCHEME
+    public static final java.lang.String EXTRA_COLOR_SCHEME_PARAMS
+    public static final java.lang.String EXTRA_DEFAULT_SHARE_MENU_ITEM
+    public static final java.lang.String EXTRA_ENABLE_INSTANT_APPS
+    public static final java.lang.String EXTRA_ENABLE_URLBAR_HIDING
+    public static final java.lang.String EXTRA_EXIT_ANIMATION_BUNDLE
+    public static final java.lang.String EXTRA_INITIAL_ACTIVITY_HEIGHT_PX
+    public static final java.lang.String EXTRA_MENU_ITEMS
+    public static final java.lang.String EXTRA_NAVIGATION_BAR_COLOR
+    public static final java.lang.String EXTRA_NAVIGATION_BAR_DIVIDER_COLOR
+    public static final java.lang.String EXTRA_REMOTEVIEWS
+    public static final java.lang.String EXTRA_REMOTEVIEWS_CLICKED_ID
+    public static final java.lang.String EXTRA_REMOTEVIEWS_PENDINGINTENT
+    public static final java.lang.String EXTRA_REMOTEVIEWS_VIEW_IDS
+    public static final java.lang.String EXTRA_SECONDARY_TOOLBAR_COLOR
+    public static final java.lang.String EXTRA_SESSION
+    public static final java.lang.String EXTRA_SESSION_ID
+    public static final java.lang.String EXTRA_SHARE_STATE
+    public static final java.lang.String EXTRA_TINT_ACTION_BUTTON
+    public static final java.lang.String EXTRA_TITLE_VISIBILITY_STATE
+    public static final java.lang.String EXTRA_TOOLBAR_COLOR
+    public static final java.lang.String EXTRA_TOOLBAR_CORNER_RADIUS_DP
+    public static final java.lang.String EXTRA_TOOLBAR_ITEMS
+    private static final java.lang.String EXTRA_USER_OPT_OUT_FROM_CUSTOM_TABS
+    private static final java.lang.String HTTP_ACCEPT_LANGUAGE
+    public static final java.lang.String KEY_DESCRIPTION
+    public static final java.lang.String KEY_ICON
+    public static final java.lang.String KEY_ID
+    public static final java.lang.String KEY_MENU_ITEM_TITLE
+    public static final java.lang.String KEY_PENDING_INTENT
+    private static final int MAX_TOOLBAR_CORNER_RADIUS_DP
+    private static final int MAX_TOOLBAR_ITEMS
+    public static final int NO_TITLE
+    public static final int SHARE_STATE_DEFAULT
+    private static final int SHARE_STATE_MAX
+    public static final int SHARE_STATE_OFF
+    public static final int SHARE_STATE_ON
+    public static final int SHOW_PAGE_TITLE
+    public static final int TOOLBAR_ACTION_BUTTON_ID
+    public static int getActivityResizeBehavior(android.content.Intent)
+    public static int getCloseButtonPosition(android.content.Intent)
+    public static androidx.browser.customtabs.CustomTabColorSchemeParams getColorSchemeParams(android.content.Intent,int)
+    public static int getInitialActivityHeightPx(android.content.Intent)
+    public static int getMaxToolbarItems()
+    public static int getToolbarCornerRadiusDp(android.content.Intent)
+    public static android.content.Intent setAlwaysUseBrowserUI(android.content.Intent)
+    public static boolean shouldAlwaysUseBrowserUI(android.content.Intent)
+androidx.browser.customtabs.CustomTabsService$1
+androidx.browser.customtabs.CustomTabsService$FilePurpose
+androidx.browser.customtabs.CustomTabsService$Relation
+androidx.browser.customtabs.CustomTabsService$Result
+androidx.browser.customtabs.CustomTabsService
+androidx.browser.customtabs.CustomTabsServiceConnection:
+    android.content.Context getApplicationContext()
+androidx.browser.customtabs.CustomTabsSession$MockSession
+androidx.browser.customtabs.CustomTabsSession$PendingSession
+androidx.browser.customtabs.CustomTabsSession:
+    private static final java.lang.String TAG
+    public static androidx.browser.customtabs.CustomTabsSession createMockSessionForTesting(android.content.ComponentName)
+    public int postMessage(java.lang.String,android.os.Bundle)
+    public boolean receiveFile(android.net.Uri,int,android.os.Bundle)
+    public boolean requestPostMessageChannel(android.net.Uri)
+    public boolean setActionButton(android.graphics.Bitmap,java.lang.String)
+    public boolean setSecondaryToolbarViews(android.widget.RemoteViews,int[],android.app.PendingIntent)
+    public boolean setToolbarItem(int,android.graphics.Bitmap,java.lang.String)
+    public boolean validateRelationship(int,android.net.Uri,android.os.Bundle)
+androidx.browser.customtabs.CustomTabsSessionToken$1
+androidx.browser.customtabs.CustomTabsSessionToken$MockCallback
+androidx.browser.customtabs.CustomTabsSessionToken
+androidx.browser.customtabs.PostMessageBackend
+androidx.browser.customtabs.PostMessageService$1
+androidx.browser.customtabs.PostMessageService
+androidx.browser.customtabs.PostMessageServiceConnection
+androidx.browser.customtabs.TrustedWebUtils
+androidx.browser.trusted.ConnectionHolder$WrapperFactory
+androidx.browser.trusted.ConnectionHolder
+androidx.browser.trusted.FutureUtils
+androidx.browser.trusted.NotificationApiHelperForM
+androidx.browser.trusted.NotificationApiHelperForO
+androidx.browser.trusted.PackageIdentityUtils$Api28Implementation
+androidx.browser.trusted.PackageIdentityUtils$Pre28Implementation
+androidx.browser.trusted.PackageIdentityUtils$SignaturesCompat
+androidx.browser.trusted.PackageIdentityUtils
+androidx.browser.trusted.ScreenOrientation$LockType
+androidx.browser.trusted.ScreenOrientation
+androidx.browser.trusted.Token
+androidx.browser.trusted.TokenContents
+androidx.browser.trusted.TokenStore
+androidx.browser.trusted.TrustedWebActivityCallback
+androidx.browser.trusted.TrustedWebActivityCallbackRemote
+androidx.browser.trusted.TrustedWebActivityDisplayMode$DefaultMode
+androidx.browser.trusted.TrustedWebActivityDisplayMode$ImmersiveMode
+androidx.browser.trusted.TrustedWebActivityDisplayMode
+androidx.browser.trusted.TrustedWebActivityIntent
+androidx.browser.trusted.TrustedWebActivityIntentBuilder
+androidx.browser.trusted.TrustedWebActivityService$1
+androidx.browser.trusted.TrustedWebActivityService
+androidx.browser.trusted.TrustedWebActivityServiceConnection$1
+androidx.browser.trusted.TrustedWebActivityServiceConnection$ActiveNotificationsArgs
+androidx.browser.trusted.TrustedWebActivityServiceConnection$CancelNotificationArgs
+androidx.browser.trusted.TrustedWebActivityServiceConnection$NotificationsEnabledArgs
+androidx.browser.trusted.TrustedWebActivityServiceConnection$NotifyNotificationArgs
+androidx.browser.trusted.TrustedWebActivityServiceConnection$ResultArgs
+androidx.browser.trusted.TrustedWebActivityServiceConnection
+androidx.browser.trusted.TrustedWebActivityServiceConnectionPool$BindToServiceAsyncTask
+androidx.browser.trusted.TrustedWebActivityServiceConnectionPool
+androidx.browser.trusted.sharing.ShareData
+androidx.browser.trusted.sharing.ShareTarget$EncodingType
+androidx.browser.trusted.sharing.ShareTarget$FileFormField
+androidx.browser.trusted.sharing.ShareTarget$Params
+androidx.browser.trusted.sharing.ShareTarget$RequestMethod
+androidx.browser.trusted.sharing.ShareTarget
+androidx.browser.trusted.splashscreens.SplashScreenParamKey
+androidx.browser.trusted.splashscreens.SplashScreenVersion
 androidx.collection.ArrayMap:
     public void <init>(androidx.collection.SimpleArrayMap)
     public boolean containsAll(java.util.Collection)
@@ -2634,12 +2921,30 @@ androidx.core.app.ActivityCompat$RequestPermissionsRequestCodeValidator
 androidx.core.app.ActivityCompat$SharedElementCallback21Impl
 androidx.core.app.ActivityCompat
 androidx.core.app.ActivityManagerCompat
-androidx.core.app.ActivityOptionsCompat$ActivityOptionsCompatImpl
-androidx.core.app.ActivityOptionsCompat$Api16Impl
+androidx.core.app.ActivityOptionsCompat$ActivityOptionsCompatImpl:
+    public android.graphics.Rect getLaunchBounds()
+    public void requestUsageTimeReport(android.app.PendingIntent)
+    public androidx.core.app.ActivityOptionsCompat setLaunchBounds(android.graphics.Rect)
+    public void update(androidx.core.app.ActivityOptionsCompat)
+androidx.core.app.ActivityOptionsCompat$Api16Impl:
+    private void <init>()
 androidx.core.app.ActivityOptionsCompat$Api21Impl
 androidx.core.app.ActivityOptionsCompat$Api23Impl
 androidx.core.app.ActivityOptionsCompat$Api24Impl
-androidx.core.app.ActivityOptionsCompat
+androidx.core.app.ActivityOptionsCompat:
+    public static final java.lang.String EXTRA_USAGE_TIME_REPORT
+    public static final java.lang.String EXTRA_USAGE_TIME_REPORT_PACKAGES
+    public android.graphics.Rect getLaunchBounds()
+    public static androidx.core.app.ActivityOptionsCompat makeBasic()
+    public static androidx.core.app.ActivityOptionsCompat makeClipRevealAnimation(android.view.View,int,int,int,int)
+    public static androidx.core.app.ActivityOptionsCompat makeScaleUpAnimation(android.view.View,int,int,int,int)
+    public static androidx.core.app.ActivityOptionsCompat makeSceneTransitionAnimation(android.app.Activity,android.view.View,java.lang.String)
+    public static varargs androidx.core.app.ActivityOptionsCompat makeSceneTransitionAnimation(android.app.Activity,androidx.core.util.Pair[])
+    public static androidx.core.app.ActivityOptionsCompat makeTaskLaunchBehind()
+    public static androidx.core.app.ActivityOptionsCompat makeThumbnailScaleUpAnimation(android.view.View,android.graphics.Bitmap,int,int)
+    public void requestUsageTimeReport(android.app.PendingIntent)
+    public androidx.core.app.ActivityOptionsCompat setLaunchBounds(android.graphics.Rect)
+    public void update(androidx.core.app.ActivityOptionsCompat)
 androidx.core.app.ActivityRecreator$1
 androidx.core.app.ActivityRecreator$2
 androidx.core.app.ActivityRecreator$3
@@ -2655,9 +2960,17 @@ androidx.core.app.AppOpsManagerCompat$Api19Impl
 androidx.core.app.AppOpsManagerCompat$Api23Impl
 androidx.core.app.AppOpsManagerCompat$Api29Impl
 androidx.core.app.AppOpsManagerCompat
-androidx.core.app.BundleCompat$Api18Impl
-androidx.core.app.BundleCompat$BeforeApi18Impl
-androidx.core.app.BundleCompat
+androidx.core.app.BundleCompat$Api18Impl:
+    private void <init>()
+androidx.core.app.BundleCompat$BeforeApi18Impl:
+    private static final java.lang.String TAG
+    private static java.lang.reflect.Method sGetIBinderMethod
+    private static boolean sGetIBinderMethodFetched
+    private void <init>()
+    public static android.os.IBinder getBinder(android.os.Bundle,java.lang.String)
+androidx.core.app.BundleCompat:
+    private void <init>()
+    public static android.os.IBinder getBinder(android.os.Bundle,java.lang.String)
 androidx.core.app.ComponentActivity$ExtraData
 androidx.core.app.ComponentActivity:
     private androidx.collection.SimpleArrayMap mExtraDataMap
@@ -2802,7 +3115,8 @@ androidx.core.content.ContentProviderCompat
 androidx.core.content.ContentResolverCompat$Api16Impl
 androidx.core.content.ContentResolverCompat
 androidx.core.content.ContentValuesKt
-androidx.core.content.ContextCompat$Api16Impl
+androidx.core.content.ContextCompat$Api16Impl:
+    private void <init>()
 androidx.core.content.ContextCompat$Api19Impl
 androidx.core.content.ContextCompat$Api21Impl:
     private void <init>()
@@ -2841,7 +3155,6 @@ androidx.core.content.ContextCompat:
     public static android.content.Intent registerReceiver(android.content.Context,android.content.BroadcastReceiver,android.content.IntentFilter,java.lang.String,android.os.Handler,int)
     public static boolean startActivities(android.content.Context,android.content.Intent[])
     public static boolean startActivities(android.content.Context,android.content.Intent[],android.os.Bundle)
-    public static void startActivity(android.content.Context,android.content.Intent,android.os.Bundle)
     public static void startForegroundService(android.content.Context,android.content.Intent)
 androidx.core.content.ContextKt
 androidx.core.content.FileProvider$Api21Impl
@@ -6164,7 +6477,6 @@ androidx.recyclerview.widget.LinearLayoutManager:
     public boolean getStackFromEnd()
     private void logChildren()
     public void prepareForDrop(android.view.View,android.view.View,int,int)
-    public void scrollToPosition(int)
     public void setInitialPrefetchItemCount(int)
     public void setRecycleChildrenOnDetach(boolean)
     public void setSmoothScrollbarEnabled(boolean)
@@ -6276,7 +6588,6 @@ androidx.recyclerview.widget.RecyclerView$LayoutManager:
     public void postOnAnimation(java.lang.Runnable)
     public void removeAllViews()
     public void removeDetachedView(android.view.View)
-    public void scrollToPosition(int)
     public void setAutoMeasureEnabled(boolean)
     public final void setItemPrefetchEnabled(boolean)
     public void setMeasurementCacheEnabled(boolean)
@@ -6424,7 +6735,6 @@ androidx.recyclerview.widget.RecyclerView:
     public void removeItemDecorationAt(int)
     public void removeOnChildAttachStateChangeListener(androidx.recyclerview.widget.RecyclerView$OnChildAttachStateChangeListener)
     public void removeRecyclerListener(androidx.recyclerview.widget.RecyclerView$RecyclerListener)
-    public void scrollToPosition(int)
     public void smoothScrollToPosition(int)
     public void swapAdapter(androidx.recyclerview.widget.RecyclerView$Adapter,boolean)
 androidx.recyclerview.widget.ScrollbarHelper:
@@ -6483,7 +6793,6 @@ androidx.recyclerview.widget.StaggeredGridLayoutManager:
     public int getOrientation()
     public boolean getReverseLayout()
     public int getSpanCount()
-    public void scrollToPosition(int)
     public void scrollToPositionWithOffset(int,int)
     public void setGapStrategy(int)
     public void smoothScrollToPosition(androidx.recyclerview.widget.RecyclerView,androidx.recyclerview.widget.RecyclerView$State,int)
@@ -6924,9 +7233,9 @@ com.minimy.minimy.AppModel:
 com.minimy.minimy.MainActivity:
     private static final java.lang.String FAV_FILE
     private static final java.lang.String HIDDEN_FILE
+    private android.widget.TextView btnAllApps
 com.minimy.minimy.R$drawable
 com.minimy.minimy.R$id:
-    public static int et_web_search
     private void <init>()
 com.minimy.minimy.R$layout:
     private void <init>()
@@ -12808,6 +13117,45 @@ org.jetbrains.annotations.NotNull
 org.jetbrains.annotations.Nullable
 org.jetbrains.annotations.PropertyKey
 org.jetbrains.annotations.TestOnly
+android.support.customtabs.ICustomTabsCallback$_Parcel$$IA$1
+android.support.customtabs.ICustomTabsCallback$_Parcel$$InternalSyntheticThrowCCEIfNotNull$8$8ab9adf653ddf97491de78c4c598e3a6643aa716824ca60448d6952ff48cd2b9$0
+android.support.customtabs.ICustomTabsCallback$_Parcel:
+    public static java.lang.reflect.Method sPutIBinderMethod
+    public static boolean sPutIBinderMethodFetched
+    public static void access$100$1(android.os.Parcel,android.os.Parcelable)
+    public abstract androidx.activity.Cancellable addCancellableCallback()
+    public static void addNode(java.util.ArrayList,char,float[])
+    public abstract void clearAvailableContext()
+    public abstract void extraCallback()
+    public abstract android.os.Bundle extraCallbackWithResult()
+    public static int growSize(int)
+    public abstract void onActivityResized()
+    public static void onCreateInputConnection(android.view.inputmethod.InputConnection,android.view.inputmethod.EditorInfo,android.view.View)
+    public abstract void onMessageChannelReady()
+    public abstract void onNavigationEvent()
+    public abstract void onPostMessage()
+    public abstract void onRelationshipValidationResult()
+    public abstract java.lang.Object parseResult()
+    public static android.graphics.Shader$TileMode parseTileMode(int)
+    public static android.util.TypedValue peekNamedValue(android.content.res.TypedArray,android.content.res.XmlResourceParser)
+    public abstract void removeCancellable()
+    public static java.util.ArrayList toByteArrayList(java.lang.String[])
+android.support.customtabs.ICustomTabsCallback:
+    public abstract void extraCallback()
+    public abstract android.os.Bundle extraCallbackWithResult()
+    public abstract void onActivityResized()
+    public abstract void onMessageChannelReady()
+    public abstract void onNavigationEvent()
+    public abstract void onPostMessage()
+    public abstract void onRelationshipValidationResult()
+android.support.customtabs.ICustomTabsService$Stub$Proxy:
+    public final boolean newSessionWithExtras(androidx.browser.customtabs.CustomTabsClient$2,android.os.Bundle)
+android.support.customtabs.ICustomTabsService$_Parcel
+android.support.customtabs.ICustomTabsService:
+    public abstract boolean mayLaunchUrl(android.support.customtabs.ICustomTabsCallback,android.net.Uri,android.os.Bundle)
+    public abstract boolean newSession(androidx.browser.customtabs.CustomTabsClient$2)
+    public abstract boolean newSessionWithExtras(androidx.browser.customtabs.CustomTabsClient$2,android.os.Bundle)
+    public abstract boolean warmup()
 androidx.activity.Cancellable
 androidx.activity.ComponentActivity$3:
     public final synthetic androidx.activity.ComponentActivity this$0
@@ -12815,23 +13163,7 @@ androidx.activity.ComponentActivity$4:
     public final synthetic androidx.activity.ComponentActivity this$0
 androidx.activity.ComponentActivity$5:
     public final synthetic androidx.activity.ComponentActivity this$0
-androidx.activity.ComponentActivity$Api19Impl$$IA$1
-androidx.activity.ComponentActivity$Api19Impl$$InternalSyntheticThrowCCEIfNotNull$6$9f88b8057b18bdaaad9bc2d071647b46f69b460579e798f384a0555466837b38$0
-androidx.activity.ComponentActivity$Api19Impl:
-    public abstract androidx.activity.Cancellable addCancellableCallback()
-    public static void addNode(java.util.ArrayList,char,float[])
-    public static void checkArgument(boolean,java.lang.String)
-    public static void checkArgumentNonnegative(int)
-    public static void checkArgumentNonnegative(int,java.lang.String)
-    public static void checkState(java.lang.String,boolean)
-    public abstract void clearAvailableContext()
-    public static int growSize(int)
-    public static void onCreateInputConnection(android.view.inputmethod.InputConnection,android.view.inputmethod.EditorInfo,android.view.View)
-    public abstract java.lang.Object parseResult()
-    public static android.graphics.Shader$TileMode parseTileMode(int)
-    public static android.util.TypedValue peekNamedValue(android.content.res.TypedArray,android.content.res.XmlResourceParser)
-    public abstract void removeCancellable()
-    public static java.util.ArrayList toByteArrayList(java.lang.String[])
+androidx.activity.ComponentActivity$Api19Impl
 androidx.activity.ComponentActivity
 androidx.activity.ImmLeaksCleaner:
     public android.app.Activity mActivity
@@ -12843,8 +13175,8 @@ androidx.activity.OnBackPressedCallback
 androidx.activity.OnBackPressedDispatcher$LifecycleOnBackPressedCancellable:
     public androidx.activity.Cancellable mCurrentCancellable
     public final androidx.lifecycle.Lifecycle mLifecycle
-    public final androidx.activity.ComponentActivity$Api19Impl mOnBackPressedCallback
-    public final synthetic androidx.activity.ComponentActivity$Api19Impl this$0
+    public final android.support.customtabs.ICustomTabsCallback$_Parcel mOnBackPressedCallback
+    public final synthetic android.support.customtabs.ICustomTabsCallback$_Parcel this$0
     public final void cancel()
 androidx.activity.OnBackPressedDispatcher
 androidx.activity.contextaware.ContextAwareHelper
@@ -12868,12 +13200,13 @@ androidx.activity.result.ActivityResultCallback
 androidx.activity.result.ActivityResultRegistry$1:
     public final synthetic androidx.activity.result.ActivityResultRegistry this$0
     public final synthetic androidx.activity.result.ActivityResultCallback val$callback
-    public final synthetic androidx.activity.ComponentActivity$Api19Impl val$contract
+    public final synthetic android.support.customtabs.ICustomTabsCallback$_Parcel val$contract
     public final synthetic java.lang.String val$key
 androidx.activity.result.ActivityResultRegistry$CallbackAndContract:
     public final android.text.method.KeyListener getKeyListener(android.text.method.KeyListener)
     public static android.view.textclassifier.TextClassifier getTextClassifier()
     public static boolean isEmojiCapableKeyListener()
+    public static void launchUrl()
     public static void loadFromAttributes()
     public static android.view.inputmethod.InputConnection onCreateInputConnection()
     public static void onTypefaceRequestFailed()
@@ -13175,7 +13508,7 @@ androidx.appcompat.view.ActionBarPolicy:
 androidx.appcompat.view.CollapsibleActionView:
     public abstract void onActionViewCollapsed()
     public abstract void onActionViewExpanded()
-androidx.appcompat.view.SupportMenuInflater$MenuState$$InternalSyntheticThrowCCEIfNotNull$55$156670f44e562f5f047c95832e6cd6bbffc14ef671d9a473728e0cca9adf1b32$0
+androidx.appcompat.view.SupportMenuInflater$MenuState$$InternalSyntheticThrowCCEIfNotNull$57$156670f44e562f5f047c95832e6cd6bbffc14ef671d9a473728e0cca9adf1b32$0
 androidx.appcompat.view.SupportMenuInflater$MenuState:
     public androidx.core.view.ActionProvider itemActionProvider
     public java.lang.String itemActionProviderClassName
@@ -13367,7 +13700,7 @@ androidx.appcompat.widget.ActionBarContextView:
     public androidx.appcompat.widget.ActionMenuView mMenuView
     public final android.content.Context mPopupContext
     public final androidx.appcompat.widget.AbsActionBarView$VisibilityAnimListener mVisAnimListener
-    public androidx.core.view.ViewGroupKt mVisibilityAnim
+    public androidx.core.util.Preconditions mVisibilityAnim
     public static int getAnimatedVisibility$androidx$appcompat$widget$AbsActionBarView()
     public static int getContentHeight$androidx$appcompat$widget$AbsActionBarView()
     public static int measureChildView(android.widget.LinearLayout,int,int)
@@ -13399,6 +13732,8 @@ androidx.appcompat.widget.ActionBarOverlayLayout:
     public static boolean shouldHideActionBarOnFling()
 androidx.appcompat.widget.ActionMenuPresenter$ActionMenuPopupCallback:
     public final androidx.appcompat.view.menu.ShowableListMenu getPopup()
+androidx.appcompat.widget.ActionMenuPresenter$OpenOverflowRunnable:
+    public final synthetic int $r8$classId
 androidx.appcompat.widget.ActionMenuPresenter$OverflowMenuButton$1:
     public final synthetic androidx.appcompat.widget.ActionMenuPresenter val$this$0
 androidx.appcompat.widget.ActionMenuPresenter$OverflowPopup
@@ -13450,9 +13785,11 @@ androidx.appcompat.widget.ActionMenuView$ActionMenuPresenterCallback:
     public android.text.method.KeyListener getKeyListener(android.text.method.KeyListener)
     public android.content.pm.ProviderInfo getProviderInfo(android.content.pm.ResolveInfo)
     public static boolean handleKeyDown()
+    public static androidx.core.app.ActivityOptionsCompat$ActivityOptionsCompatImpl makeCustomAnimation(com.minimy.minimy.MainActivity)
     public android.view.inputmethod.InputConnection onCreateInputConnection(android.view.inputmethod.InputConnection,android.view.inputmethod.EditorInfo)
     public java.util.List queryIntentContentProviders(android.content.pm.PackageManager,android.content.Intent)
     public static void registerObserver()
+    public android.os.Bundle toBundle()
     public static void unregisterObserver()
     public final void updateEditorInfoAttrs(android.view.inputmethod.EditorInfo)
     public static long updateHead(int,long)
@@ -13649,7 +13986,7 @@ androidx.appcompat.widget.DropDownListView$GateKeeperDrawable:
     public final void unscheduleDrawable$androidx$appcompat$graphics$drawable$DrawableWrapperCompat(android.graphics.drawable.Drawable,java.lang.Runnable)
 androidx.appcompat.widget.DropDownListView$ResolveHoverRunnable
 androidx.appcompat.widget.DropDownListView:
-    public androidx.core.view.ViewGroupKt mClickAnimation
+    public androidx.core.util.Preconditions mClickAnimation
     public abstract void clearPressedItem()
     public abstract void clickPressedItem()
     public abstract void drawSelectorCompat()
@@ -14066,6 +14403,60 @@ androidx.arch.core.internal.SafeIterableMap$ListIterator:
     public abstract java.util.Map$Entry next()
     public final androidx.arch.core.internal.SafeIterableMap$Entry nextNode()
 androidx.arch.core.internal.SafeIterableMap
+androidx.browser.R$dimen
+androidx.browser.customtabs.CustomTabColorSchemeParams$Builder:
+    public java.lang.Integer mNavigationBarColor
+    public java.lang.Integer mNavigationBarDividerColor
+    public java.lang.Integer mSecondaryToolbarColor
+    public static androidx.browser.customtabs.CustomTabColorSchemeParams$Builder build()
+    public static androidx.browser.customtabs.CustomTabColorSchemeParams$Builder setToolbarColor()
+    public static android.os.Bundle toBundle()
+androidx.browser.customtabs.CustomTabColorSchemeParams
+androidx.browser.customtabs.CustomTabsCallback
+androidx.browser.customtabs.CustomTabsClient$2$2
+androidx.browser.customtabs.CustomTabsClient$2$3
+androidx.browser.customtabs.CustomTabsClient$2$4
+androidx.browser.customtabs.CustomTabsClient$2$5
+androidx.browser.customtabs.CustomTabsClient$2$6
+androidx.browser.customtabs.CustomTabsClient$2:
+    public android.os.Handler mHandler
+    public final synthetic androidx.browser.customtabs.CustomTabsServiceConnection$1 this$0
+    public final synthetic android.support.customtabs.ICustomTabsCallback$_Parcel val$callback
+    public final void extraCallback()
+    public final android.os.Bundle extraCallbackWithResult()
+    public final void onActivityResized()
+    public final void onMessageChannelReady()
+    public final void onNavigationEvent()
+    public final void onPostMessage()
+    public final void onRelationshipValidationResult()
+androidx.browser.customtabs.CustomTabsClient
+androidx.browser.customtabs.CustomTabsIntent$Builder
+androidx.browser.customtabs.CustomTabsIntent
+androidx.browser.customtabs.CustomTabsServiceConnection$1:
+    public static void constructIndex()
+    public static android.support.customtabs.ICustomTabsCallback$Stub createCallbackWrapper()
+    public static android.support.customtabs.ICustomTabsCallback$Stub createCallbackWrapper$androidx$browser$customtabs$CustomTabsClient()
+    public static char[] getEmojiCharArray()
+    public static androidx.emoji2.text.flatbuffer.MetadataList getMetadataList()
+    public static int getMetadataVersion()
+    public static androidx.emoji2.text.MetadataRepo$Node getRootNode()
+    public static android.graphics.Typeface getTypeface()
+    public static androidx.browser.customtabs.CustomTabsSession newSession()
+    public static androidx.browser.customtabs.CustomTabsSession newSession$androidx$browser$customtabs$CustomTabsClient()
+    public static androidx.browser.customtabs.CustomTabsSession newSessionInternal()
+    public static androidx.browser.customtabs.CustomTabsSession newSessionInternal$androidx$browser$customtabs$CustomTabsClient()
+    public static void put()
+    public static boolean warmup()
+    public static boolean warmup$androidx$browser$customtabs$CustomTabsClient()
+androidx.browser.customtabs.CustomTabsServiceConnection
+androidx.browser.customtabs.CustomTabsSession:
+    public final java.lang.Object mLock
+    public static void addIdToBundle()
+    public static android.os.Bundle createBundleWithId()
+    public static android.os.IBinder getBinder()
+    public static android.content.ComponentName getComponentName()
+    public static android.app.PendingIntent getId()
+    public static boolean mayLaunchUrl()
 androidx.collection.ArrayMap$1:
     public final void colClear()
     public final androidx.collection.ArrayMap colGetMap()
@@ -14170,8 +14561,12 @@ androidx.core.R$styleable:
     public static int GradientColor_android_startY
     public static int GradientColor_android_tileMode
     public static int GradientColor_android_type
+androidx.core.app.ActivityOptionsCompat$ActivityOptionsCompatImpl
+androidx.core.app.ActivityOptionsCompat
+androidx.core.app.BundleCompat$BeforeApi18Impl
+androidx.core.app.BundleCompat
 androidx.core.app.ComponentActivity
-androidx.core.app.CoreComponentFactory$$InternalSyntheticThrowCCEIfNotNull$6$63f81007c039b90f803abbc92d2dc4a9b588da3cd2b16cb150e1e43c92db0ff5$0
+androidx.core.app.CoreComponentFactory$$InternalSyntheticThrowCCEIfNotNull$8$63f81007c039b90f803abbc92d2dc4a9b588da3cd2b16cb150e1e43c92db0ff5$0
 androidx.core.app.CoreComponentFactory$CompatWrapped
 androidx.core.content.ContextCompat:
     public static final java.lang.Object sSync
@@ -14306,6 +14701,7 @@ androidx.core.os.TraceCompat:
     public static java.lang.reflect.Method sIsTagEnabledMethod
     public static java.lang.reflect.Method sTraceCounterMethod
     public static long sTraceTagApp
+androidx.core.provider.CallbackWithHandler$2
 androidx.core.provider.CallbackWithHandler
 androidx.core.provider.CalleeHandler
 androidx.core.provider.FontRequest
@@ -14348,7 +14744,39 @@ androidx.core.util.Consumer:
 androidx.core.util.ObjectsCompat
 androidx.core.util.Pools$Pool
 androidx.core.util.Pools$SimplePool
-androidx.core.util.Preconditions
+androidx.core.util.Preconditions:
+    public abstract void cancel()
+    public abstract void changeActiveCounter()
+    public static void checkArgument(boolean,java.lang.String)
+    public static void checkArgumentNonnegative(int)
+    public static void checkArgumentNonnegative(int,java.lang.String)
+    public static void checkState(java.lang.String,boolean)
+    public abstract void clear()
+    public abstract android.os.Bundle consumeRestoredStateForKey()
+    public static android.widget.EdgeEffect create(android.content.Context,android.util.AttributeSet)
+    public static android.animation.Keyframe createNewKeyframe(android.animation.Keyframe,float)
+    public abstract void dispatchingValue()
+    public abstract androidx.core.util.Preconditions get()
+    public static final androidx.core.view.ViewGroupKt$children$1 getDescendants(android.view.ViewGroup)
+    public abstract java.lang.Object getTag()
+    public abstract int getTargetPosition()
+    public static int indexOf()
+    public abstract boolean isPendingInitialRun()
+    public abstract boolean isRunning()
+    public abstract java.util.Set keys()
+    public abstract void onAnimation()
+    public abstract void onChildAttachedToWindow()
+    public abstract void performRestore()
+    public abstract void registerSavedStateProvider()
+    public abstract void removeObserver()
+    public abstract void runOnNextRecreation()
+    public abstract androidx.core.util.Preconditions savedStateProvider()
+    public static void setLineHeight(android.widget.TextView,int)
+    public static void setPrecomputedText(android.widget.TextView)
+    public abstract void setTargetPosition()
+    public abstract void stop()
+    public static android.view.ActionMode$Callback unwrapCustomSelectionActionModeCallback(android.view.ActionMode$Callback)
+    public static android.view.ActionMode$Callback wrapCustomSelectionActionModeCallback(android.view.ActionMode$Callback,android.widget.TextView)
 androidx.core.view.AccessibilityDelegateCompat:
     public static java.util.List getActionList(android.view.View)
     public static android.view.View$AccessibilityDelegate getBridge()
@@ -14424,39 +14852,7 @@ androidx.core.view.ViewGroupKt$descendants$1:
     public final java.lang.Object invoke()
 androidx.core.view.ViewGroupKt$iterator$1:
     public static android.view.View next()
-androidx.core.view.ViewGroupKt:
-    public abstract void cancel()
-    public abstract void changeActiveCounter()
-    public abstract void clear()
-    public abstract android.os.Bundle consumeRestoredStateForKey()
-    public static android.widget.EdgeEffect create(android.content.Context,android.util.AttributeSet)
-    public static final kotlin.Result$Failure createFailure(java.lang.Throwable)
-    public static android.animation.Keyframe createNewKeyframe(android.animation.Keyframe,float)
-    public abstract void dispatchingValue()
-    public static final java.util.List emptyList()
-    public abstract androidx.core.view.ViewGroupKt get()
-    public static final androidx.core.view.ViewGroupKt$children$1 getDescendants(android.view.ViewGroup)
-    public abstract java.lang.Object getTag()
-    public abstract int getTargetPosition()
-    public static int indexOf()
-    public abstract boolean isPendingInitialRun()
-    public abstract boolean isRunning()
-    public abstract java.util.Set keys()
-    public static final java.util.List listOf(java.lang.Object)
-    public abstract void onAnimation()
-    public abstract void onChildAttachedToWindow()
-    public static java.util.List optimizeReadOnlyList(java.util.ArrayList)
-    public abstract void performRestore()
-    public abstract void registerSavedStateProvider()
-    public abstract void removeObserver()
-    public abstract void runOnNextRecreation()
-    public abstract androidx.core.view.ViewGroupKt savedStateProvider()
-    public static void setLineHeight(android.widget.TextView,int)
-    public static void setPrecomputedText(android.widget.TextView)
-    public abstract void setTargetPosition()
-    public abstract void stop()
-    public static android.view.ActionMode$Callback unwrapCustomSelectionActionModeCallback(android.view.ActionMode$Callback)
-    public static android.view.ActionMode$Callback wrapCustomSelectionActionModeCallback(android.view.ActionMode$Callback,android.widget.TextView)
+androidx.core.view.ViewGroupKt
 androidx.core.view.ViewKt$allViews$1:
     public final java.lang.Object invoke()
 androidx.core.view.ViewKt
@@ -14542,7 +14938,7 @@ androidx.core.view.WindowInsetsCompat:
     public final void setRootWindowInsets(androidx.core.view.WindowInsetsCompat)
     public static void setStableInsets()
 androidx.core.view.accessibility.AccessibilityEventCompat
-androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat$$InternalSyntheticThrowCCEIfNotNull$7$f2144b29458d53d4b3082d85d55d3973a0eb89982d7b5959a25fb317b7a775ea$0
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat$$InternalSyntheticThrowCCEIfNotNull$9$f2144b29458d53d4b3082d85d55d3973a0eb89982d7b5959a25fb317b7a775ea$0
 androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat:
     public static final androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_ACCESSIBILITY_FOCUS
     public static final androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_CLEAR_ACCESSIBILITY_FOCUS
@@ -14877,14 +15273,7 @@ androidx.emoji2.text.MetadataListReader:
 androidx.emoji2.text.MetadataRepo$Node:
     public final androidx.emoji2.text.MetadataRepo$Node get(int)
     public static androidx.emoji2.text.EmojiMetadata getData()
-androidx.emoji2.text.MetadataRepo:
-    public static void constructIndex()
-    public static char[] getEmojiCharArray()
-    public static androidx.emoji2.text.flatbuffer.MetadataList getMetadataList()
-    public static int getMetadataVersion()
-    public static androidx.emoji2.text.MetadataRepo$Node getRootNode()
-    public static android.graphics.Typeface getTypeface()
-    public static void put()
+androidx.emoji2.text.MetadataRepo
 androidx.emoji2.text.SpannableBuilder$WatcherWrapper:
     public static void blockCalls()
     public static boolean isEmojiSpan()
@@ -14999,8 +15388,8 @@ androidx.lifecycle.GeneratedAdapter:
     public abstract void callMethods()
 androidx.lifecycle.LegacySavedStateHandleController$1:
     public final synthetic androidx.lifecycle.Lifecycle val$lifecycle
-    public final synthetic androidx.core.view.ViewGroupKt val$registry
-androidx.lifecycle.LegacySavedStateHandleController$OnRecreation$$InternalSyntheticThrowCCEIfNotNull$17$43d5abea041e678a3491cae4538c147f35bed7e3265c50b63eeff4c054abd67a$0
+    public final synthetic androidx.core.util.Preconditions val$registry
+androidx.lifecycle.LegacySavedStateHandleController$OnRecreation$$InternalSyntheticThrowCCEIfNotNull$19$43d5abea041e678a3491cae4538c147f35bed7e3265c50b63eeff4c054abd67a$0
 androidx.lifecycle.LegacySavedStateHandleController$OnRecreation
 androidx.lifecycle.LegacySavedStateHandleController
 androidx.lifecycle.Lifecycle$Event:
@@ -15029,12 +15418,12 @@ androidx.lifecycle.Lifecycling:
     public static boolean isLifecycleParent(java.lang.Class)
 androidx.lifecycle.LiveData$LifecycleBoundObserver:
     public final androidx.lifecycle.LifecycleOwner mOwner
-    public final synthetic androidx.core.view.ViewGroupKt this$0
+    public final synthetic androidx.core.util.Preconditions this$0
     public static boolean shouldBeActive()
 androidx.lifecycle.LiveData$ObserverWrapper:
     public boolean mActive
     public final androidx.lifecycle.Observer mObserver
-    public final synthetic androidx.core.view.ViewGroupKt this$0
+    public final synthetic androidx.core.util.Preconditions this$0
     public abstract void activeStateChanged()
 androidx.lifecycle.LiveData
 androidx.lifecycle.MethodCallsLogger
@@ -15051,7 +15440,7 @@ androidx.lifecycle.ProcessLifecycleOwner:
     public static void dispatchPauseIfNeeded()
     public final void dispatchStopIfNeeded()
     public final androidx.lifecycle.Lifecycle getLifecycle()
-androidx.lifecycle.ReportFragment$$InternalSyntheticThrowCCEIfNotNull$27$9442b71b5560cc75a110ea9d112dab355ea1183b17c884f26ba55bef0cc2765e$0
+androidx.lifecycle.ReportFragment$$InternalSyntheticThrowCCEIfNotNull$29$9442b71b5560cc75a110ea9d112dab355ea1183b17c884f26ba55bef0cc2765e$0
 androidx.lifecycle.ReportFragment$ActivityInitializationListener
 androidx.lifecycle.ReportFragment:
     public static void dispatchCreate()
@@ -15060,9 +15449,9 @@ androidx.lifecycle.ReportFragment:
     public static void setProcessListener()
 androidx.lifecycle.SavedStateHandle
 androidx.lifecycle.SavedStateHandleAttacher:
-    public final androidx.core.view.ViewGroupKt provider
+    public final androidx.core.util.Preconditions provider
 androidx.lifecycle.SavedStateHandleController:
-    public final androidx.core.view.ViewGroupKt mHandle
+    public final androidx.core.util.Preconditions mHandle
     public boolean mIsAttached
     public final java.lang.String mKey
     public static void attachToLifecycle()
@@ -15280,8 +15669,8 @@ androidx.recyclerview.widget.OrientationHelper:
     public abstract int getMode()
     public abstract int getModeInOther()
     public abstract void onLayoutComplete()
-androidx.recyclerview.widget.RecyclerView$$InternalSyntheticThrowCCEIfNotNull$9$517a37322ee80588dec729996c6c417ca95eab0d51be60b205637ba7c0b4f167$0
-androidx.recyclerview.widget.RecyclerView$$InternalSyntheticThrowCCEIfNotNull$9$f90d61cddc94d24e774f020fd9e0d9d51e5128242b2809798fc3ce11d943f782$0
+androidx.recyclerview.widget.RecyclerView$$InternalSyntheticThrowCCEIfNotNull$11$517a37322ee80588dec729996c6c417ca95eab0d51be60b205637ba7c0b4f167$0
+androidx.recyclerview.widget.RecyclerView$$InternalSyntheticThrowCCEIfNotNull$11$f90d61cddc94d24e774f020fd9e0d9d51e5128242b2809798fc3ce11d943f782$0
 androidx.recyclerview.widget.RecyclerView$1:
     public final synthetic int $r8$classId
 androidx.recyclerview.widget.RecyclerView$2
@@ -15385,7 +15774,7 @@ androidx.recyclerview.widget.RecyclerView$LayoutManager$LayoutPrefetchRegistry
 androidx.recyclerview.widget.RecyclerView$LayoutManager:
     public boolean mAutoMeasure
     public final androidx.recyclerview.widget.RecyclerView$LayoutManager$1 mHorizontalBoundCheckCallback
-    public androidx.core.view.ViewGroupKt mSmoothScroller
+    public androidx.core.util.Preconditions mSmoothScroller
     public final androidx.recyclerview.widget.RecyclerView$LayoutManager$1 mVerticalBoundCheckCallback
     public abstract void addDisappearingView()
     public final void addDisappearingView(android.view.View)
@@ -15672,7 +16061,7 @@ androidx.recyclerview.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanI
 androidx.recyclerview.widget.StaggeredGridLayoutManager$LazySpanLookup
 androidx.recyclerview.widget.StaggeredGridLayoutManager$SavedState$1
 androidx.recyclerview.widget.StaggeredGridLayoutManager$SavedState:
-    public static void invalidateAnchorPositionInfo()
+    public final void invalidateAnchorPositionInfo()
     public final void invalidateSpanInfo()
 androidx.recyclerview.widget.StaggeredGridLayoutManager$Span:
     public final void appendToSpan(android.view.View)
@@ -15796,7 +16185,34 @@ androidx.vectordrawable.graphics.drawable.AnimatorInflaterCompat
 androidx.vectordrawable.graphics.drawable.ArgbEvaluator:
     public static androidx.vectordrawable.graphics.drawable.ArgbEvaluator getInstance()
 androidx.vectordrawable.graphics.drawable.PathInterpolatorCompat
-androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$1
+androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$1:
+    public static final void closeFinally(java.io.BufferedReader,java.lang.Throwable)
+    public static final kotlin.Result$Failure createFailure(java.lang.Throwable)
+    public static final int differenceModulo(int,int,int)
+    public static final java.util.List emptyList()
+    public static final java.util.Set emptySet()
+    public static final boolean equals(char,char,boolean)
+    public static java.lang.Object getCOROUTINE_SUSPENDED()
+    public static final java.lang.String getClassSimpleName(java.lang.Runnable)
+    public static final java.lang.String getHexAddress(java.lang.Object)
+    public static final java.lang.Throwable handlerException(java.lang.Throwable,java.lang.Throwable)
+    public abstract boolean isEmpty()
+    public static final java.util.List listOf(java.lang.Object)
+    public static final int mod(int,int)
+    public abstract long nanoTime()
+    public static java.util.List optimizeReadOnlyList(java.util.ArrayList)
+    public abstract void parkNanos()
+    public abstract void registerTimeLoopThread()
+    public abstract java.lang.Object removeFirstOrNull()
+    public static androidx.core.view.ViewGroupKt$children$1 sequence(kotlin.jvm.functions.Function2)
+    public static final java.util.Set setOf(java.lang.Object)
+    public static final java.lang.String systemProp(java.lang.String)
+    public static final boolean systemProp(java.lang.String,boolean)
+    public static synthetic long systemProp$default(java.lang.String,long)
+    public abstract void trackTask()
+    public abstract void unTrackTask()
+    public abstract void unpark()
+    public abstract void unregisterTimeLoopThread()
 androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VClipPath:
     public final void inflate()
     public static void updateStateFromTypedArray$1()
@@ -15887,61 +16303,86 @@ androidx.versionedparcelable.VersionedParcelParcel:
     public final void writeInt(int)
     public final void writeParcelable()
     public final void writeString(java.lang.String)
-com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$1$6d21b40b669ca4eba84b119453d9c61ae46bfeb45610e6db590736918e3c8bc7$0
-com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$2$2a4b8f7f33b67e2b9f58ded608a27836333b38982518238c517d4877f196d8ad$0
+com.minimy.minimy.AppAdapter$$InternalSyntheticLambda$3$2a4b8f7f33b67e2b9f58ded608a27836333b38982518238c517d4877f196d8ad$0
 com.minimy.minimy.AppAdapter$1:
     public final synthetic com.minimy.minimy.AppAdapter this$0
     public static int sizeOf()
 com.minimy.minimy.AppAdapter$OnAppActionListener:
-    public abstract void onLaunch()
+    public abstract void onLaunch(com.minimy.minimy.AppModel)
     public abstract void onLongPress()
 com.minimy.minimy.AppAdapter:
     public final void applyIcon(android.widget.TextView,android.graphics.Bitmap)
     public static android.graphics.Bitmap extractFromSystem()
     public final int getItemCount()
-    public static synthetic void lambda$loadAppIcon$2()
-    public static void lambda$loadAppIcon$3()
-    public static void lambda$onBindViewHolder$0()
-    public static boolean lambda$onBindViewHolder$1()
+    public static synthetic void lambda$loadAppIcon$3()
+    public static void lambda$loadAppIcon$4()
+    public static synthetic void lambda$onBindViewHolder$1()
+    public static boolean lambda$onBindViewHolder$2()
     public static void loadAppIcon()
     public static android.graphics.Bitmap loadFromDisk()
     public final void onBindViewHolder()
     public static void onBindViewHolder$2()
     public static com.minimy.minimy.AppAdapter$ViewHolder onCreateViewHolder()
     public static void saveToDisk()
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$79d573233c1d68525d8683c672ac424635d722a53e2b1246491096af125b91d0$0
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$1
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$2
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$3
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$8ed3e5b5934a256e7a7669d71dc3e7fbad0fd628f396fc0cfbaf9f7b641a819c$1
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$8ed3e5b5934a256e7a7669d71dc3e7fbad0fd628f396fc0cfbaf9f7b641a819c$2
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$d2e72a3bc32713aa4351816ba39c4c0f679d25ffa6e76743d9fb19098d80a8c7$1
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$d2e72a3bc32713aa4351816ba39c4c0f679d25ffa6e76743d9fb19098d80a8c7$3
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$1$e379ded48625af834a8c57d695ddd225d92f655909c1c33251652775a1b8cc9c$1
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$57148164b60efe1d7076f949d51896fc3ab1f2fb981e8c27f39b11bf2a86f0f2$0
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$57148164b60efe1d7076f949d51896fc3ab1f2fb981e8c27f39b11bf2a86f0f2$1
 com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$59f460d082336f0c8481092ecf47b3beddf6bd2a18ce4ac73f281643df8f20d3$0
-com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$1
-com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$2
-com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$8d3ec9c89237cda254886077b3a7adbbc9f6ec13adcf116b77b8b4f0088980a0$3
-com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$f5bcd03e06fecc1671de9beef07887c38da139182620432499d83e29f8c74b8d$0
-com.minimy.minimy.MainActivity$$InternalSyntheticLambda$2$f5bcd03e06fecc1671de9beef07887c38da139182620432499d83e29f8c74b8d$1
-com.minimy.minimy.MainActivity$2
-com.minimy.minimy.MainActivity$3
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$3$d00a9a485948b9f8716da49ca4a4520a3b96c75be8709f51b8102303f1fc15f6$0
+com.minimy.minimy.MainActivity$$InternalSyntheticLambda$3$d00a9a485948b9f8716da49ca4a4520a3b96c75be8709f51b8102303f1fc15f6$1
+com.minimy.minimy.MainActivity$1
+com.minimy.minimy.MainActivity$3:
+    public static void onCustomTabsServiceConnected()
+    public static void setApplicationContext()
+    public static void setApplicationContext$androidx$browser$customtabs$CustomTabsServiceConnection()
+com.minimy.minimy.MainActivity$5
 com.minimy.minimy.MainActivity:
     public com.minimy.minimy.AppAdapter adapter
-    public static synthetic void lambda$loadAllApps$7()
-    public static void lambda$loadAllApps$8()
-    public static synthetic void lambda$onCreate$0()
-    public static synthetic void lambda$onLaunch$9()
-    public static synthetic void lambda$onLongPress$10()
-    public static void lambda$onLongPress$11()
-    public static synthetic void lambda$setupDock$1()
-    public static synthetic void lambda$setupDock$2()
+    public static void lambda$loadAllApps$10()
+    public static void lambda$loadAllApps$9()
+    public static synthetic void lambda$loadDockIcons$1()
+    public static synthetic void lambda$loadDockIcons$2()
+    public static synthetic void lambda$onLaunch$23()
+    public static synthetic void lambda$onLongPress$24()
+    public static void lambda$onLongPress$25()
     public static synthetic void lambda$setupDock$3()
     public static synthetic void lambda$setupDock$4()
-    public static void lambda$setupLetterIndex$5()
+    public static synthetic void lambda$setupDock$5()
+    public static synthetic void lambda$setupDock$6()
+    public static void lambda$setupLetterIndex$7()
+    public static synthetic void lambda$setupSearch$11()
+    public static synthetic void lambda$setupSearch$12()
+    public static synthetic void lambda$setupSearch$13()
+    public static synthetic void lambda$setupSearch$14()
+    public static synthetic boolean lambda$setupSearch$15()
+    public static void lambda$setupWebSearch$16()
+    public static boolean lambda$setupWebSearch$17()
+    public static synthetic void lambda$showHome$21()
     public final void loadAllApps()
+    public static void loadDockIcons()
     public static void loadHiddenApps()
+    public static void loadHomeApps()
     public static void lockScreen()
-    public final void onLaunch()
     public final void onLongPress()
+    public static void performWebSearch()
     public static void saveHiddenApps()
     public static void setupDock()
     public static void setupDragToLock()
     public static void setupLetterIndex()
     public static void setupPackageReceiver()
     public static void setupSearch()
-    public static void startClock()
+    public static void setupSwipeGesture()
+    public static void setupWebSearch()
+    public static void showAllApps()
+    public static void warmUpBrowser()
 com.minimy.minimy.R$id
 com.minimy.minimy.R$layout
 kotlin.ExceptionsKt
@@ -15980,30 +16421,7 @@ kotlin.collections.EmptySet
 kotlin.collections.IntIterator
 kotlin.collections.MapsKt
 kotlin.collections.MapsKt__MapWithDefaultKt
-kotlin.collections.MapsKt__MapsJVMKt:
-    public static final void closeFinally(java.io.BufferedReader,java.lang.Throwable)
-    public static final int differenceModulo(int,int,int)
-    public static final java.util.Set emptySet()
-    public static final boolean equals(char,char,boolean)
-    public static java.lang.Object getCOROUTINE_SUSPENDED()
-    public static final java.lang.String getClassSimpleName(java.lang.Runnable)
-    public static final java.lang.String getHexAddress(java.lang.Object)
-    public static final java.lang.Throwable handlerException(java.lang.Throwable,java.lang.Throwable)
-    public abstract boolean isEmpty()
-    public static final int mod(int,int)
-    public abstract long nanoTime()
-    public abstract void parkNanos()
-    public abstract void registerTimeLoopThread()
-    public abstract java.lang.Object removeFirstOrNull()
-    public static androidx.core.view.ViewGroupKt$children$1 sequence(kotlin.jvm.functions.Function2)
-    public static final java.util.Set setOf(java.lang.Object)
-    public static final java.lang.String systemProp(java.lang.String)
-    public static final boolean systemProp(java.lang.String,boolean)
-    public static synthetic long systemProp$default(java.lang.String,long)
-    public abstract void trackTask()
-    public abstract void unTrackTask()
-    public abstract void unpark()
-    public abstract void unregisterTimeLoopThread()
+kotlin.collections.MapsKt__MapsJVMKt
 kotlin.collections.MapsKt__MapsKt
 kotlin.collections.MapsKt___MapsJvmKt
 kotlin.collections.MapsKt___MapsKt
@@ -16142,7 +16560,7 @@ kotlin.text.StringsKt___StringsJvmKt
 kotlin.text.StringsKt___StringsKt
 kotlinx.coroutines.AbstractTimeSource
 kotlinx.coroutines.AbstractTimeSourceKt
-kotlinx.coroutines.CoroutineDispatcher$$InternalSyntheticThrowCCEIfNotNull$6$d9df73c462d3239c154cbd012156353e5ed70fdffdce10afffb28bf6ea7b99ad$0
+kotlinx.coroutines.CoroutineDispatcher$$InternalSyntheticThrowCCEIfNotNull$8$d9df73c462d3239c154cbd012156353e5ed70fdffdce10afffb28bf6ea7b99ad$0
 kotlinx.coroutines.CoroutineDispatcher$Key$1:
     public static kotlinx.coroutines.CoroutineDispatcher invoke()
     public static kotlinx.coroutines.ExecutorCoroutineDispatcher invoke()
@@ -16187,10 +16605,10 @@ kotlinx.coroutines.EventLoopImplBase:
     public final boolean enqueueImpl(java.lang.Runnable)
     public abstract long getNextTime()
     public abstract boolean isCompleted()
-kotlinx.coroutines.EventLoopImplPlatform$$InternalSyntheticThrowCCEIfNotNull$6$0b9fa7b8ed013655c36cbeb2ea0e543223ee5875482f0485097dceef999e5e86$0
+kotlinx.coroutines.EventLoopImplPlatform$$InternalSyntheticThrowCCEIfNotNull$8$0b9fa7b8ed013655c36cbeb2ea0e543223ee5875482f0485097dceef999e5e86$0
 kotlinx.coroutines.EventLoopImplPlatform:
     public boolean shared
-    public kotlin.collections.MapsKt__MapsJVMKt unconfinedQueue
+    public androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$1 unconfinedQueue
     public long useCount
     public abstract long delta()
     public abstract long delta$kotlinx$coroutines$EventLoop()

@@ -11,114 +11,117 @@
 11    <uses-permission android:name="android.permission.SET_WALLPAPER" />
 11-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:3:1-68
 11-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:3:18-65
-12
-13    <queries>
-13-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:4:1-6:15
-14        <package android:name="com.android.chrome" />
-14-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:5:9-54
-14-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:5:18-51
-15    </queries>
-16
-17    <permission
-17-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-18        android:name="com.minimy.minimy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-18-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-19        android:protectionLevel="signature" />
-19-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
-20
-21    <uses-permission android:name="com.minimy.minimy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-21-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-21-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-22
-23    <application
-23-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:7:5-39:19
-24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-25        android:extractNativeLibs="true"
-26        android:icon="@android:drawable/sym_def_app_icon"
-26-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:8:9-58
-27        android:label="Minimy"
-27-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:9:9-31
-28        android:theme="@style/AppTheme" >
-28-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:10:9-40
-29        <activity
-29-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:12:9-27:20
-30            android:name="com.minimy.minimy.MainActivity"
-30-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:13:13-41
-31            android:clearTaskOnLaunch="true"
-31-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:17:13-45
-32            android:exported="true"
-32-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:15:13-36
-33            android:launchMode="singleTask"
-33-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:16:13-44
-34            android:stateNotNeeded="true"
-34-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:18:13-42
-35            android:theme="@style/AppTheme"
-35-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:14:13-44
-36            android:windowSoftInputMode="adjustPan" >
-36-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:19:13-52
-37            <intent-filter>
-37-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:21:13-26:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:22:17-69
-38-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:22:25-66
-39
-40                <category android:name="android.intent.category.HOME" />
-40-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:23:17-73
-40-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:23:27-70
-41                <category android:name="android.intent.category.DEFAULT" />
-41-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:24:17-76
-41-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:24:27-73
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:25:17-77
-42-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:25:27-74
-43            </intent-filter>
-44        </activity>
-45
-46        <receiver
-46-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:28:9-38:16
-47            android:name="com.minimy.minimy.MyAdminReceiver"
-47-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:29:9-40
-48            android:exported="true"
-48-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:31:9-32
-49            android:permission="android.permission.BIND_DEVICE_ADMIN" >
-49-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:30:9-66
-50            <meta-data
-50-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:32:9-34:58
-51                android:name="android.app.device_admin"
-51-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:33:13-52
-52                android:resource="@xml/device_admin_rules" />
-52-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:34:13-55
-53
-54            <intent-filter>
-54-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:35:9-37:25
-55                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
-55-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:36:13-78
-55-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:36:21-75
-56            </intent-filter>
-57        </receiver>
-58
-59        <provider
-59-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-60            android:name="androidx.startup.InitializationProvider"
-60-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-61            android:authorities="com.minimy.minimy.androidx-startup"
-61-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-62            android:exported="false" >
-62-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-63            <meta-data
-63-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-64-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-65                android:value="androidx.startup" />
-65-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-66            <meta-data
-66-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/yadhu/.gradle/caches/8.9/transforms/a7b617ce5b47f2d9b748b0c987943f8a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-67-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/yadhu/.gradle/caches/8.9/transforms/a7b617ce5b47f2d9b748b0c987943f8a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-68                android:value="androidx.startup" />
-68-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/yadhu/.gradle/caches/8.9/transforms/a7b617ce5b47f2d9b748b0c987943f8a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-69        </provider>
-70    </application>
-71
-72</manifest>
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:4:1-62
+12-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:4:18-59
+13
+14    <queries>
+14-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:5:1-7:15
+15        <package android:name="com.android.chrome" />
+15-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:6:9-54
+15-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:6:18-51
+16    </queries>
+17
+18    <permission
+18-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+19        android:name="com.minimy.minimy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.minimy.minimy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:8:5-40:19
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] /home/yadhu/.gradle/caches/8.9/transforms/fef992d105f9bfcac0f3f2052f1333e8/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+26        android:extractNativeLibs="true"
+27        android:icon="@android:drawable/sym_def_app_icon"
+27-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:9:9-58
+28        android:label="Minimy"
+28-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:10:9-31
+29        android:theme="@style/AppTheme" >
+29-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:11:9-40
+30        <activity
+30-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:13:9-28:20
+31            android:name="com.minimy.minimy.MainActivity"
+31-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:14:13-41
+32            android:clearTaskOnLaunch="true"
+32-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:18:13-45
+33            android:exported="true"
+33-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:16:13-36
+34            android:launchMode="singleTask"
+34-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:17:13-44
+35            android:stateNotNeeded="true"
+35-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:19:13-42
+36            android:theme="@style/AppTheme"
+36-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:15:13-44
+37            android:windowSoftInputMode="adjustPan" >
+37-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:20:13-52
+38            <intent-filter>
+38-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:22:13-27:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:23:17-69
+39-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:23:25-66
+40
+41                <category android:name="android.intent.category.HOME" />
+41-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:24:17-73
+41-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:24:27-70
+42                <category android:name="android.intent.category.DEFAULT" />
+42-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:25:17-76
+42-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:25:27-73
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:26:17-77
+43-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:26:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <receiver
+47-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:29:9-39:16
+48            android:name="com.minimy.minimy.MyAdminReceiver"
+48-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:30:9-40
+49            android:exported="true"
+49-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:32:9-32
+50            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+50-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:31:9-66
+51            <meta-data
+51-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:33:9-35:58
+52                android:name="android.app.device_admin"
+52-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:34:13-52
+53                android:resource="@xml/device_admin_rules" />
+53-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:35:13-55
+54
+55            <intent-filter>
+55-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:36:9-38:25
+56                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+56-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:37:13-78
+56-->/media/yadhu/hdisk/android-projects/minimy/app/src/main/AndroidManifest.xml:37:21-75
+57            </intent-filter>
+58        </receiver>
+59
+60        <provider
+60-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+62            android:authorities="com.minimy.minimy.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.2.0] /home/yadhu/.gradle/caches/8.9/transforms/fb67f1b9f003d0de384be871e65ae7e8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/yadhu/.gradle/caches/8.9/transforms/a7b617ce5b47f2d9b748b0c987943f8a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/yadhu/.gradle/caches/8.9/transforms/a7b617ce5b47f2d9b748b0c987943f8a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/yadhu/.gradle/caches/8.9/transforms/a7b617ce5b47f2d9b748b0c987943f8a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+70        </provider>
+71    </application>
+72
+73</manifest>

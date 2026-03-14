@@ -7,7 +7,7 @@
     agpVersion="8.2.1"
     buildFolder="build"
     bootClassPath="/home/yadhu/Android/platforms/android-33/android.jar:/home/yadhu/Android/build-tools/34.0.0/core-lambda-stubs.jar"
-    javaSourceLevel="1.8"
+    javaSourceLevel="11"
     compileTarget="android-33">
   <lintOptions
       abortOnError="true"

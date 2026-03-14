@@ -1,5 +1,18 @@
 <libraries>
   <library
+      name="androidx.browser:browser:1.5.0@aar"
+      jars="/home/yadhu/.gradle/caches/8.9/transforms/559ba1dd5205c9c28b683a3af19a749f/transformed/browser-1.5.0/jars/classes.jar"
+      resolved="androidx.browser:browser:1.5.0"
+      folder="/home/yadhu/.gradle/caches/8.9/transforms/559ba1dd5205c9c28b683a3af19a749f/transformed/browser-1.5.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.appcompat:appcompat:1.6.1@aar"
       jars="/home/yadhu/.gradle/caches/8.9/transforms/414f7c76f0f8c1febb3a2fe0097e0b6a/transformed/appcompat-1.6.1/jars/classes.jar"
       resolved="androidx.appcompat:appcompat:1.6.1"
@@ -221,10 +234,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-viewmodel:2.5.1@aar"
-      jars="/home/yadhu/.gradle/caches/8.9/transforms/e4d0f1992af1af8ee254f16d96533d00/transformed/lifecycle-viewmodel-2.5.1/jars/classes.jar"
-      resolved="androidx.lifecycle:lifecycle-viewmodel:2.5.1"
-      folder="/home/yadhu/.gradle/caches/8.9/transforms/e4d0f1992af1af8ee254f16d96533d00/transformed/lifecycle-viewmodel-2.5.1"
+      name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
+      jars="/home/yadhu/.gradle/caches/8.9/transforms/4c6d9100c72e12a7f64fbd6628d2472c/transformed/versionedparcelable-1.1.1/jars/classes.jar"
+      resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
+      folder="/home/yadhu/.gradle/caches/8.9/transforms/4c6d9100c72e12a7f64fbd6628d2472c/transformed/versionedparcelable-1.1.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -234,10 +247,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
-      jars="/home/yadhu/.gradle/caches/8.9/transforms/4c6d9100c72e12a7f64fbd6628d2472c/transformed/versionedparcelable-1.1.1/jars/classes.jar"
-      resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
-      folder="/home/yadhu/.gradle/caches/8.9/transforms/4c6d9100c72e12a7f64fbd6628d2472c/transformed/versionedparcelable-1.1.1"
+      name="androidx.lifecycle:lifecycle-viewmodel:2.5.1@aar"
+      jars="/home/yadhu/.gradle/caches/8.9/transforms/e4d0f1992af1af8ee254f16d96533d00/transformed/lifecycle-viewmodel-2.5.1/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel:2.5.1"
+      folder="/home/yadhu/.gradle/caches/8.9/transforms/e4d0f1992af1af8ee254f16d96533d00/transformed/lifecycle-viewmodel-2.5.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -314,6 +327,10 @@
       name="androidx.annotation:annotation:1.3.0@jar"
       jars="/home/yadhu/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.3.0/21f49f5f9b85fc49de712539f79123119740595/annotation-1.3.0.jar"
       resolved="androidx.annotation:annotation:1.3.0"/>
+  <library
+      name="com.google.guava:listenablefuture:1.0@jar"
+      jars="/home/yadhu/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar"
+      resolved="com.google.guava:listenablefuture:1.0"/>
   <library
       name="androidx.annotation:annotation-experimental:1.3.0@aar"
       jars="/home/yadhu/.gradle/caches/8.9/transforms/ddf986a18831bac8c38e732f34c3df7d/transformed/jetified-annotation-experimental-1.3.0/jars/classes.jar"
@@ -395,6 +412,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.concurrent:concurrent-futures:1.0.0@jar"
+      jars="/home/yadhu/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.0.0/c1e77e3ee6f4643b77496a1ddf7a2eef1aefdaa1/concurrent-futures-1.0.0.jar"
+      resolved="androidx.concurrent:concurrent-futures:1.0.0"/>
+  <library
       name="androidx.lifecycle:lifecycle-process:2.4.1@aar"
       jars="/home/yadhu/.gradle/caches/8.9/transforms/a7b617ce5b47f2d9b748b0c987943f8a/transformed/jetified-lifecycle-process-2.4.1/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-process:2.4.1"
@@ -437,12 +458,4 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
-  <library
-      name="androidx.concurrent:concurrent-futures:1.0.0@jar"
-      jars="/home/yadhu/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.0.0/c1e77e3ee6f4643b77496a1ddf7a2eef1aefdaa1/concurrent-futures-1.0.0.jar"
-      resolved="androidx.concurrent:concurrent-futures:1.0.0"/>
-  <library
-      name="com.google.guava:listenablefuture:1.0@jar"
-      jars="/home/yadhu/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar"
-      resolved="com.google.guava:listenablefuture:1.0"/>
 </libraries>
